@@ -61,6 +61,15 @@ list_secondary_actor_description = categorising(descriptions, 'secondary actor')
 list_actor_description = list_primary_actor_description + list_secondary_actor_description
 list_weapon_description = categorising(descriptions, 'weapon')
 list_transport_description = categorising(descriptions, 'transport')
+list_transport_function = categorising(actions, 'transport function')
+list_transport_damage_action = categorising(actions, 'transport damage')
+list_transport_equipped = categorising(descriptions, 'transport after')
+list_transport_damage_noun = categorising(nouns, 'transport damage')
+list_regime = categorising(nouns, 'politics')
+list_group = categorising(nouns, 'group')
+list_civilisation = categorising(descriptions, 'civilisation')
+list_secondary_actor_plural = categorising(nouns, 'secondary actors plural')
+
 
 # Randomly selecting a word within each list
 in_place = random.choice(list_in_place)
@@ -83,6 +92,34 @@ weapon = random.choice(list_weapon)
 transport = random.choice(list_transport)
 actor = random.choice(list_actor)
 actor_desc = random.choice(list_actor_description)
+transport_function = random.choice(list_transport_function)
+transport_damage_action = random.choice(list_transport_damage_action)
+transport_equipped = random.choice(list_transport_equipped)
+transport_damage_noun = random.choice(list_transport_damage_noun)
+regime = random.choice(list_regime)
+group = random.choice(list_group)
+civilisation = random.choice(list_civilisation)
+secondary_actors = random.choice(list_secondary_actor_plural)
+
+# Randomising a second time for variables that are used twice in a sentence
+place2 = random.choice(list_place)
+secondary_actor2 = random.choice(list_secondary_actor)
+transport_equipped2 = random.choice(list_transport_equipped)
+
+def randomiser_duplicator(val1, val2, val_list):
+
+    while val1 == val2:
+        val2 = random.choice(val_list)
+        if val1 != val2:
+            break
+            #return val1, val2
+
+randomiser_duplicator(place, place2, list_place)
+randomiser_duplicator(secondary_actor, secondary_actor2, list_secondary_actor)
+randomiser_duplicator(transport_equipped, transport_equipped2, list_transport_equipped)
+print(place, place2)
+print(secondary_actor, secondary_actor2)
+print(transport_equipped, transport_equipped2)
 
 # Function to place 'a' or 'an' before a noun
 def article(component):
@@ -92,19 +129,24 @@ def article(component):
         article = 'a'
     return article
 
-# Passing content types to article function
 primary_actor_article = article(primary_actor_desc)
 secondary_actor_article = article(secondary_actor_desc)
 place_article = article(place_desc)
 weapon_article = article(weapon_desc)
 transport_article = article(transport_desc)
 actor_article = article(actor)
+civilisation_article = article(civilisation)
+secondary_actor2_article = article(secondary_actor2)
+place2_article = article(place2)
 
 # Listing prepositions
 list_weapon_preposition = ['with', 'using']
 weapon_preposition = random.choice(list_weapon_preposition)
 list_transport_preposition = ['aboard', 'on']
 transport_preposition = random.choice(list_transport_preposition)
+
+list_looking_for = ['food', 'revenge', 'love', 'supplies', 'help', 'adventure']
+looking_for = random.choice(list_looking_for)
 
 # Sentence construction - Model 1 Phrase 1
 structure1 = primary_actor_article.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
@@ -119,12 +161,38 @@ structure8 = secondary_actor_article.title() + ' ' + secondary_actor_desc + ' ' 
 structure9 = primary_actor_article.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_action + ' ' + transport_article + ' ' + transport_desc + ' ' + transport + '.'
 structure10 = actor_article.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article + ' ' + place_desc + ' ' + place
 
+structure11 = place_article.title() + ' ' + place_desc + ' ' + place + ' orbits ' + place2_article + ' ' + place2 + '. It is home to a ' + group + ' ' + secondary_actor_desc + ' ' + secondary_actors + ' looking for ' + looking_for + '.'
+
+if place == 'civilisation':
+    civ_soc = 'society'
+else:
+    civ_soc = 'civilisation'
+
+structure12 = place_article.title() + ' ' + place_desc + ' ' + place + ' is home to a ' + civilisation + ' ' + civ_soc + ' of ' + secondary_actors + '. They have acquired ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' and will use it for war.'
+
+structure13 = 'You have stumbled upon ' + transport_article + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It is equipped with ' + transport_equipped + ' and ' + transport_equipped2 + '.'
+#print(structure13)
+
 tweets = []
-tweets.extend([structure1, structure2, structure3, structure4_1, structure4_2, structure5, structure6, structure7, structure8, structure9, structure10])
+tweets.extend([structure1, structure2, structure3, structure4_1, structure4_2, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12])
 
 ############################################
 # Selecting a random structure for the tweet
 ############################################
-print(random.choice(tweets))
+#print(random.choice(tweets))
 ############################################
 
+
+from random_word import RandomWords
+import random
+r_word = RandomWords()
+r_word = r_word.get_random_word(includePartOfSpeech='noun', maxLength=10)
+
+r_num = random.randint(100,999)
+
+#print('Planet ' + r_word.title()+str(r_num))
+
+import string
+
+r_str = ''.join(random.choice(string.ascii_letters) for x in range(5))
+#print(r_str)
