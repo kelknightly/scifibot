@@ -1,6 +1,7 @@
 import requests
 import json
 import random
+import time
 from random_word import RandomWords
 import string
 
@@ -184,16 +185,36 @@ measuring = random.choice(measuring)
 
 
 # Sentence construction
-structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
-structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
+
+def bruteForceRandomWord(part, length):
+    returnWord = None
+
+    while returnWord == None:
+        try:
+            r_name = RandomWords()
+            returnWord = r_name.get_random_word(includePartOfSpeech=part, maxLength=length)
+        except:
+            print('No random word found. Trying again...')
+            time.sleep(random.randint(1,2))   
+    return returnWord
+        
+
+verb = bruteForceRandomWord('verb', 10)
+noun1 = bruteForceRandomWord('noun', 10)
+noun2 = bruteForceRandomWord('noun', 10)
+name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
+
+structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named ' + name + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
+print(structure1)
+#structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
 structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
-structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
-structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
-structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
+#structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
+#structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
+#structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure7 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
-structure8 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + sentient_negative_action + ' ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
-structure9 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_action + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
-structure10 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place
+#structure8 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + sentient_negative_action + ' ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+#structure9 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_action + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
+#structure10 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place
 structure11 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' orbits ' + place2_article + ' ' + place2 + '. It is home to a ' + group + ' ' + secondary_actor_desc + ' ' + secondary_actors + ' looking for ' + looking_for + '.'
 
 if place == 'civilisation':
@@ -205,12 +226,11 @@ structure12 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + '
 structure13 = 'You have stumbled upon ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It is equipped with ' + transport_equipped + ' and ' + transport_equipped2 + '.'
 structure14 = 'You are the captain of ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It has a dual function: ' + transport_function + ' and ' + transport_function2 + '.'
 
-r_word = RandomWords()
-r_word = r_word.get_random_word(includePartOfSpeech='noun', maxLength=10)
+r_word = bruteForceRandomWord('noun', 10)
 r_num = random.randint(100,999)
 
 structure15 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' pilots the ' + transport + '. ' + pronoun.title() + '\'s been hired to protect ' +  planetsystemsector + ' ' + r_word.title()+str(r_num)
-
+print(structure15)
 r_str = ''.join(random.choice(string.ascii_letters) for x in range(5))
 
 structure16 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in empty space.'
@@ -226,7 +246,8 @@ structure24 = transport_article_on_desc.title() + ' seemingly ' + transport_desc
 
 
 tweets = []
-tweets.extend([structure1, structure2, structure3, structure4, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
+#tweets.extend([structure1, structure2, structure3, structure4, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
+tweets.extend([structure3, structure7, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
 
 ############################################
 # Selecting a random structure for the tweet
