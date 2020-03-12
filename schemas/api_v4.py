@@ -74,7 +74,9 @@ list_civilisation = categorising(descriptions, 'civilisation')
 list_secondary_actor_plural = categorising(nouns, 'secondary actors plural')
 list_measuring_things = categorising(nouns, 'measuring')
 list_suddenly = categorising(actions, 'suddenly')
-
+list_liquid = categorising(nouns, 'liquid')
+list_liquid_desc = categorising(descriptions, 'liquid')
+list_sentient_action_plural = categorising(actions, 'sentient plural')
 
 # Randomly selecting a word within each list
 in_place = random.choice(list_in_place)
@@ -107,6 +109,9 @@ civilisation = random.choice(list_civilisation)
 secondary_actors = random.choice(list_secondary_actor_plural)
 measuring_things = random.choice(list_measuring_things)
 suddenly = random.choice(list_suddenly)
+liquid = random.choice(list_liquid)
+liquid_desc = random.choice(list_liquid_desc)
+sentient_action_plural = random.choice(list_sentient_action_plural)
 
 # Randomising a second time for variables that are used twice in a sentence
 place2 = random.choice(list_place)
@@ -241,9 +246,27 @@ structure22 = regime.title() + ' has tasked you with tracking, capturing, and re
 structure23 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ', ' + measuring + ' ' + measuring_things + '.'
 structure24 = transport_article_on_desc.title() + ' seemingly ' + transport_desc + ' ' + transport + ' suddenly ' + suddenly + '.'
 
+lightyears = random.randint(100,999)
+planetname = bruteForceRandomWord('noun', 10)
+planetname2 = random.randint(1,100)
+list_alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+planetname3 = random.choice(list_alpha)
+liquid_type = random.choice(['it rains', 'there are deep oceans of', 'there are clouds of', 'there are pools of', 'rivers run with', 'the skies are full of', 'there is an ocean of'])
+
+structure25 = str(lightyears) + ' ' + 'light years away on the planet' + ' ' + planetname.upper() + '-' + str(planetname2) + planetname3 + ', ' + liquid_type + ' ' + liquid_desc + ' ' + liquid + '.'
+structure26 = 'I was ' + sentient_action_plural + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' the day the ' + secondary_actors + ' attacked. ' 
+structure27 = 'I was ' + sentient_action_plural + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' the day the ' + secondary_actors + ' attacked. ' 
+
+person_title = random.choice(['Ms', 'Mr', 'Dr'])
+person_name = bruteForceRandomWord('noun', 10)
+structure28 = 'Belay my previous order, ' + person_title + ' ' + person_name.title() + '. We need a vital show of force. Activate the ' + string.capwords(weapon) + ' and aim it at the ' + place + '.'
+
+transport_num = random.randint(1,20)
+structure29 = 'The border outpost reports a contingent of ' + str(transport_num) + ' ' + secondary_actor + ' ' + transport + 's within sensor range. Should hostilities erupt, we will be outgunned.'
+
 tweets = []
 #tweets.extend([structure1, structure2, structure3, structure4, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
-tweets.extend([structure3, structure7, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
+tweets.extend([structure3, structure7, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29])
 
 ############################################
 # Selecting a random structure for the tweet
