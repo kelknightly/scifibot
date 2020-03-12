@@ -183,9 +183,6 @@ planetsystemsector = random.choice(list_planetsystemsector)
 measuring = ['measuring', 'considering', 'weighing', 'tracking']
 measuring = random.choice(measuring)
 
-
-# Sentence construction
-
 def bruteForceRandomWord(part, length):
     returnWord = None
 
@@ -198,14 +195,14 @@ def bruteForceRandomWord(part, length):
             time.sleep(random.randint(1,2))   
     return returnWord
         
-
 verb = bruteForceRandomWord('verb', 10)
 noun1 = bruteForceRandomWord('noun', 10)
 noun2 = bruteForceRandomWord('noun', 10)
 name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
 
+
+# Sentence construction
 structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named ' + name + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
-print(structure1)
 #structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
 structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
 #structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
@@ -229,8 +226,8 @@ structure14 = 'You are the captain of ' + transport_article_on_desc + ' ' + tran
 r_word = bruteForceRandomWord('noun', 10)
 r_num = random.randint(100,999)
 
-structure15 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' pilots the ' + transport + '. ' + pronoun.title() + '\'s been hired to protect ' +  planetsystemsector + ' ' + r_word.title()+str(r_num)
-print(structure15)
+structure15 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' manoeuvres ' + transport_article + ' ' + transport + '. ' + pronoun.title() + '\'s been hired to protect ' +  planetsystemsector + ' ' + r_word.title()+str(r_num)
+
 r_str = ''.join(random.choice(string.ascii_letters) for x in range(5))
 
 structure16 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in empty space.'
@@ -238,12 +235,11 @@ structure17 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + '
 structure18 = 'Several ' + secondary_actor_desc + ' ' + secondary_actors + ' drift in empty space.'
 structure19 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in space. ' + pronoun.title() + ' is unconscious, and ' + pos_pro + ' ' + transport + ' is ' + transport_damage_action + '.'
 structure20 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' orbits ' + place_article + ' ' + place_desc + ' ' + place + '. Its ' + secondary_actor_desc + ' inhabitants have tamed a ' + group + ' ' + secondary_actor_desc2 +  ' ' + secondary_actors + '.'
-structure21_1 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + r_str + ', has been hired to abduct or kill ' + primary_actor2_article + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to create a distraction.'
-structure21_2 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + r_str + ', has been hired to abduct or kill ' + primary_actor2_article + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to complete the job.'
+structure21_1 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + r_str + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to create a distraction.'
+structure21_2 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + r_str + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to complete the job.'
 structure22 = regime.title() + ' has tasked you with tracking, capturing, and returning ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' lost ' + place_prep + ' a distant ' + place + '. It will take all your skills as ' + primary_actor_article + ' ' + primary_actor + '.'
 structure23 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ', ' + measuring + ' ' + measuring_things + '.'
 structure24 = transport_article_on_desc.title() + ' seemingly ' + transport_desc + ' ' + transport + ' suddenly ' + suddenly + '.'
-
 
 tweets = []
 #tweets.extend([structure1, structure2, structure3, structure4, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24])
@@ -252,7 +248,7 @@ tweets.extend([structure3, structure7, structure11, structure12, structure13, st
 ############################################
 # Selecting a random structure for the tweet
 ############################################
-#print(random.choice(tweets))
+print(random.choice(tweets))
 ############################################
 
 
