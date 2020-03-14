@@ -83,6 +83,8 @@ list_tech = categorising(nouns, 'tech')
 list_crust = categorising(descriptions, 'crust')
 list_sky = categorising(descriptions, 'sky')
 
+
+
 # Randomly selecting a word within each list
 in_place = random.choice(list_in_place)
 on_place = random.choice(list_on_place)
@@ -205,14 +207,29 @@ measuring = random.choice(measuring)
 def bruteForceRandomWord(part, length):
     returnWord = None
 
-    while returnWord == None:
-        try:
-            r_name = RandomWords()
-            returnWord = r_name.get_random_word(includePartOfSpeech=part, maxLength=length)
-        except:
-            print('No random word found. Trying again...')
-            time.sleep(random.randint(1,2))   
-    return returnWord
+    url = "https://wordsapiv1.p.rapidapi.com/words/"
+
+    querystring = {"random":"true"}
+
+    headers = {
+        'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
+        'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
+        }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    js = response.json()
+    return js['word']
+    
+    #while returnWord == None:
+    #    try:
+    #        r_name = RandomWords()
+    #        returnWord = r_name.get_random_word(includePartOfSpeech=part, maxLength=length)
+    #    except:
+    #        print('No random word found. Trying again...')
+    #        time.sleep(random.randint(1,2))   
+    #return returnWord
+
         
 verb = bruteForceRandomWord('verb', 10)
 noun1 = bruteForceRandomWord('noun', 10)
@@ -222,7 +239,7 @@ name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
 # Sentence construction
 structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named ' + name + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 #structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
-structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
 #structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
 #structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
@@ -287,35 +304,37 @@ tweets.extend([structure3, structure6, structure11, structure12, structure13, st
 
 #print(random.choice(tweets))
 
-#print(
-#'3: ', structure3, '\n'
-#'6: ', structure6, '\n'
-#'11: ', structure11, '\n' 
-#'12: ', structure12, '\n' 
-#'13: ', structure13, '\n'
-#'14: ', structure14, '\n'
-#'15: ', structure15, '\n'
-#'16: ', structure16, '\n'
-#'17: ', structure17, '\n'
-#'18: ', structure18, '\n'
-#'19: ', structure19, '\n'
-#'20: ', structure20, '\n'
-#'21_1: ', structure21_1, '\n'
-#'21_2: ', structure21_2, '\n'
-#'22: ', structure22, '\n'
-#'23: ', structure23, '\n'
-#'24: ', structure24, '\n'
-#'25: ', structure25, '\n'
-#'26: ', structure26, '\n'
-#'27: ', structure27, '\n'
-#'28: ', structure28, '\n'
-#'29_1: ', structure29_1, '\n'
-#'29_2: ', structure29_2, '\n'
-#'30: ', structure30, '\n'
-#'31: ', structure31, '\n'
-#'32: ', structure32, '\n'
-#'33: ', structure33,'\n'
-#'34: ', structure34
-#)
+print(
+'3: ', structure3, '\n'
+'6: ', structure6, '\n'
+'11: ', structure11, '\n' 
+'12: ', structure12, '\n' 
+'13: ', structure13, '\n'
+'14: ', structure14, '\n'
+'15: ', structure15, '\n'
+'16: ', structure16, '\n'
+'17: ', structure17, '\n'
+'18: ', structure18, '\n'
+'19: ', structure19, '\n'
+'20: ', structure20, '\n'
+'21_1: ', structure21_1, '\n'
+'21_2: ', structure21_2, '\n'
+'22: ', structure22, '\n'
+'23: ', structure23, '\n'
+'24: ', structure24, '\n'
+'25: ', structure25, '\n'
+'26: ', structure26, '\n'
+'27: ', structure27, '\n'
+'28: ', structure28, '\n'
+'29_1: ', structure29_1, '\n'
+'29_2: ', structure29_2, '\n'
+'30: ', structure30, '\n'
+'31: ', structure31, '\n'
+'32: ', structure32, '\n'
+'33: ', structure33,'\n'
+'34: ', structure34, '\n'
+'35: ', structure35, '\n'
+'36: ', structure36
+)
 
 

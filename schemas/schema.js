@@ -5,7 +5,9 @@ import actionType from './action-type';
 import description from './description';
 import nounType from './noun-type';
 import noun from './noun';
-import prepositions from './prepositions';
+import quote from './quote';
+import author from './author';
+import source from './source';
 
 
 export default createSchema({
@@ -17,6 +19,8 @@ export default createSchema({
     description,
     nounType,
     noun,
-    prepositions,
+    quote,
+    author, 
+    source,
   ])
 });
