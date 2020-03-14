@@ -34,7 +34,7 @@ nouns = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?quer
 actions = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"action\"]{action,actionType->{actionType}}")
 descriptions = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
 
-# Categorising function to splut out the key, value pairs
+# Categorising function to split out the key, value pairs
 def categorising(valuetype, value):
     ListA = []
     for key, val in valuetype.items():
@@ -239,7 +239,7 @@ name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
 # Sentence construction
 structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named ' + name + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 #structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
-structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 #structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
 #structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
@@ -301,8 +301,13 @@ structure36 = 'Your mission is to document a strange planet\'s surface. The soci
 tweets = []
 tweets.extend([structure3, structure6, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29_1, structure29_2, structure30, structure31, structure32, structure33, structure34, structure35, structure36])
 
+under280 = []
+for i in tweets:
+    if len(i) <= 280:
+        under280.append(i)
 
-#print(random.choice(tweets))
+print(random.choice(under280))
+print('------------------------')
 
 print(
 '3: ', structure3, '\n'
@@ -336,5 +341,3 @@ print(
 '35: ', structure35, '\n'
 '36: ', structure36
 )
-
-

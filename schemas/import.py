@@ -136,4 +136,3 @@ for json_str in jsons:
 text_file.close()    
 
 
-
