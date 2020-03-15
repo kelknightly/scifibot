@@ -6,84 +6,111 @@ from random_word import RandomWords
 import string
 import names
 
-def extracting(query):
+def get_noun_list(query):
     response = requests.get(query)
     DictA = response.json()
+    nouns = []
+    for result in DictA['result']:
+        nouns.append({
+            "noun": result['noun'],
+            "type": result['nounType']['nounType']
+        })
+    return(nouns)
 
-    query_list = list(DictA.values())
-    query_list = query_list[2]
+def get_noun_list_for_type(nouns, nounType_filter):
+    noun_list = []
+    for noun in nouns:
+        if noun['type'] == nounType_filter:
+            noun_list.append(noun['noun'])
+    return noun_list
 
-    val_list = []
-    val_key = []
-    counter = 0
-    for i in query_list:
-        val = i.values()
-        for i in val:
-            counter += 1
-            if counter % 2 != 0:
-                val_list.append(i)
-            if counter % 2 == 0:
-                key = i.values()
-                for i in key:
-                    val_key.append(i)
 
-    zipped = dict(zip(val_list, val_key))
-    return zipped
+def get_description_list(query):
+    response = requests.get(query)
+    DictA = response.json()
+    descriptions = []
+    for result in DictA['result']:
+        descriptions.append({
+            "description": result['description'],
+            "type": result['nounType']['nounType']
+        })
+    return(descriptions)
 
-nouns = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"noun\"]{noun,nounType->{nounType}}")
-actions = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"action\"]{action,actionType->{actionType}}")
-descriptions = extracting("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
+def get_description_list_for_type(descriptions, nounType_filter):
+    description_list = []
+    for description in descriptions:
+        if description['type'] == nounType_filter:
+            description_list.append(description['description'])
+    return description_list
 
-# Categorising function to split out the key, value pairs
-def categorising(valuetype, value):
-    ListA = []
-    for key, val in valuetype.items():
-        if val == value:
-            ListA.append(key)
-    return ListA
 
-# Passing content type values into categorising function
-list_primary_actor = categorising(nouns, 'primary actor')
-list_secondary_actor = categorising(nouns, 'secondary actor')
+def get_action_list(query):
+    response = requests.get(query)
+    DictA = response.json()
+    actions = []
+    for result in DictA['result']:
+        actions.append({
+            "action": result['action'],
+            "type": result['actionType']['actionType']
+        })
+    return(actions)
+
+def get_action_list_for_type(actions, actionType_filter):
+    action_list = []
+    for action in actions:
+        if action['type'] == actionType_filter:
+            action_list.append(action['action'])
+    return action_list
+
+
+nouns = get_noun_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"noun\"]{noun,nounType->{nounType}}")
+descriptions = get_description_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
+actions = get_action_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"action\"]{action,actionType->{actionType}}")
+
+# Getting lists of Nouns
+list_primary_actor = get_noun_list_for_type(nouns, 'primary actor')
+list_secondary_actor = get_noun_list_for_type(nouns, 'secondary actor')
 list_actor = list_primary_actor + list_secondary_actor
-list_in_place = categorising(nouns, 'in-place')
-list_on_place = categorising(nouns, 'on-place')
+list_in_place = get_noun_list_for_type(nouns, 'in-place')
+list_on_place = get_noun_list_for_type(nouns, 'on-place')
 list_place = list_in_place + list_on_place
-list_in_place_description = categorising(descriptions, 'in-place')
-list_on_place_description = categorising(descriptions, 'on-place')
+list_weapon = get_noun_list_for_type(nouns, 'weapon')
+list_transport = get_noun_list_for_type(nouns, 'transport')
+list_transport_damage_noun = get_noun_list_for_type(nouns, 'transport damage')
+list_regime = get_noun_list_for_type(nouns, 'politics')
+list_group = get_noun_list_for_type(nouns, 'group')
+list_secondary_actor_plural = get_noun_list_for_type(nouns, 'secondary actors plural')
+list_measuring_things = get_noun_list_for_type(nouns, 'measuring')
+list_liquid = get_noun_list_for_type(nouns, 'liquid')
+list_tech = get_noun_list_for_type(nouns, 'tech')
+
+# Getting lists of Descriptions
+list_in_place_description = get_description_list_for_type(descriptions, 'in-place')
+list_on_place_description = get_description_list_for_type(descriptions, 'on-place')
 list_place_description = list_in_place_description + list_on_place_description
-list_place_action = categorising(actions, 'place')
-list_weapon = categorising(nouns, 'weapon')
-list_transport = categorising(nouns, 'transport')
-list_weapon_action = categorising(actions, 'weapon')
-list_transport_action = categorising(actions, 'transport')
-list_sentient_positive_action = categorising(actions, 'sentient positive')
-list_sentient_negative_action = categorising(actions, 'sentient negative')
-list_sentient_action = list_sentient_positive_action + list_sentient_negative_action
-list_primary_actor_description = categorising(descriptions, 'primary actor')
-list_secondary_actor_description = categorising(descriptions, 'secondary actor')
+list_primary_actor_description = get_description_list_for_type(descriptions, 'primary actor')
+list_secondary_actor_description = get_description_list_for_type(descriptions, 'secondary actor')
 list_actor_description = list_primary_actor_description + list_secondary_actor_description
-list_weapon_description = categorising(descriptions, 'weapon')
-list_transport_description = categorising(descriptions, 'transport')
-list_transport_function = categorising(actions, 'transport function')
-list_transport_damage_action = categorising(actions, 'transport damage')
-list_transport_equipped = categorising(descriptions, 'transport after')
-list_transport_damage_noun = categorising(nouns, 'transport damage')
-list_regime = categorising(nouns, 'politics')
-list_group = categorising(nouns, 'group')
-list_civilisation = categorising(descriptions, 'civilisation')
-list_secondary_actor_plural = categorising(nouns, 'secondary actors plural')
-list_measuring_things = categorising(nouns, 'measuring')
-list_suddenly = categorising(actions, 'suddenly')
-list_liquid = categorising(nouns, 'liquid')
-list_liquid_desc = categorising(descriptions, 'liquid')
-list_sentient_action_plural = categorising(actions, 'sentient plural')
-list_society = categorising(descriptions, 'society')
-list_tech = categorising(nouns, 'tech')
-list_crust = categorising(descriptions, 'crust')
-list_sky = categorising(descriptions, 'sky')
+list_weapon_description = get_description_list_for_type(descriptions, 'weapon')
+list_transport_description = get_description_list_for_type(descriptions, 'transport')
+list_transport_equipped = get_description_list_for_type(descriptions, 'transport after')
+list_civilisation = get_description_list_for_type(descriptions, 'civilisation')
+list_liquid_desc = get_description_list_for_type(descriptions, 'liquid')
+list_society = get_description_list_for_type(descriptions, 'society')
+list_crust = get_description_list_for_type(descriptions, 'crust')
+list_sky = get_description_list_for_type(descriptions, 'sky')
 
-
+# Getting lists of Actions
+list_place_action = get_action_list_for_type(actions, 'place')
+list_weapon_action = get_action_list_for_type(actions, 'weapon')
+list_transport_action = get_action_list_for_type(actions, 'transport')
+list_sentient_positive_action = get_action_list_for_type(actions, 'sentient positive')
+list_sentient_negative_action = get_action_list_for_type(actions, 'sentient negative')
+list_sentient_action = list_sentient_positive_action + list_sentient_negative_action
+list_transport_function = get_action_list_for_type(actions, 'transport function')
+list_transport_damage_action = get_action_list_for_type(actions, 'transport damage')
+list_suddenly = get_action_list_for_type(actions, 'suddenly')
+list_sentient_action_plural = get_action_list_for_type(actions, 'sentient plural')
 
 # Randomly selecting a word within each list
 in_place = random.choice(list_in_place)
@@ -205,12 +232,8 @@ measuring = ['measuring', 'considering', 'weighing', 'tracking']
 measuring = random.choice(measuring)
 
 def bruteForceRandomWord(part, length):
-    returnWord = None
-
     url = "https://wordsapiv1.p.rapidapi.com/words/"
-
     querystring = {"random":"true"}
-
     headers = {
         'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
         'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
@@ -220,15 +243,6 @@ def bruteForceRandomWord(part, length):
 
     js = response.json()
     return js['word']
-    
-    #while returnWord == None:
-    #    try:
-    #        r_name = RandomWords()
-    #        returnWord = r_name.get_random_word(includePartOfSpeech=part, maxLength=length)
-    #    except:
-    #        print('No random word found. Trying again...')
-    #        time.sleep(random.randint(1,2))   
-    #return returnWord
 
         
 verb = bruteForceRandomWord('verb', 10)
@@ -237,7 +251,7 @@ noun2 = bruteForceRandomWord('noun', 10)
 name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
 
 # Sentence construction
-structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named ' + name + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
+structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named \'' + name + '\' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 #structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
 structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 #structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
@@ -263,8 +277,8 @@ structure17 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + '
 structure18 = 'Several ' + secondary_actor_desc + ' ' + secondary_actors + ' drift in empty space.'
 structure19 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in space. ' + pronoun.title() + ' is unconscious, and ' + pos_pro + ' ' + transport + ' is ' + transport_damage_action + '.'
 structure20 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' orbits ' + place_article + ' ' + place_desc + ' ' + place + '. Its ' + secondary_actor_desc + ' inhabitants have tamed a ' + group + ' ' + secondary_actor_desc2 +  ' ' + secondary_actors + '.'
-structure21_1 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to create a distraction.'
-structure21_2 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article + ' ' + weapon_desc + ' ' + weapon + ' to complete the job.'
+structure21_1 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' to create a distraction.'
+structure21_2 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' to complete the job.'
 structure22 = regime.title() + ' has tasked you with tracking, capturing, and returning ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' lost ' + place_prep + ' a distant ' + place + '. It will take all your skills as ' + primary_actor_article + ' ' + primary_actor + '.'
 structure23 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ', ' + measuring + ' ' + measuring_things + '.'
 structure24 = 'A seemingly ' + transport_desc + ' ' + transport + ' suddenly ' + suddenly + '.'
@@ -299,7 +313,7 @@ structure35 = 'NASA has discovered an inhabited exoplanet. The society appears t
 structure36 = 'Your mission is to document a strange planet\'s surface. The society appears to be ' + society_article + ' ' + society + ', and early scans reveal advanced ' + tech + ' and ' + crust_article + ' ' + crust + ' crust. The sky is ' + sky + ' and a day lasts ' + str(random.randint(1,100)) + ' Earth hours.'
 
 tweets = []
-tweets.extend([structure3, structure6, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29_1, structure29_2, structure30, structure31, structure32, structure33, structure34, structure35, structure36])
+tweets.extend([structure1, structure3, structure6, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29_1, structure29_2, structure30, structure31, structure32, structure33, structure34, structure35, structure36])
 
 under280 = []
 for i in tweets:
@@ -310,6 +324,7 @@ print(random.choice(under280))
 print('------------------------')
 
 print(
+'1: ', structure1, '\n'
 '3: ', structure3, '\n'
 '6: ', structure6, '\n'
 '11: ', structure11, '\n' 
