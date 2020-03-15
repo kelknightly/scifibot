@@ -62,6 +62,18 @@ def get_action_list_for_type(actions, actionType_filter):
             action_list.append(action['action'])
     return action_list
 
+def bruteForceRandomWord(part, length):
+    url = "https://wordsapiv1.p.rapidapi.com/words/"
+    querystring = {"random":"true"}
+    headers = {
+        'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
+        'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
+        }
+
+    response = requests.request("GET", url, headers=headers, params=querystring)
+
+    js = response.json()
+    return js['word']
 
 nouns = get_noun_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"noun\"]{noun,nounType->{nounType}}")
 descriptions = get_description_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
@@ -230,20 +242,6 @@ planetsystemsector = random.choice(list_planetsystemsector)
 
 measuring = ['measuring', 'considering', 'weighing', 'tracking']
 measuring = random.choice(measuring)
-
-def bruteForceRandomWord(part, length):
-    url = "https://wordsapiv1.p.rapidapi.com/words/"
-    querystring = {"random":"true"}
-    headers = {
-        'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
-        'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
-        }
-
-    response = requests.request("GET", url, headers=headers, params=querystring)
-
-    js = response.json()
-    return js['word']
-
         
 verb = bruteForceRandomWord('verb', 10)
 noun1 = bruteForceRandomWord('noun', 10)
