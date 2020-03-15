@@ -136,3 +136,6 @@ for json_str in jsons:
 text_file.close()    
 
 
+# sanity dataset delete production
+# run import.py
+# sanity dataset import sanity_ndjson.txt
