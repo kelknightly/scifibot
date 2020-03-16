@@ -141,10 +141,10 @@ text_file.close()
 # sanity dataset import sanity_ndjson.txt
 
 # ssh kelltrill@cloud9ide.bryangruneberg.com
+# cd Projects/scifibot
+# git pull
+
 # ~ means home directory
 # ls -la gives a list
-# cd Projects/scifibot
-# ls -la to see all files
-
 # git push on python side, then git pull on cloud9 server
 # ctrl + d to get back to your machine
