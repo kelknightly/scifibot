@@ -140,9 +140,15 @@ text_file.close()
 # run import.py
 # sanity dataset import sanity_ndjson.txt
 
+# add, commit, push changes in Python
+
 # ssh kelltrill@cloud9ide.bryangruneberg.com
 # cd Projects/scifibot
 # git pull
+
+#### to see what's been sent ####
+# cat ~/logs/scifibot/quotes.log
+# cat ~/logs/scifibot/sentencs.log
 
 # ~ means home directory
 # ls -la gives a list
