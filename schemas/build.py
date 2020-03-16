@@ -266,8 +266,7 @@ structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + 
 structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
 structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
-structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ill-intent ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
-structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with good intentions ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
+structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure7 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure8 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
 structure9 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '. History will remark on this for generations.'
@@ -336,7 +335,7 @@ structure53 = 'We\'re taking a short detour to explore a port with a neutral mar
 structure54 = 'The ' + secondary_actors + ' onboard the distant ' + transport_desc + ' ' + transport + ' have the taste for human blood. The ' + engine + ' on their ship is powerful. Run.'
 
 tweets = []
-tweets.extend([structure1, structure2, structure3, structure4, structure5, structure6, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure39, structure40, structure41, structure42, structure43, structure44, structure45, structure46, structure47, structure48, structure49, structure50, structure51, structure52, structure53, structure54])
+tweets.extend([structure1, structure2, structure3, structure4, structure5, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure39, structure40, structure41, structure42, structure43, structure44, structure45, structure46, structure47, structure48, structure49, structure50, structure51, structure52, structure53, structure54])
 
 under280 = []
 for i in tweets:
@@ -352,7 +351,6 @@ print(
 '3: ', structure3, '\n'
 '4: ', structure4, '\n'
 '5: ', structure5, '\n' 
-'6: ', structure6, '\n' 
 '7: ', structure7, '\n' 
 '8: ', structure8, '\n' 
 '9: ', structure9, '\n' 
