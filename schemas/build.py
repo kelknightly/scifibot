@@ -96,6 +96,8 @@ list_measuring_things = get_noun_list_for_type(nouns, 'measuring')
 list_liquid = get_noun_list_for_type(nouns, 'liquid')
 list_tech = get_noun_list_for_type(nouns, 'tech')
 list_transport_name = get_noun_list_for_type(nouns, 'transport name')
+list_transports = get_noun_list_for_type(nouns, 'transport plural')
+list_engine = get_noun_list_for_type(nouns, 'engine')
 
 # Getting lists of Descriptions
 list_in_place_description = get_description_list_for_type(descriptions, 'in-place')
@@ -107,9 +109,9 @@ list_actor_description = list_primary_actor_description + list_secondary_actor_d
 list_weapon_description = get_description_list_for_type(descriptions, 'weapon')
 list_transport_description = get_description_list_for_type(descriptions, 'transport')
 list_transport_equipped = get_description_list_for_type(descriptions, 'transport equipped')
-list_civilisation = get_description_list_for_type(descriptions, 'civilisation')
+list_a__society = get_description_list_for_type(descriptions, 'a__society')
 list_liquid_desc = get_description_list_for_type(descriptions, 'liquid')
-list_society = get_description_list_for_type(descriptions, 'society')
+list_society_is_a__ = get_description_list_for_type(descriptions, 'society_is_a__')
 list_crust = get_description_list_for_type(descriptions, 'crust')
 list_sky = get_description_list_for_type(descriptions, 'sky')
 list_transport_name_desc = get_description_list_for_type(descriptions, 'transport name')
@@ -126,6 +128,7 @@ list_transport_damage_action = get_action_list_for_type(actions, 'transport dama
 list_suddenly = get_action_list_for_type(actions, 'suddenly')
 list_sentient_action_plural = get_action_list_for_type(actions, 'sentient plural')
 list_transport_about = get_action_list_for_type(actions, 'transport about')
+list_looking_for = get_action_list_for_type(actions, 'looking for')
 
 # Randomly selecting a word within each list
 in_place = random.choice(list_in_place)
@@ -154,22 +157,23 @@ transport_equipped = random.choice(list_transport_equipped)
 transport_damage_noun = random.choice(list_transport_damage_noun)
 regime = random.choice(list_regime)
 group = random.choice(list_group)
-civilisation = random.choice(list_civilisation)
+a__society = random.choice(list_a__society)
 secondary_actors = random.choice(list_secondary_actor_plural)
 measuring_things = random.choice(list_measuring_things)
 suddenly = random.choice(list_suddenly)
 liquid = random.choice(list_liquid)
 liquid_desc = random.choice(list_liquid_desc)
 sentient_action_plural = random.choice(list_sentient_action_plural)
-society = random.choice(list_society)
+society_is_a__ = random.choice(list_society_is_a__)
 tech = random.choice(list_tech)
 crust = random.choice(list_crust)
 sky = random.choice(list_sky)
 transport_name_noun = random.choice(list_transport_name)
 transport_name_desc = random.choice(list_transport_name_desc)
 transport_about = random.choice(list_transport_about)
-
-
+transports = random.choice(list_transports)
+engine = random.choice(list_engine)
+looking_for = random.choice(list_looking_for)
 
 # Randomising a second time for variables that are used twice in a sentence
 place2 = random.choice(list_place)
@@ -195,10 +199,14 @@ transport_function2 = randomiser_duplicator(transport_function, transport_functi
 secondary_actor_desc2 = randomiser_duplicator(secondary_actor_desc, secondary_actor_desc2, list_secondary_actor_description)
 primary_actor2 = randomiser_duplicator(primary_actor, primary_actor2, list_primary_actor)
 
+place_desc = 'useless'
+
 # Function to place 'a' or 'an' before a noun
 def article(component):
     if component[0] in ('a','e','i','o','u','A','E','I','O','U'):
         article = 'an'
+    if component in ('useless','euphoric','euphemism','usurper','eunuch','eulogy','upsilon meson','eugenist','Ukrainian','utilitarian'):
+        article = 'a'
     else: 
         article = 'a'
     return article
@@ -215,22 +223,20 @@ place_article = article(place)
 weapon_article = article(weapon)
 transport_article = article(transport)
 actor_article = article(actor)
-civilisation_article = article(civilisation)
+a__society_article = article(list_a__society)
 secondary_actor2_article = article(secondary_actor2)
 place2_article = article(place2)
 primary_actor2_article = article(primary_actor2)
 place2_article_on_desc = article(place2_desc)
-society_article = article(society)
+society_is_a__article = article(society_is_a__)
 crust_article = article(crust)
+engine_article = article(engine)
 
 # Listing prepositions
 list_weapon_preposition = ['with', 'using']
 weapon_preposition = random.choice(list_weapon_preposition)
 list_transport_preposition = ['aboard', 'on']
 transport_preposition = random.choice(list_transport_preposition)
-
-list_looking_for = ['food', 'revenge', 'love', 'supplies', 'help', 'adventure', 'emotional support', 'confirmation that they are making the right decision', 'a way out', 'mates', 'work']
-looking_for = random.choice(list_looking_for)
 
 if place in list_in_place:
     place_prep = 'in'
@@ -259,13 +265,15 @@ name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
 # Sentence construction
 
 structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named \'' + name + '\' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
-#structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
-#structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
-#structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + in_place + '.'
-structure5_1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' with ill-intent.'
-structure5_2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' with good intentions.'
+structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
+structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
+structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
+structure5_1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with ill-intent ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
+structure5_2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' with good intentions ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure6 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
-#structure7 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+structure7 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+print(structure7)
+quit()
 #structure8 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + sentient_negative_action + ' ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + weapon_preposition + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
 #structure9 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_action + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
 #structure10 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place
@@ -276,20 +284,21 @@ if place == 'civilisation':
 else:
     civ_soc = 'civilisation'
 
-structure12 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' is home to a ' + civilisation + ' ' + civ_soc + ' of ' + secondary_actors + '. They have acquired ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' and will use it for war.'
+structure12 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' is home to ' + a__society_article + ' ' + a__society + ' ' + civ_soc + ' of ' + secondary_actors + '. They have acquired ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' and will use it for war.'
 structure13 = 'You have stumbled upon ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It is equipped with ' + transport_equipped + ' and ' + transport_equipped2 + '.'
-structure14 = 'You are the captain of ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It has a dual function: ' + transport_function + ' and ' + transport_function2 + '.'
+structure13_1 = 'You have stumbled upon ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. With ' + engine + ', it is one of the most powerful ships in the galaxy.'
+structure14 = 'You are the Captain of ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It has a dual function: ' + transport_function + ' and ' + transport_function2 + '.'
 structure15 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' manoeuvres ' + transport_article + ' ' + transport + '. ' + pronoun.title() + '\'s been hired to protect ' +  planetsystemsector + ' ' + bruteForceRandomWord('noun', 10).title()+str(random.randint(100,999)) + ' from invaders.'
 structure16 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in empty space. ' + pos_pro.title() + ' ' + transport + ' has been damaged by ' + transport_damage_noun + ' and ' + pronoun + ' needs immediate assistance.'
-structure17 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' flies through space, driven by ' + weapon_desc + ' engines.'
+structure17 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' flies through space, driven by ' + engine + '.'
 structure18 = 'Several ' + secondary_actor_desc + ' ' + secondary_actors + ' drift in empty space.'
 structure19 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' drifts helplessly in space. ' + pronoun.title() + ' is unconscious, and ' + pos_pro + ' ' + transport + ' is ' + transport_damage_action + '.'
-structure20 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' orbits ' + place_article + ' ' + place_desc + ' ' + place + '. Its ' + secondary_actor_desc + ' inhabitants have tamed a ' + group + ' ' + secondary_actor_desc2 +  ' ' + secondary_actors + '.'
+structure20 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '. Its ' + secondary_actor_desc + ' inhabitants have tamed a ' + group + ' ' + secondary_actor_desc2 +  ' ' + secondary_actors + '.'
 structure21_1 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' to create a distraction.'
 structure21_2 = primary_actor_article.title() + ' ' + primary_actor + ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5))) + ', has been hired to abduct or kill ' + primary_actor_article_on_desc + ' ' + primary_actor_desc + ' ' + primary_actor2 + ', but needs ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' to complete the job.'
 structure22 = regime.title() + ' has tasked you with tracking, capturing, and returning ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' lost ' + place_prep + ' a distant ' + place + '. It will take all your skills as ' + primary_actor_article + ' ' + primary_actor + '.'
 structure23 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ', ' + measuring + ' ' + measuring_things + '.'
-structure24 = 'A seemingly ' + transport_desc + ' ' + transport + ' suddenly ' + suddenly + '.'
+structure24 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' you assumed to be friendly suddenly ' + suddenly + '.'
 
 list_alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 liquid_type = random.choice(['it rains', 'there are deep oceans of', 'there are clouds of', 'there are pools of', 'rivers run with', 'the skies are full of', 'there is an ocean of'])
@@ -301,29 +310,39 @@ structure27 = 'I was ' + sentient_action_plural + ' ' + secondary_actor_article_
 person_title = random.choice(['Ms', 'Mr', 'Dr'])
 structure28 = 'Belay my previous order, ' + person_title + ' ' + string.capwords(bruteForceRandomWord('noun', 10)) + '. We need a vital show of force. Activate the ' + weapon_desc + ' ' + weapon + ' and aim it at the ' + place + '.'
 
-transport_num = random.randint(1,20)
-structure29_1 = 'The border outpost reports a contingent of ' + str(transport_num) + ' ' + secondary_actor + ' ' + transport + 's within sensor range. Should hostilities erupt, we will be outgunned.'
-structure29_2 = 'The border outpost reports a contingent of ' + str(transport_num) + ' ' + secondary_actor + ' ' + transport + 's within sensor range. We should try to maintain diplomatic relations.'
+structure29_1 = 'The border outpost reports a contingent of ' + str(random.randint(1,20)) + ' ' + secondary_actor + ' ' + transports + ' within sensor range. Should hostilities erupt, we will be outgunned.'
+structure29_2 = 'The border outpost reports a contingent of ' + str(random.randint(1,20)) + ' ' + secondary_actor + ' ' + transports + ' within sensor range. We should try to maintain diplomatic relations.'
 
 stardate = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
 system_name = bruteForceRandomWord('noun', 5) + ' ' + bruteForceRandomWord('noun', 5)
-days_count = str(random.randint(1,20))
-structure30 = 'Captain\'s Log, Stardate ' + stardate + '. We are cautiously entering the ' + string.capwords(system_name) + ' star system ' + days_count + ' days after receiving a distress call from '+ regime + ' colony. The garbled transmission reported the colony under attack.'
+structure30 = 'Captain\'s Log, Stardate ' + stardate + '. We are cautiously entering the ' + string.capwords(system_name) + ' star system ' + str(random.randint(1,20)) + ' days after receiving a distress call from '+ regime + ' colony. The garbled transmission reported the colony under attack.'
 structure31 = 'Captain\'s log, Stardate ' + stardate + '. Admiral ' + names.get_first_name() + ' and Lieutenant Commander ' + names.get_first_name() + ' of Starfleet Tactical have arrived to review the disappearance of New ' + bruteForceRandomWord('noun', 10).title() + ' colony. No sign remains of the ' + str(random.randint(100,1000)) + ' inhabitants.'
 
 roman_numeral = random.choice(['I','II','III','IV','V','VI','VII','VIII','X'])
 structure32 = 'Captain\'s Log, Stardate ' + stardate + '. We\'ve been ordered to Starbase ' +  str(random.randint(10,90)) + ' in orbit around ' + bruteForceRandomWord('noun', 10).title() + ' ' + roman_numeral + '. The ' + weapon_desc.title() + ' ' + weapon.title() + ' has been glitching and needs an urgent upgrade before another crewmember dies.'
 structure33 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' drifts in empty space, following the path of a particular ' + secondary_actor +' through space-time.'
 structure34 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' orbits ' + place2_article_on_desc + ' ' + place2_desc + ' ' + place2 + '. Raging storms of ' + liquid_desc + ' ' + liquid + ' fill its skies.'
-structure35 = 'NASA has discovered an inhabited exoplanet. The society appears to be ' + society_article + ' ' + society + ', and early scans reveal advanced ' + tech + ' and ' + crust_article + ' ' + crust + ' crust. The sky is ' + sky + ' and a day lasts ' + str(random.randint(1,100)) + ' Earth hours.'
-structure36 = 'Your mission is to document a strange planet\'s surface. The society appears to be ' + society_article + ' ' + society + ', and early scans reveal advanced ' + tech + ' and ' + crust_article + ' ' + crust + ' crust. The sky is ' + sky + ' and a day lasts ' + str(random.randint(1,100)) + ' Earth hours.'
-structure37 = 'You encounter ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' with the words \'' + string.capwords(transport_name_desc) + ' ' + string.capwords(transport_name_noun) + '\' painted on the side. It ' + transport_about + ' and is equipped with ' + transport_equipped + '.'
+structure35 = 'NASA has discovered an inhabited exoplanet. The society appears to be ' + society_is_a__article + ' ' + society_is_a__ + ', and early scans reveal advanced ' + tech + ' and ' + crust_article + ' ' + crust + ' crust. The sky is ' + sky + ' and a day lasts ' + str(random.randint(1,100)) + ' Earth hours.'
+structure36 = 'Your mission is to document a strange planet\'s surface. The society appears to be ' + society_is_a__article + ' ' + society_is_a__ + ', and early scans reveal advanced ' + tech + ' and ' + crust_article + ' ' + crust + ' crust. The sky is ' + sky + ' and a day lasts ' + str(random.randint(1,100)) + ' Earth hours.'
+structure37 = 'You encounter ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' with the words \'' + string.capwords(transport_name_desc) + ' ' + string.capwords(transport_name_noun) + '\' painted on the side. It ' + transport_about + ' and is equipped with ' + transport_equipped + ' and ' + transport_equipped2 + '.'
 structure38 = 'The ' + transport_desc + ' ' + transport + ' you\'ve encountered ' + transport_about + '. It seems to have a bad ' + secondary_actor + ' infestation, so probably best to steer clear of it.'
 structure39 = 'You are the Commander of ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' and have decided to name it \'' + string.capwords(transport_name_desc) + ' ' + string.capwords(transport_name_noun) + '\'. It has a dual function: ' + transport_function + ' and ' + transport_function2 + '.'
 structure40 = 'You are the Commander of ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' and have decided to name it \'' + string.capwords(transport_name_desc) + ' ' + string.capwords(transport_name_noun) + '\'. It ' + transport_about  + ' and is the pride of ' + regime + '.'
+structure41 = a__society_article.title() + ' ' + a__society + ' ' + civ_soc + ' is involved in the business of relocating ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' using ' + engine + '.'
+structure42 = 'You have stumbled upon ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It is equipped with ' + transport_equipped + ' and boasts ' + engine_article + ' ' + engine + '.'
+structure43 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' looms in the distant blackness of space. Its ' + engine + ' flares, and the ' + secondary_actors + ' onboard prepare for battle.'
+structure44_1 = 'The ' + secondary_actors + ' onboard the distant ' + transport_desc + ' ' + transport + ' have the taste for human blood. The ' + engine + ' on their ship is powerful.'
+structure44_2 = 'The ' + secondary_actors + ' onboard the distant ' + transport_desc + ' ' + transport + ' have the taste for human blood. The ' + engine + ' on their ship is powerful. The human race will come to an end tonight.'
+structure44_3 = 'The ' + secondary_actors + ' onboard the distant ' + transport_desc + ' ' + transport + ' have the taste for human blood. The ' + engine + ' on their ship is powerful. The human race faces exinction tonight.'
+
+print(structure42)
+print(structure43)
+print(structure44_1)
+print(structure44_2)
+quit()
 
 tweets = []
-tweets.extend([structure1, structure5_1, structure5_2, structure6, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29_1, structure29_2, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure40])
+tweets.extend([structure1, structure5_1, structure5_2, structure6, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21_1, structure21_2, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29_1, structure29_2, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure40, structure41])
 
 under280 = []
 for i in tweets:
@@ -331,6 +350,7 @@ for i in tweets:
         under280.append(i)
 
 print(random.choice(under280)) 
+quit()
 print('------------------------')
 
 print(
@@ -369,5 +389,6 @@ print(
 '37: ', structure37, '\n'
 '38: ', structure38, '\n'
 '39: ', structure39, '\n'
-'40: ', structure40
+'40: ', structure40, '\n'
+'41: ', structure41
 )
