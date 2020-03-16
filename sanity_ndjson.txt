@@ -38,17 +38,20 @@
 {"_id": "emi40sud1", "_type": "action", "action": "emits a distress call on all frequencies", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "act29sud1", "_type": "action", "action": "activates its distress beacon", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "dam27sud1", "_type": "action", "action": "damages its own memory core", "actionType": {"_type": "reference", "_ref": "sud1"}}
+{"_id": "lau48sud1", "_type": "action", "action": "launches a radioactive missile in your direction", "actionType": {"_type": "reference", "_ref": "sud1"}}
+{"_id": "sta19sud1", "_type": "action", "action": "starts freaking out", "actionType": {"_type": "reference", "_ref": "sud1"}}
+{"_id": "clo26sud1", "_type": "action", "action": "closes hailing frequencies", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "shu27sud1", "_type": "action", "action": "shuts down all life support", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "deg50sud1", "_type": "action", "action": "degrades its core functions for no apparent reason", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "swi24sud1", "_type": "action", "action": "switches to stealth mode", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "tur21sud1", "_type": "action", "action": "turns off its shields", "actionType": {"_type": "reference", "_ref": "sud1"}}
-{"_id": "two34tspdmga1", "_type": "action", "action": "two neutron stars colliding nearby", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "ag22tspdmga1", "_type": "action", "action": "a gravitational ripple", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "aw23tspdmga1", "_type": "action", "action": "a wrinkle in space-time", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "bei78tspdmga1", "_type": "action", "action": "being torn apart by the energy release from two neutron stars colliding nearby", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ag22tspdmga1", "_type": "action", "action": "whirling towards a gravitational ripple", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "aw23tspdmga1", "_type": "action", "action": "plummeting towards a wrinkle in space-time", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "bei38tspdmga1", "_type": "action", "action": "being ripped apart by a micro-wormhole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "bei45tspdmga1", "_type": "action", "action": "being drained of power by an alien slime mold", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "fal24tspdmga1", "_type": "action", "action": "falling towards a pulsar", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "sp49tspdmga1", "_type": "action", "action": "s power core is building towards self-destruction", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "sp49tspdmga1", "_type": "action", "action": "has over-energised its power core, pushing it towards self-destruction", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "fly37tspdmga1", "_type": "action", "action": "flying straight towards a singularity", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "dri45tspdmga1", "_type": "action", "action": "drifting slowly towards a nearby neutron star", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "bei30tspdmga1", "_type": "action", "action": "being sucked into a black hole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
@@ -56,6 +59,7 @@
 {"_id": "dri52tspdmga1", "_type": "action", "action": "drifting into the debris field of a shattered planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "dri52tspdmga18", "_type": "action", "action": "drifting into the territory of an enemy civilisation", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "dri31tspdmga1", "_type": "action", "action": "drifting into an asteroid field", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION63", "_type": "action", "action": "being boarded by space pirates", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "dri35tspdmga1", "_type": "action", "action": "drifting into the rings of a planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "lea14tspdmga1", "_type": "action", "action": "leaking oxygen", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "ven25tspdmga1", "_type": "action", "action": "venting oxygen into space", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
@@ -245,47 +249,53 @@
 {"_id": "arg11senneg1", "_type": "action", "action": "argues with", "actionType": {"_type": "reference", "_ref": "senneg1"}}
 {"_id": "moc5senneg1", "_type": "action", "action": "mocks", "actionType": {"_type": "reference", "_ref": "senneg1"}}
 {"_id": "str9senneg1", "_type": "action", "action": "strangles", "actionType": {"_type": "reference", "_ref": "senneg1"}}
-{"_id": "TSPABT249", "_type": "action", "action": "is decorated in spikes and rivets", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT250", "_type": "action", "action": "completed the kessel run in twelve parsecs", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT251", "_type": "action", "action": "navigates via a series of viewing cameras", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT252", "_type": "action", "action": "was once used as a party ship and still retains a super charged sound system", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT253", "_type": "action", "action": "is carefully decorated inside and out", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT254", "_type": "action", "action": "has been polished to a high sheen", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT255", "_type": "action", "action": "has a reinforced glass ceiling", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT256", "_type": "action", "action": "is covered in dents and scratches from hostile encounters", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT257", "_type": "action", "action": "bristles with advanced weaponry", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT258", "_type": "action", "action": "is layered with poorly-welded repair plates", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT259", "_type": "action", "action": "is painted bright red", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT260", "_type": "action", "action": "has a mirrored chrome finish", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT261", "_type": "action", "action": "looks as though it'll never get off the ground", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT262", "_type": "action", "action": "has a vast wingspan", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT263", "_type": "action", "action": "was mass produced in a commercial shipyard", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT264", "_type": "action", "action": "is missing a sizeable part of its hull", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT265", "_type": "action", "action": "was once the hallmark of good shipbuilding", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT266", "_type": "action", "action": "is the hallmark of good shipbuilding", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT267", "_type": "action", "action": "has seen better days", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT268", "_type": "action", "action": "often interferes with the development of alien societies", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT269", "_type": "action", "action": "is in average condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT270", "_type": "action", "action": "is in good condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT271", "_type": "action", "action": "is in bad shape", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT272", "_type": "action", "action": "has an ultra-modern interior", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT273", "_type": "action", "action": "is in terrible condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT274", "_type": "action", "action": "has an AI that gets a tad homicidal at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT275", "_type": "action", "action": "is fairly sturdy and fuel-efficient", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT276", "_type": "action", "action": "was sold in a hurry by its last owners", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT277", "_type": "action", "action": "food", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT278", "_type": "action", "action": "revenge", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT279", "_type": "action", "action": "love", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT280", "_type": "action", "action": "supplies", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT281", "_type": "action", "action": "help", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT282", "_type": "action", "action": "advice", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT283", "_type": "action", "action": "adventure", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT284", "_type": "action", "action": "emotional support", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT285", "_type": "action", "action": "confirmation that they are making the right decision", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT286", "_type": "action", "action": "a way out", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT287", "_type": "action", "action": "a way home", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT288", "_type": "action", "action": "mates", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT289", "_type": "action", "action": "work", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT253", "_type": "action", "action": "is decorated in spikes", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT254", "_type": "action", "action": "painted in luminescent colours", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT255", "_type": "action", "action": "completed the kessel run in twelve parsecs", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT256", "_type": "action", "action": "navigates via a series of viewing cameras", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT257", "_type": "action", "action": "is meticulously clean", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT258", "_type": "action", "action": "is carefully decorated", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT259", "_type": "action", "action": "has been polished to a high sheen", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT260", "_type": "action", "action": "is heavily armed", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT261", "_type": "action", "action": "has a reinforced glass ceiling", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT262", "_type": "action", "action": "is covered in scratches from hostile encounters", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT263", "_type": "action", "action": "bristles with advanced weaponry", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT264", "_type": "action", "action": "is layered with poorly-welded repair plates", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT265", "_type": "action", "action": "is painted bright red", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT266", "_type": "action", "action": "has a mirrored chrome finish", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT267", "_type": "action", "action": "looks as though it'll never get off the ground", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT268", "_type": "action", "action": "has a vast wingspan", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT269", "_type": "action", "action": "was mass produced in a commercial shipyard", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT270", "_type": "action", "action": "is missing a sizeable part of its hull", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT271", "_type": "action", "action": "was once the hallmark of good shipbuilding", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT272", "_type": "action", "action": "is the hallmark of good shipbuilding", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT273", "_type": "action", "action": "has seen better days", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT274", "_type": "action", "action": "often interferes with the development of alien societies", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT275", "_type": "action", "action": "is in average condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT276", "_type": "action", "action": "was saved from an outerplanet scrapyard and refitted", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT277", "_type": "action", "action": "is in good condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT278", "_type": "action", "action": "is in bad shape", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT279", "_type": "action", "action": "has an ultra-modern interior", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT280", "_type": "action", "action": "is in terrible condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT281", "_type": "action", "action": "has an AI that gets a tad homicidal at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT282", "_type": "action", "action": "has an over-protective AI", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT283", "_type": "action", "action": "has an aI that gets a tad controlling at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT284", "_type": "action", "action": "has a passive-aggressive AI", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT285", "_type": "action", "action": "is fairly sturdy and fuel-efficient", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT286", "_type": "action", "action": "was sold in a hurry by its last owners", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT287", "_type": "action", "action": "food", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT288", "_type": "action", "action": "revenge", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT289", "_type": "action", "action": "love", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT290", "_type": "action", "action": "supplies", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT291", "_type": "action", "action": "help", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT292", "_type": "action", "action": "advice", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT293", "_type": "action", "action": "adventure", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT294", "_type": "action", "action": "emotional support", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT295", "_type": "action", "action": "confirmation that they are making the right decision", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT296", "_type": "action", "action": "a way out", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT297", "_type": "action", "action": "a way home", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT298", "_type": "action", "action": "mates", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT299", "_type": "action", "action": "work", "actionType": {"_type": "reference", "_ref": "look1"}}
 {"_id": "senpl1", "_type": "actionType", "actionType": "sentient plural"}
 {"_id": "sud1", "_type": "actionType", "actionType": "suddenly"}
 {"_id": "tspdmga1", "_type": "actionType", "actionType": "transport damage"}
@@ -1082,453 +1092,454 @@
 {"_id": "NOUN784", "_type": "noun", "noun": "exotic particles", "nounType": {"_type": "reference", "_ref": "msr1"}}
 {"_id": "NOUN785", "_type": "noun", "noun": "the lifespan of different species", "nounType": {"_type": "reference", "_ref": "msr1"}}
 {"_id": "NOUN786", "_type": "noun", "noun": "the strength of its sworn rival", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN787", "_type": "noun", "noun": "the passing of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN788", "_type": "noun", "noun": "the breadth and depth of its feelings", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN789", "_type": "noun", "noun": "the breadth and depth of the universe", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN790", "_type": "noun", "noun": "the spaces between the multiverse", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN791", "_type": "noun", "noun": "abstract reasoning in neural networks", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN792", "_type": "noun", "noun": "the way things used to be", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN793", "_type": "noun", "noun": "time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN794", "_type": "noun", "noun": "the concept of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN795", "_type": "noun", "noun": "lifetimes", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN796", "_type": "noun", "noun": "ambient energy theory", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN797", "_type": "noun", "noun": "atmospheric gases", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN798", "_type": "noun", "noun": "possible biospheres", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN799", "_type": "noun", "noun": "water", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN800", "_type": "noun", "noun": "Earthshine", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN801", "_type": "noun", "noun": "moonllight", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN802", "_type": "noun", "noun": "sunlight", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN803", "_type": "noun", "noun": "paint", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN804", "_type": "noun", "noun": "dreams", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN805", "_type": "noun", "noun": "ice", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN806", "_type": "noun", "noun": "radiation", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN807", "_type": "noun", "noun": "plasma", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN808", "_type": "noun", "noun": "mercury", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN809", "_type": "noun", "noun": "dust", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN810", "_type": "noun", "noun": "methane", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN811", "_type": "noun", "noun": "diamonds", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN812", "_type": "noun", "noun": "sapphires", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN813", "_type": "noun", "noun": "rubies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN814", "_type": "noun", "noun": "gemstones", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN815", "_type": "noun", "noun": "glass", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN816", "_type": "noun", "noun": "lightning", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN817", "_type": "noun", "noun": "hopes", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN818", "_type": "noun", "noun": "whimsies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN819", "_type": "noun", "noun": "minerals", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN820", "_type": "noun", "noun": "lava", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN821", "_type": "noun", "noun": "rocks", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN822", "_type": "noun", "noun": "galaxies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN823", "_type": "noun", "noun": "micro-organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN824", "_type": "noun", "noun": "stars", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN825", "_type": "noun", "noun": "micro-singularities", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN826", "_type": "noun", "noun": "mountains", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN827", "_type": "noun", "noun": "mist", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN828", "_type": "noun", "noun": "eclipses", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN829", "_type": "noun", "noun": "sunsets", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN830", "_type": "noun", "noun": "sunrises", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN831", "_type": "noun", "noun": "anxieties", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN832", "_type": "noun", "noun": "moons", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN833", "_type": "noun", "noun": "fears", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN834", "_type": "noun", "noun": "nightmares", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN835", "_type": "noun", "noun": "snow", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN836", "_type": "noun", "noun": "silica", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN837", "_type": "noun", "noun": "graphite", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN838", "_type": "noun", "noun": "granite", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN839", "_type": "noun", "noun": "carbon", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN840", "_type": "noun", "noun": "tar", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN841", "_type": "noun", "noun": "oil", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN842", "_type": "noun", "noun": "sulfur", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN843", "_type": "noun", "noun": "microbes", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN844", "_type": "noun", "noun": "single-cellular organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN845", "_type": "noun", "noun": "multi-cellular organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN846", "_type": "noun", "noun": "lifeforms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN847", "_type": "noun", "noun": "life", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN848", "_type": "noun", "noun": "insights", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN849", "_type": "noun", "noun": "memories", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN850", "_type": "noun", "noun": "epiphanies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN851", "_type": "noun", "noun": "reveries", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN852", "_type": "noun", "noun": "hydrocarbon", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN853", "_type": "noun", "noun": "atoms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN854", "_type": "noun", "noun": "particles", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN855", "_type": "noun", "noun": "flowers", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN856", "_type": "noun", "noun": "gold", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN857", "_type": "noun", "noun": "silver", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN858", "_type": "noun", "noun": "blood", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN859", "_type": "noun", "noun": "sand", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN860", "_type": "noun", "noun": "vortices", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN861", "_type": "noun", "noun": "bronze", "nounType": {"_type": "reference", "_ref": "lqd1"}}
-{"_id": "NOUN862", "_type": "noun", "noun": "weapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN863", "_type": "noun", "noun": "cannon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN864", "_type": "noun", "noun": "bomb", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN865", "_type": "noun", "noun": "superweapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN866", "_type": "noun", "noun": "virus", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN867", "_type": "noun", "noun": "computer memory core", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN868", "_type": "noun", "noun": "biosphere", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN869", "_type": "noun", "noun": "nanoswarm", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN870", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN871", "_type": "noun", "noun": "bioweapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN872", "_type": "noun", "noun": "rage virus", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN873", "_type": "noun", "noun": "trebuchet", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN874", "_type": "noun", "noun": "catapult", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN875", "_type": "noun", "noun": "biohack", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN876", "_type": "noun", "noun": "laser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN877", "_type": "noun", "noun": "pathogen", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN878", "_type": "noun", "noun": "bioagent", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN879", "_type": "noun", "noun": "poison", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN880", "_type": "noun", "noun": "missile", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN881", "_type": "noun", "noun": "injection", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN882", "_type": "noun", "noun": "knife", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN883", "_type": "noun", "noun": "grater", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN884", "_type": "noun", "noun": "flamethrower", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN885", "_type": "noun", "noun": "grenade", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN886", "_type": "noun", "noun": "spear", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN887", "_type": "noun", "noun": "cloudburst", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN888", "_type": "noun", "noun": "wildfire", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN889", "_type": "noun", "noun": "genophage", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN890", "_type": "noun", "noun": "pistol", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN891", "_type": "noun", "noun": "gun", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN892", "_type": "noun", "noun": "taser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN893", "_type": "noun", "noun": "halberd", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN894", "_type": "noun", "noun": "array", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN895", "_type": "noun", "noun": "needle", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN896", "_type": "noun", "noun": "orb", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN897", "_type": "noun", "noun": "saber", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN898", "_type": "noun", "noun": "modulator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN899", "_type": "noun", "noun": "turret", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN900", "_type": "noun", "noun": "whip", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN901", "_type": "noun", "noun": "claymore", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN902", "_type": "noun", "noun": "revolver", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN903", "_type": "noun", "noun": "mortar", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN904", "_type": "noun", "noun": "arrow", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN905", "_type": "noun", "noun": "ordnance", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN906", "_type": "noun", "noun": "howitzer", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN907", "_type": "noun", "noun": "torpedo", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN908", "_type": "noun", "noun": "beam", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN909", "_type": "noun", "noun": "ray", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN910", "_type": "noun", "noun": "rifle", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN911", "_type": "noun", "noun": "raygun", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN912", "_type": "noun", "noun": "suit", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN913", "_type": "noun", "noun": "machine", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN914", "_type": "noun", "noun": "phaser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN915", "_type": "noun", "noun": "blaster", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN916", "_type": "noun", "noun": "neuralyzer", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN917", "_type": "noun", "noun": "power loader", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN918", "_type": "noun", "noun": "replicator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN919", "_type": "noun", "noun": "reverberating carboniser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN920", "_type": "noun", "noun": "bioreactor", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN921", "_type": "noun", "noun": "reactor core", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN922", "_type": "noun", "noun": "rocket", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN923", "_type": "noun", "noun": "generator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN924", "_type": "noun", "noun": "noose", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN925", "_type": "noun", "noun": "tether", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN926", "_type": "noun", "noun": "Omega-13", "nounType": {"_type": "reference", "_ref": "wpn1"}}
-{"_id": "NOUN927", "_type": "noun", "noun": "spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN928", "_type": "noun", "noun": "transport ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN929", "_type": "noun", "noun": "vessel", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN930", "_type": "noun", "noun": "freighter", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN931", "_type": "noun", "noun": "warship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN932", "_type": "noun", "noun": "starship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN933", "_type": "noun", "noun": "research spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN934", "_type": "noun", "noun": "spacecraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN935", "_type": "noun", "noun": "battleship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN936", "_type": "noun", "noun": "starliner", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN937", "_type": "noun", "noun": "basestar", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN938", "_type": "noun", "noun": "cruiser", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN939", "_type": "noun", "noun": "Dreadnought", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN940", "_type": "noun", "noun": "space raft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN941", "_type": "noun", "noun": "space station", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN942", "_type": "noun", "noun": "Ranger spaceplane", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN943", "_type": "noun", "noun": "spaceplane", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN944", "_type": "noun", "noun": "exploration spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN945", "_type": "noun", "noun": "starcraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN946", "_type": "noun", "noun": "colonisation ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN947", "_type": "noun", "noun": "mothership", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN948", "_type": "noun", "noun": "destroyer", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN949", "_type": "noun", "noun": "training ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN950", "_type": "noun", "noun": "supership", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN951", "_type": "noun", "noun": "frigate", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN952", "_type": "noun", "noun": "patrol craft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN953", "_type": "noun", "noun": "rocket ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN954", "_type": "noun", "noun": "carrier", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN955", "_type": "noun", "noun": "star destroyer", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN956", "_type": "noun", "noun": "assault carrier", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN957", "_type": "noun", "noun": "generational ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN958", "_type": "noun", "noun": "Starfury fighter", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN959", "_type": "noun", "noun": "lander", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN960", "_type": "noun", "noun": "Ravager M-Ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN961", "_type": "noun", "noun": "deep space interceptor", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN962", "_type": "noun", "noun": "battle cruiser", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN963", "_type": "noun", "noun": "orbital spacecraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
-{"_id": "NOUN964", "_type": "noun", "noun": "cybernetics", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN965", "_type": "noun", "noun": "laser weapons", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN966", "_type": "noun", "noun": "spacefaring tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN967", "_type": "noun", "noun": "interplanetary tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN968", "_type": "noun", "noun": "nuclear fusion", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN969", "_type": "noun", "noun": "space colonies", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN970", "_type": "noun", "noun": "nanotech", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN971", "_type": "noun", "noun": "starfaring tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN972", "_type": "noun", "noun": "antimatter power", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN973", "_type": "noun", "noun": "interstellar spacecraft", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN974", "_type": "noun", "noun": "stellar engines", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN975", "_type": "noun", "noun": "inter-galactic migration", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN976", "_type": "noun", "noun": "orbital space stations", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN977", "_type": "noun", "noun": "geostationary satellites", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN978", "_type": "noun", "noun": "alien artifacts", "nounType": {"_type": "reference", "_ref": "tec1"}}
-{"_id": "NOUN979", "_type": "noun", "noun": "starhive", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN980", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN981", "_type": "noun", "noun": "scourge", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN982", "_type": "noun", "noun": "kiss", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN983", "_type": "noun", "noun": "fortune", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN984", "_type": "noun", "noun": "wizard", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN985", "_type": "noun", "noun": "claw", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN986", "_type": "noun", "noun": "doom", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN987", "_type": "noun", "noun": "pyre", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN988", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN989", "_type": "noun", "noun": "rapture", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN990", "_type": "noun", "noun": "killzone", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN991", "_type": "noun", "noun": "killstrike", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN992", "_type": "noun", "noun": "maelstrom", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN993", "_type": "noun", "noun": "hacov", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN994", "_type": "noun", "noun": "cataclysm", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN995", "_type": "noun", "noun": "calamity", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN996", "_type": "noun", "noun": "judgement", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN997", "_type": "noun", "noun": "annihilation", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN998", "_type": "noun", "noun": "kerfuffle", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN999", "_type": "noun", "noun": "retribution", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1000", "_type": "noun", "noun": "zenith", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1001", "_type": "noun", "noun": "cascade", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1002", "_type": "noun", "noun": "omen", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1003", "_type": "noun", "noun": "oblivion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1004", "_type": "noun", "noun": "ultimatum", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1005", "_type": "noun", "noun": "spire", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1006", "_type": "noun", "noun": "megadeth", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1007", "_type": "noun", "noun": "defenestrate", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1008", "_type": "noun", "noun": "garrot", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1009", "_type": "noun", "noun": "galvanise", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1010", "_type": "noun", "noun": "captivate", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1011", "_type": "noun", "noun": "malice", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1012", "_type": "noun", "noun": "birthright", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1013", "_type": "noun", "noun": "conquest", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1014", "_type": "noun", "noun": "revelation", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1015", "_type": "noun", "noun": "acceptance", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1016", "_type": "noun", "noun": "bombast", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1017", "_type": "noun", "noun": "cacophony", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1018", "_type": "noun", "noun": "candor", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1019", "_type": "noun", "noun": "cathedral", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1020", "_type": "noun", "noun": "collusion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1021", "_type": "noun", "noun": "consent", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1022", "_type": "noun", "noun": "cornucopia", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1023", "_type": "noun", "noun": "curmudgeon", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1024", "_type": "noun", "noun": "deed", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1025", "_type": "noun", "noun": "moment", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1026", "_type": "noun", "noun": "epitome", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1027", "_type": "noun", "noun": "disentangle", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1028", "_type": "noun", "noun": "escape", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1029", "_type": "noun", "noun": "lament", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1030", "_type": "noun", "noun": "latitude", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1031", "_type": "noun", "noun": "longitude", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1032", "_type": "noun", "noun": "limerence", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1033", "_type": "noun", "noun": "luminescence", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1034", "_type": "noun", "noun": "magnet", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1035", "_type": "noun", "noun": "melancholy", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1036", "_type": "noun", "noun": "nougat", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1037", "_type": "noun", "noun": "oscillate", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1038", "_type": "noun", "noun": "perspective", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1039", "_type": "noun", "noun": "viewpoint", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1040", "_type": "noun", "noun": "examination", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1041", "_type": "noun", "noun": "poet", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1042", "_type": "noun", "noun": "prophet", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1043", "_type": "noun", "noun": "emotion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1044", "_type": "noun", "noun": "imagination", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1045", "_type": "noun", "noun": "expression", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1046", "_type": "noun", "noun": "ideal", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1047", "_type": "noun", "noun": "constant", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1048", "_type": "noun", "noun": "worth", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1049", "_type": "noun", "noun": "purpose", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1050", "_type": "noun", "noun": "strike", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1051", "_type": "noun", "noun": "spectacle", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1052", "_type": "noun", "noun": "flame", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1053", "_type": "noun", "noun": "dream", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1054", "_type": "noun", "noun": "peach", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1055", "_type": "noun", "noun": "champion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1056", "_type": "noun", "noun": "winner", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1057", "_type": "noun", "noun": "beast", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1058", "_type": "noun", "noun": "murder", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1059", "_type": "noun", "noun": "smoke", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1060", "_type": "noun", "noun": "death blow", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1061", "_type": "noun", "noun": "dispatch", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1062", "_type": "noun", "noun": "conclusion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1063", "_type": "noun", "noun": "weapon", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1064", "_type": "noun", "noun": "death", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1065", "_type": "noun", "noun": "slaughter", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1066", "_type": "noun", "noun": "noodle", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1067", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1068", "_type": "noun", "noun": "sushi", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1069", "_type": "noun", "noun": "burrito", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1070", "_type": "noun", "noun": "cheeto", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1071", "_type": "noun", "noun": "soup", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1072", "_type": "noun", "noun": "crisp", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1073", "_type": "noun", "noun": "slice", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1074", "_type": "noun", "noun": "reverance", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1075", "_type": "noun", "noun": "ricochet", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1076", "_type": "noun", "noun": "rigour", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1077", "_type": "noun", "noun": "rebound", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1078", "_type": "noun", "noun": "grasp", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1079", "_type": "noun", "noun": "skedaddle", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1080", "_type": "noun", "noun": "secret", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1081", "_type": "noun", "noun": "potential", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1082", "_type": "noun", "noun": "tact", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1083", "_type": "noun", "noun": "poison", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1084", "_type": "noun", "noun": "woo", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1085", "_type": "noun", "noun": "vortex", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1086", "_type": "noun", "noun": "bounty", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1087", "_type": "noun", "noun": "aggresion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1088", "_type": "noun", "noun": "evil", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1089", "_type": "noun", "noun": "life", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1090", "_type": "noun", "noun": "panic", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1091", "_type": "noun", "noun": "repulse", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1092", "_type": "noun", "noun": "thought", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1093", "_type": "noun", "noun": "cruelty", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1094", "_type": "noun", "noun": "defiance", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1095", "_type": "noun", "noun": "success", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1096", "_type": "noun", "noun": "trouble", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1097", "_type": "noun", "noun": "dome", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1098", "_type": "noun", "noun": "starquake", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1099", "_type": "noun", "noun": "revenge", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1100", "_type": "noun", "noun": "destroyer", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1101", "_type": "noun", "noun": "hawk", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1102", "_type": "noun", "noun": "fist", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1103", "_type": "noun", "noun": "demon", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1104", "_type": "noun", "noun": "scimitar", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1105", "_type": "noun", "noun": "scorpion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1106", "_type": "noun", "noun": "laser", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1107", "_type": "noun", "noun": "honor", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1108", "_type": "noun", "noun": "passion", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1109", "_type": "noun", "noun": "flower", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1110", "_type": "noun", "noun": "dawn", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1111", "_type": "noun", "noun": "delivery", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1112", "_type": "noun", "noun": "wings", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1113", "_type": "noun", "noun": "swan", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1114", "_type": "noun", "noun": "serpent", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1115", "_type": "noun", "noun": "angel", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1116", "_type": "noun", "noun": "star", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1117", "_type": "noun", "noun": "dancer", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1118", "_type": "noun", "noun": "titan", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1119", "_type": "noun", "noun": "spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1120", "_type": "noun", "noun": "transport ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1121", "_type": "noun", "noun": "vessels", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1122", "_type": "noun", "noun": "freighters", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1123", "_type": "noun", "noun": "warships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1124", "_type": "noun", "noun": "starships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1125", "_type": "noun", "noun": "research spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1126", "_type": "noun", "noun": "spacecraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1127", "_type": "noun", "noun": "battleships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1128", "_type": "noun", "noun": "starliners", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1129", "_type": "noun", "noun": "basestars", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1130", "_type": "noun", "noun": "cruisers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1131", "_type": "noun", "noun": "Dreadnoughts", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1132", "_type": "noun", "noun": "space rafts", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1133", "_type": "noun", "noun": "space stations", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1134", "_type": "noun", "noun": "Ranger spaceplanes", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1135", "_type": "noun", "noun": "spaceplanes", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1136", "_type": "noun", "noun": "exploration spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1137", "_type": "noun", "noun": "starcraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1138", "_type": "noun", "noun": "colonisation ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1139", "_type": "noun", "noun": "motherships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1140", "_type": "noun", "noun": "destroyers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1141", "_type": "noun", "noun": "training ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1142", "_type": "noun", "noun": "superships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1143", "_type": "noun", "noun": "frigates", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1144", "_type": "noun", "noun": "patrol craft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1145", "_type": "noun", "noun": "rocket ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1146", "_type": "noun", "noun": "carriers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1147", "_type": "noun", "noun": "star destroyers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1148", "_type": "noun", "noun": "assault carriers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1149", "_type": "noun", "noun": "generational ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1150", "_type": "noun", "noun": "Starfury fighters", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1151", "_type": "noun", "noun": "landers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1152", "_type": "noun", "noun": "Ravager M-Ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1153", "_type": "noun", "noun": "deep space interceptors", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1154", "_type": "noun", "noun": "battle cruisers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1155", "_type": "noun", "noun": "orbital spacecraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
-{"_id": "NOUN1156", "_type": "noun", "noun": "solid rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1157", "_type": "noun", "noun": "bipropellant rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1158", "_type": "noun", "noun": "ion thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1159", "_type": "noun", "noun": "electrostatic ion thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1160", "_type": "noun", "noun": "field-emission electric propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1161", "_type": "noun", "noun": "hall effect thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1162", "_type": "noun", "noun": "colloid thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1163", "_type": "noun", "noun": "electrothermal thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1164", "_type": "noun", "noun": "arcjet rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1165", "_type": "noun", "noun": "microwave arcjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1166", "_type": "noun", "noun": "helicon double-layer thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1167", "_type": "noun", "noun": "plasma propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1168", "_type": "noun", "noun": "magnetoplasmadynamic thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1169", "_type": "noun", "noun": "electrodeless plasma thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1170", "_type": "noun", "noun": "pulsed inductive thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1171", "_type": "noun", "noun": "pulsed plasma thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1172", "_type": "noun", "noun": "variable specific impulse magnetoplasma rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1173", "_type": "noun", "noun": "mass driver", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1174", "_type": "noun", "noun": "lightweight hydrogen-fuelled turbojet engine with precooler", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1175", "_type": "noun", "noun": "hydrogen-fueled precooled airbreathing engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1176", "_type": "noun", "noun": "synergetic air breathing rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1177", "_type": "noun", "noun": "hybrid air-breathing rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1178", "_type": "noun", "noun": "liquid air cycle engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1179", "_type": "noun", "noun": "air turbo ramjet engine with eXpander cycle", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1180", "_type": "noun", "noun": "supersonic combustion ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1181", "_type": "noun", "noun": "ramjet airbreathing jet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1182", "_type": "noun", "noun": "shock-induced combustion ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1183", "_type": "noun", "noun": "oblique detonation wave engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1184", "_type": "noun", "noun": "shock-ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1185", "_type": "noun", "noun": "solid-fuel rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1186", "_type": "noun", "noun": "hybrid rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1187", "_type": "noun", "noun": "monopropellant rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1188", "_type": "noun", "noun": "vectored engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1189", "_type": "noun", "noun": "solar sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1190", "_type": "noun", "noun": "chemical propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1191", "_type": "noun", "noun": "nuclear-fusion drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1192", "_type": "noun", "noun": "gravity drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1193", "_type": "noun", "noun": "axial fusion aero-spike turbine engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1194", "_type": "noun", "noun": "trace compression block engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1195", "_type": "noun", "noun": "liquid-fuel rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1196", "_type": "noun", "noun": "resistojet rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1197", "_type": "noun", "noun": "dual-mode propulsion rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1198", "_type": "noun", "noun": "tripropellant rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1199", "_type": "noun", "noun": "nuclear-thermal rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1200", "_type": "noun", "noun": "propulsive mass driver", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1201", "_type": "noun", "noun": "air-augmented rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1202", "_type": "noun", "noun": "pulsed-inductive thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1203", "_type": "noun", "noun": "magnetic-field oscillating amplified thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1204", "_type": "noun", "noun": "solar-thermal rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1205", "_type": "noun", "noun": "radioisotope rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1206", "_type": "noun", "noun": "nuclear-electric rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1207", "_type": "noun", "noun": "nuclear pulse propulsion", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1208", "_type": "noun", "noun": "electric sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1209", "_type": "noun", "noun": "magnetic sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1210", "_type": "noun", "noun": "mini-magnetospheric plasma propulsion", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1211", "_type": "noun", "noun": "gas-core reactor rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1212", "_type": "noun", "noun": "nuclear salt-water rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1213", "_type": "noun", "noun": "fission sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1214", "_type": "noun", "noun": "antimatter-catalysed nuclear pulse propulsion", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1215", "_type": "noun", "noun": "antimatter rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1216", "_type": "noun", "noun": "Bussard ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1217", "_type": "noun", "noun": "Caplan thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1218", "_type": "noun", "noun": "RF resonant cavity thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1219", "_type": "noun", "noun": "gravity-based pitch drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1220", "_type": "noun", "noun": "bias drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1221", "_type": "noun", "noun": "disjunction drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1222", "_type": "noun", "noun": "diametric drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1223", "_type": "noun", "noun": "vacuum energy based differential sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1224", "_type": "noun", "noun": "Alcubierre warp drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1225", "_type": "noun", "noun": "photon rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1226", "_type": "noun", "noun": "photonic laser thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1227", "_type": "noun", "noun": "quantum vacuum thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1228", "_type": "noun", "noun": "reactionless drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1229", "_type": "noun", "noun": "Abraham-Minkowski drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1230", "_type": "noun", "noun": "Heim drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1231", "_type": "noun", "noun": "gyroscopic inertial thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1232", "_type": "noun", "noun": "anti-gravity engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
-{"_id": "NOUN1233", "_type": "noun", "noun": "pulse detonation engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN787", "_type": "noun", "noun": "great insterstellar migrations", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN788", "_type": "noun", "noun": "the passage of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN789", "_type": "noun", "noun": "the breadth and depth of its feelings", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN790", "_type": "noun", "noun": "the breadth and depth of the universe", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN791", "_type": "noun", "noun": "the spaces between the multiverse", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN792", "_type": "noun", "noun": "abstract reasoning in neural networks", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN793", "_type": "noun", "noun": "the way things used to be", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN794", "_type": "noun", "noun": "time", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN795", "_type": "noun", "noun": "the concept of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN796", "_type": "noun", "noun": "lifetimes", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN797", "_type": "noun", "noun": "ambient energy theory", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN798", "_type": "noun", "noun": "atmospheric gases", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN799", "_type": "noun", "noun": "possible biospheres", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN800", "_type": "noun", "noun": "water", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN801", "_type": "noun", "noun": "Earthshine", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN802", "_type": "noun", "noun": "moonllight", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN803", "_type": "noun", "noun": "sunlight", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN804", "_type": "noun", "noun": "paint", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN805", "_type": "noun", "noun": "dreams", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN806", "_type": "noun", "noun": "ice", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN807", "_type": "noun", "noun": "radiation", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN808", "_type": "noun", "noun": "plasma", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN809", "_type": "noun", "noun": "mercury", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN810", "_type": "noun", "noun": "dust", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN811", "_type": "noun", "noun": "methane", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN812", "_type": "noun", "noun": "diamonds", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN813", "_type": "noun", "noun": "sapphires", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN814", "_type": "noun", "noun": "rubies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN815", "_type": "noun", "noun": "gemstones", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN816", "_type": "noun", "noun": "glass", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN817", "_type": "noun", "noun": "lightning", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN818", "_type": "noun", "noun": "hopes", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN819", "_type": "noun", "noun": "whimsies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN820", "_type": "noun", "noun": "minerals", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN821", "_type": "noun", "noun": "lava", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN822", "_type": "noun", "noun": "rocks", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN823", "_type": "noun", "noun": "galaxies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN824", "_type": "noun", "noun": "micro-organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN825", "_type": "noun", "noun": "stars", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN826", "_type": "noun", "noun": "micro-singularities", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN827", "_type": "noun", "noun": "mountains", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN828", "_type": "noun", "noun": "mist", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN829", "_type": "noun", "noun": "eclipses", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN830", "_type": "noun", "noun": "sunsets", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN831", "_type": "noun", "noun": "sunrises", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN832", "_type": "noun", "noun": "anxieties", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN833", "_type": "noun", "noun": "moons", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN834", "_type": "noun", "noun": "fears", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN835", "_type": "noun", "noun": "nightmares", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN836", "_type": "noun", "noun": "snow", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN837", "_type": "noun", "noun": "silica", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN838", "_type": "noun", "noun": "graphite", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN839", "_type": "noun", "noun": "granite", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN840", "_type": "noun", "noun": "carbon", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN841", "_type": "noun", "noun": "tar", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN842", "_type": "noun", "noun": "oil", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN843", "_type": "noun", "noun": "sulfur", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN844", "_type": "noun", "noun": "microbes", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN845", "_type": "noun", "noun": "single-cellular organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN846", "_type": "noun", "noun": "multi-cellular organisms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN847", "_type": "noun", "noun": "lifeforms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN848", "_type": "noun", "noun": "life", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN849", "_type": "noun", "noun": "insights", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN850", "_type": "noun", "noun": "memories", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN851", "_type": "noun", "noun": "epiphanies", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN852", "_type": "noun", "noun": "reveries", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN853", "_type": "noun", "noun": "hydrocarbon", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN854", "_type": "noun", "noun": "atoms", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN855", "_type": "noun", "noun": "particles", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN856", "_type": "noun", "noun": "flowers", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN857", "_type": "noun", "noun": "gold", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN858", "_type": "noun", "noun": "silver", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN859", "_type": "noun", "noun": "blood", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN860", "_type": "noun", "noun": "sand", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN861", "_type": "noun", "noun": "vortices", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN862", "_type": "noun", "noun": "bronze", "nounType": {"_type": "reference", "_ref": "lqd1"}}
+{"_id": "NOUN863", "_type": "noun", "noun": "weapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN864", "_type": "noun", "noun": "cannon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN865", "_type": "noun", "noun": "bomb", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN866", "_type": "noun", "noun": "superweapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN867", "_type": "noun", "noun": "virus", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN868", "_type": "noun", "noun": "computer memory core", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN869", "_type": "noun", "noun": "biosphere", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN870", "_type": "noun", "noun": "nanoswarm", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN871", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN872", "_type": "noun", "noun": "bioweapon", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN873", "_type": "noun", "noun": "rage virus", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN874", "_type": "noun", "noun": "trebuchet", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN875", "_type": "noun", "noun": "catapult", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN876", "_type": "noun", "noun": "biohack", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN877", "_type": "noun", "noun": "laser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN878", "_type": "noun", "noun": "pathogen", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN879", "_type": "noun", "noun": "bioagent", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN880", "_type": "noun", "noun": "poison", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN881", "_type": "noun", "noun": "missile", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN882", "_type": "noun", "noun": "injection", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN883", "_type": "noun", "noun": "knife", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN884", "_type": "noun", "noun": "grater", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN885", "_type": "noun", "noun": "flamethrower", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN886", "_type": "noun", "noun": "grenade", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN887", "_type": "noun", "noun": "spear", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN888", "_type": "noun", "noun": "cloudburst", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN889", "_type": "noun", "noun": "wildfire", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN890", "_type": "noun", "noun": "genophage", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN891", "_type": "noun", "noun": "pistol", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN892", "_type": "noun", "noun": "gun", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN893", "_type": "noun", "noun": "taser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN894", "_type": "noun", "noun": "halberd", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN895", "_type": "noun", "noun": "array", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN896", "_type": "noun", "noun": "needle", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN897", "_type": "noun", "noun": "orb", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN898", "_type": "noun", "noun": "saber", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN899", "_type": "noun", "noun": "modulator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN900", "_type": "noun", "noun": "turret", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN901", "_type": "noun", "noun": "whip", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN902", "_type": "noun", "noun": "claymore", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN903", "_type": "noun", "noun": "revolver", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN904", "_type": "noun", "noun": "mortar", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN905", "_type": "noun", "noun": "arrow", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN906", "_type": "noun", "noun": "ordnance", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN907", "_type": "noun", "noun": "howitzer", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN908", "_type": "noun", "noun": "torpedo", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN909", "_type": "noun", "noun": "beam", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN910", "_type": "noun", "noun": "ray", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN911", "_type": "noun", "noun": "rifle", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN912", "_type": "noun", "noun": "raygun", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN913", "_type": "noun", "noun": "suit", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN914", "_type": "noun", "noun": "machine", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN915", "_type": "noun", "noun": "phaser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN916", "_type": "noun", "noun": "blaster", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN917", "_type": "noun", "noun": "neuralyzer", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN918", "_type": "noun", "noun": "power loader", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN919", "_type": "noun", "noun": "replicator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN920", "_type": "noun", "noun": "reverberating carboniser", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN921", "_type": "noun", "noun": "bioreactor", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN922", "_type": "noun", "noun": "reactor core", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN923", "_type": "noun", "noun": "rocket", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN924", "_type": "noun", "noun": "generator", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN925", "_type": "noun", "noun": "noose", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN926", "_type": "noun", "noun": "tether", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN927", "_type": "noun", "noun": "Omega-13", "nounType": {"_type": "reference", "_ref": "wpn1"}}
+{"_id": "NOUN928", "_type": "noun", "noun": "spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN929", "_type": "noun", "noun": "transport ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN930", "_type": "noun", "noun": "vessel", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN931", "_type": "noun", "noun": "freighter", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN932", "_type": "noun", "noun": "warship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN933", "_type": "noun", "noun": "starship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN934", "_type": "noun", "noun": "research spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN935", "_type": "noun", "noun": "spacecraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN936", "_type": "noun", "noun": "battleship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN937", "_type": "noun", "noun": "starliner", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN938", "_type": "noun", "noun": "basestar", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN939", "_type": "noun", "noun": "cruiser", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN940", "_type": "noun", "noun": "Dreadnought", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN941", "_type": "noun", "noun": "space raft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN942", "_type": "noun", "noun": "space station", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN943", "_type": "noun", "noun": "Ranger spaceplane", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN944", "_type": "noun", "noun": "spaceplane", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN945", "_type": "noun", "noun": "exploration spaceship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN946", "_type": "noun", "noun": "starcraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN947", "_type": "noun", "noun": "colonisation ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN948", "_type": "noun", "noun": "mothership", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN949", "_type": "noun", "noun": "destroyer", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN950", "_type": "noun", "noun": "training ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN951", "_type": "noun", "noun": "supership", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN952", "_type": "noun", "noun": "frigate", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN953", "_type": "noun", "noun": "patrol craft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN954", "_type": "noun", "noun": "rocket ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN955", "_type": "noun", "noun": "carrier", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN956", "_type": "noun", "noun": "star destroyer", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN957", "_type": "noun", "noun": "assault carrier", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN958", "_type": "noun", "noun": "generational ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN959", "_type": "noun", "noun": "Starfury fighter", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN960", "_type": "noun", "noun": "lander", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN961", "_type": "noun", "noun": "Ravager M-Ship", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN962", "_type": "noun", "noun": "deep space interceptor", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN963", "_type": "noun", "noun": "battle cruiser", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN964", "_type": "noun", "noun": "orbital spacecraft", "nounType": {"_type": "reference", "_ref": "tsp1"}}
+{"_id": "NOUN965", "_type": "noun", "noun": "cybernetics", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN966", "_type": "noun", "noun": "laser weapons", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN967", "_type": "noun", "noun": "spacefaring tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN968", "_type": "noun", "noun": "interplanetary tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN969", "_type": "noun", "noun": "nuclear fusion", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN970", "_type": "noun", "noun": "space colonies", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN971", "_type": "noun", "noun": "nanotech", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN972", "_type": "noun", "noun": "starfaring tech", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN973", "_type": "noun", "noun": "antimatter power", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN974", "_type": "noun", "noun": "interstellar spacecraft", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN975", "_type": "noun", "noun": "stellar engines", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN976", "_type": "noun", "noun": "inter-galactic migration", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN977", "_type": "noun", "noun": "orbital space stations", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN978", "_type": "noun", "noun": "geostationary satellites", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN979", "_type": "noun", "noun": "alien artifacts", "nounType": {"_type": "reference", "_ref": "tec1"}}
+{"_id": "NOUN980", "_type": "noun", "noun": "starhive", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN981", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN982", "_type": "noun", "noun": "scourge", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN983", "_type": "noun", "noun": "kiss", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN984", "_type": "noun", "noun": "fortune", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN985", "_type": "noun", "noun": "wizard", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN986", "_type": "noun", "noun": "claw", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN987", "_type": "noun", "noun": "doom", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN988", "_type": "noun", "noun": "pyre", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN989", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN990", "_type": "noun", "noun": "rapture", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN991", "_type": "noun", "noun": "killzone", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN992", "_type": "noun", "noun": "killstrike", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN993", "_type": "noun", "noun": "maelstrom", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN994", "_type": "noun", "noun": "hacov", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN995", "_type": "noun", "noun": "cataclysm", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN996", "_type": "noun", "noun": "calamity", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN997", "_type": "noun", "noun": "judgement", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN998", "_type": "noun", "noun": "annihilation", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN999", "_type": "noun", "noun": "kerfuffle", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1000", "_type": "noun", "noun": "retribution", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1001", "_type": "noun", "noun": "zenith", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1002", "_type": "noun", "noun": "cascade", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1003", "_type": "noun", "noun": "omen", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1004", "_type": "noun", "noun": "oblivion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1005", "_type": "noun", "noun": "ultimatum", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1006", "_type": "noun", "noun": "spire", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1007", "_type": "noun", "noun": "megadeth", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1008", "_type": "noun", "noun": "defenestrate", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1009", "_type": "noun", "noun": "garrot", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1010", "_type": "noun", "noun": "galvanise", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1011", "_type": "noun", "noun": "captivate", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1012", "_type": "noun", "noun": "malice", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1013", "_type": "noun", "noun": "birthright", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1014", "_type": "noun", "noun": "conquest", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1015", "_type": "noun", "noun": "revelation", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1016", "_type": "noun", "noun": "acceptance", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1017", "_type": "noun", "noun": "bombast", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1018", "_type": "noun", "noun": "cacophony", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1019", "_type": "noun", "noun": "candor", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1020", "_type": "noun", "noun": "cathedral", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1021", "_type": "noun", "noun": "collusion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1022", "_type": "noun", "noun": "consent", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1023", "_type": "noun", "noun": "cornucopia", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1024", "_type": "noun", "noun": "curmudgeon", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1025", "_type": "noun", "noun": "deed", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1026", "_type": "noun", "noun": "moment", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1027", "_type": "noun", "noun": "epitome", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1028", "_type": "noun", "noun": "disentangle", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1029", "_type": "noun", "noun": "escape", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1030", "_type": "noun", "noun": "lament", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1031", "_type": "noun", "noun": "latitude", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1032", "_type": "noun", "noun": "longitude", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1033", "_type": "noun", "noun": "limerence", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1034", "_type": "noun", "noun": "luminescence", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1035", "_type": "noun", "noun": "magnet", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1036", "_type": "noun", "noun": "melancholy", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1037", "_type": "noun", "noun": "nougat", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1038", "_type": "noun", "noun": "oscillate", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1039", "_type": "noun", "noun": "perspective", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1040", "_type": "noun", "noun": "viewpoint", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1041", "_type": "noun", "noun": "examination", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1042", "_type": "noun", "noun": "poet", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1043", "_type": "noun", "noun": "prophet", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1044", "_type": "noun", "noun": "emotion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1045", "_type": "noun", "noun": "imagination", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1046", "_type": "noun", "noun": "expression", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1047", "_type": "noun", "noun": "ideal", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1048", "_type": "noun", "noun": "constant", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1049", "_type": "noun", "noun": "worth", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1050", "_type": "noun", "noun": "purpose", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1051", "_type": "noun", "noun": "strike", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1052", "_type": "noun", "noun": "spectacle", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1053", "_type": "noun", "noun": "flame", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1054", "_type": "noun", "noun": "dream", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1055", "_type": "noun", "noun": "peach", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1056", "_type": "noun", "noun": "champion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1057", "_type": "noun", "noun": "winner", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1058", "_type": "noun", "noun": "beast", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1059", "_type": "noun", "noun": "murder", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1060", "_type": "noun", "noun": "smoke", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1061", "_type": "noun", "noun": "death blow", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1062", "_type": "noun", "noun": "dispatch", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1063", "_type": "noun", "noun": "conclusion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1064", "_type": "noun", "noun": "weapon", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1065", "_type": "noun", "noun": "death", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1066", "_type": "noun", "noun": "slaughter", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1067", "_type": "noun", "noun": "noodle", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1068", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1069", "_type": "noun", "noun": "sushi", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1070", "_type": "noun", "noun": "burrito", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1071", "_type": "noun", "noun": "cheeto", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1072", "_type": "noun", "noun": "soup", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1073", "_type": "noun", "noun": "crisp", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1074", "_type": "noun", "noun": "slice", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1075", "_type": "noun", "noun": "reverance", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1076", "_type": "noun", "noun": "ricochet", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1077", "_type": "noun", "noun": "rigour", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1078", "_type": "noun", "noun": "rebound", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1079", "_type": "noun", "noun": "grasp", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1080", "_type": "noun", "noun": "skedaddle", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1081", "_type": "noun", "noun": "secret", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1082", "_type": "noun", "noun": "potential", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1083", "_type": "noun", "noun": "tact", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1084", "_type": "noun", "noun": "poison", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1085", "_type": "noun", "noun": "woo", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1086", "_type": "noun", "noun": "vortex", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1087", "_type": "noun", "noun": "bounty", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1088", "_type": "noun", "noun": "aggresion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1089", "_type": "noun", "noun": "evil", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1090", "_type": "noun", "noun": "life", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1091", "_type": "noun", "noun": "panic", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1092", "_type": "noun", "noun": "repulse", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1093", "_type": "noun", "noun": "thought", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1094", "_type": "noun", "noun": "cruelty", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1095", "_type": "noun", "noun": "defiance", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1096", "_type": "noun", "noun": "success", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1097", "_type": "noun", "noun": "trouble", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1098", "_type": "noun", "noun": "dome", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1099", "_type": "noun", "noun": "starquake", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1100", "_type": "noun", "noun": "revenge", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1101", "_type": "noun", "noun": "destroyer", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1102", "_type": "noun", "noun": "hawk", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1103", "_type": "noun", "noun": "fist", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1104", "_type": "noun", "noun": "demon", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1105", "_type": "noun", "noun": "scimitar", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1106", "_type": "noun", "noun": "scorpion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1107", "_type": "noun", "noun": "laser", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1108", "_type": "noun", "noun": "honor", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1109", "_type": "noun", "noun": "passion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1110", "_type": "noun", "noun": "flower", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1111", "_type": "noun", "noun": "dawn", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1112", "_type": "noun", "noun": "delivery", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1113", "_type": "noun", "noun": "wings", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1114", "_type": "noun", "noun": "swan", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1115", "_type": "noun", "noun": "serpent", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1116", "_type": "noun", "noun": "angel", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1117", "_type": "noun", "noun": "star", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1118", "_type": "noun", "noun": "dancer", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1119", "_type": "noun", "noun": "titan", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1120", "_type": "noun", "noun": "spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1121", "_type": "noun", "noun": "transport ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1122", "_type": "noun", "noun": "vessels", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1123", "_type": "noun", "noun": "freighters", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1124", "_type": "noun", "noun": "warships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1125", "_type": "noun", "noun": "starships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1126", "_type": "noun", "noun": "research spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1127", "_type": "noun", "noun": "spacecraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1128", "_type": "noun", "noun": "battleships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1129", "_type": "noun", "noun": "starliners", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1130", "_type": "noun", "noun": "basestars", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1131", "_type": "noun", "noun": "cruisers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1132", "_type": "noun", "noun": "Dreadnoughts", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1133", "_type": "noun", "noun": "space rafts", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1134", "_type": "noun", "noun": "space stations", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1135", "_type": "noun", "noun": "Ranger spaceplanes", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1136", "_type": "noun", "noun": "spaceplanes", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1137", "_type": "noun", "noun": "exploration spaceships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1138", "_type": "noun", "noun": "starcraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1139", "_type": "noun", "noun": "colonisation ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1140", "_type": "noun", "noun": "motherships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1141", "_type": "noun", "noun": "destroyers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1142", "_type": "noun", "noun": "training ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1143", "_type": "noun", "noun": "superships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1144", "_type": "noun", "noun": "frigates", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1145", "_type": "noun", "noun": "patrol craft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1146", "_type": "noun", "noun": "rocket ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1147", "_type": "noun", "noun": "carriers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1148", "_type": "noun", "noun": "star destroyers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1149", "_type": "noun", "noun": "assault carriers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1150", "_type": "noun", "noun": "generational ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1151", "_type": "noun", "noun": "Starfury fighters", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1152", "_type": "noun", "noun": "landers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1153", "_type": "noun", "noun": "Ravager M-Ships", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1154", "_type": "noun", "noun": "deep space interceptors", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1155", "_type": "noun", "noun": "battle cruisers", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1156", "_type": "noun", "noun": "orbital spacecraft", "nounType": {"_type": "reference", "_ref": "tsps1"}}
+{"_id": "NOUN1157", "_type": "noun", "noun": "solid rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1158", "_type": "noun", "noun": "bipropellant rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1159", "_type": "noun", "noun": "ion thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1160", "_type": "noun", "noun": "electrostatic ion thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1161", "_type": "noun", "noun": "field-emission electric propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1162", "_type": "noun", "noun": "hall effect thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1163", "_type": "noun", "noun": "colloid thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1164", "_type": "noun", "noun": "electrothermal thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1165", "_type": "noun", "noun": "arcjet rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1166", "_type": "noun", "noun": "microwave arcjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1167", "_type": "noun", "noun": "helicon double-layer thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1168", "_type": "noun", "noun": "plasma propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1169", "_type": "noun", "noun": "magnetoplasmadynamic thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1170", "_type": "noun", "noun": "electrodeless plasma thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1171", "_type": "noun", "noun": "pulsed inductive thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1172", "_type": "noun", "noun": "pulsed plasma thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1173", "_type": "noun", "noun": "variable specific impulse magnetoplasma rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1174", "_type": "noun", "noun": "mass driver", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1175", "_type": "noun", "noun": "lightweight hydrogen-fuelled turbojet engine with precooler", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1176", "_type": "noun", "noun": "hydrogen-fueled precooled airbreathing engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1177", "_type": "noun", "noun": "synergetic air breathing rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1178", "_type": "noun", "noun": "hybrid air-breathing rocket engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1179", "_type": "noun", "noun": "liquid air cycle engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1180", "_type": "noun", "noun": "air turbo ramjet engine with eXpander cycle", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1181", "_type": "noun", "noun": "supersonic combustion ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1182", "_type": "noun", "noun": "ramjet airbreathing jet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1183", "_type": "noun", "noun": "shock-induced combustion ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1184", "_type": "noun", "noun": "oblique detonation wave engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1185", "_type": "noun", "noun": "shock-ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1186", "_type": "noun", "noun": "solid-fuel rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1187", "_type": "noun", "noun": "hybrid rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1188", "_type": "noun", "noun": "monopropellant rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1189", "_type": "noun", "noun": "vectored engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1190", "_type": "noun", "noun": "solar sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1191", "_type": "noun", "noun": "chemical propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1192", "_type": "noun", "noun": "nuclear-fusion drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1193", "_type": "noun", "noun": "gravity drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1194", "_type": "noun", "noun": "axial fusion aero-spike turbine engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1195", "_type": "noun", "noun": "trace compression block engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1196", "_type": "noun", "noun": "liquid-fuel rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1197", "_type": "noun", "noun": "resistojet rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1198", "_type": "noun", "noun": "dual-mode propulsion rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1199", "_type": "noun", "noun": "tripropellant rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1200", "_type": "noun", "noun": "nuclear-thermal rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1201", "_type": "noun", "noun": "propulsive mass driver", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1202", "_type": "noun", "noun": "air-augmented rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1203", "_type": "noun", "noun": "pulsed-inductive thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1204", "_type": "noun", "noun": "magnetic-field oscillating amplified thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1205", "_type": "noun", "noun": "solar-thermal rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1206", "_type": "noun", "noun": "radioisotope rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1207", "_type": "noun", "noun": "nuclear-electric rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1208", "_type": "noun", "noun": "nuclear pulse propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1209", "_type": "noun", "noun": "electric sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1210", "_type": "noun", "noun": "magnetic sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1211", "_type": "noun", "noun": "mini-magnetospheric plasma propulsion engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1212", "_type": "noun", "noun": "gas-core reactor rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1213", "_type": "noun", "noun": "nuclear salt-water rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1214", "_type": "noun", "noun": "fission sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1215", "_type": "noun", "noun": "antimatter-catalysed nuclear pulse propulsion", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1216", "_type": "noun", "noun": "antimatter rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1217", "_type": "noun", "noun": "Bussard ramjet engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1218", "_type": "noun", "noun": "Caplan thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1219", "_type": "noun", "noun": "RF resonant cavity thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1220", "_type": "noun", "noun": "gravity-based pitch drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1221", "_type": "noun", "noun": "bias drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1222", "_type": "noun", "noun": "disjunction drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1223", "_type": "noun", "noun": "diametric drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1224", "_type": "noun", "noun": "vacuum energy based differential sail", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1225", "_type": "noun", "noun": "Alcubierre warp drive engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1226", "_type": "noun", "noun": "photon rocket", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1227", "_type": "noun", "noun": "photonic laser thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1228", "_type": "noun", "noun": "quantum vacuum thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1229", "_type": "noun", "noun": "reactionless drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1230", "_type": "noun", "noun": "Abraham-Minkowski drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1231", "_type": "noun", "noun": "Heim drive", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1232", "_type": "noun", "noun": "gyroscopic inertial thruster", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1233", "_type": "noun", "noun": "anti-gravity engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
+{"_id": "NOUN1234", "_type": "noun", "noun": "pulse detonation engine", "nounType": {"_type": "reference", "_ref": "eng1"}}
 {"_id": "tsp1", "_type": "nounType", "nounType": "transport"}
 {"_id": "wpn1", "_type": "nounType", "nounType": "weapon"}
 {"_id": "lqd1", "_type": "nounType", "nounType": "liquid"}
