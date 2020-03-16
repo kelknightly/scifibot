@@ -2,7 +2,6 @@ import requests
 import json
 import random
 import time
-from random_word import RandomWords
 import string
 import names
 
