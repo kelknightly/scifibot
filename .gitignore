@@ -1,6 +1,6 @@
 node_modules
 
-schemas/scibot-quote.json
+schemas/scifibot-quote.json
 schemas/scifibot-sentence.json
 schemas/twitter_credentials.json
 .vscode
