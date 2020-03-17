@@ -4,12 +4,7 @@ import random
 import time
 import string
 import names
-import hashlib
-from twython import Twython
 
-
-with open('schemas/scifibot-sentence.json') as json_tweets:
-    tweet_control = json.load(json_tweets)
 
 def get_noun_list(query):
     response = requests.get(query)
@@ -341,36 +336,39 @@ structure54 = 'The ' + secondary_actors + ' onboard the distant ' + transport_de
 
 physical_space = ['valley', 'cavern', 'cave', 'crevasse']
 structure55 = 'In a shocking finding, scientists have discovered a ' + group + ' ' + secondary_actors + ' living in a previously unexplored ' + random.choice(physical_space) + '. Even more surprising to the researchers is the fact that the ' + secondary_actors + ' appear to be both ' + primary_actor_desc + ' and ' + secondary_actor_desc + '.'
+print(structure55)
+print(len(structure55))
+quit()
+
+
+
 tweets = []
-tweets.extend([structure1, structure2, structure3, structure4, structure5, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure39, structure40, structure41, structure42, structure43, structure44, structure45, structure46, structure47, structure48, structure49, structure50, structure51, structure52, structure53, structure54, structure55])
+tweets.extend([structure1, structure2, structure3, structure4, structure5, structure7, structure8, structure9, structure10, structure11, structure12, structure13, structure14, structure15, structure16, structure17, structure18, structure19, structure20, structure21, structure22, structure23, structure24, structure25, structure26, structure27, structure28, structure29, structure30, structure31, structure32, structure33, structure34, structure35, structure36, structure37, structure38, structure39, structure40, structure41, structure42, structure43, structure44, structure45, structure46, structure47, structure48, structure49, structure50, structure51, structure52, structure53, structure54])
 
 under280 = []
 for i in tweets:
     if len(i) <= 280:
         under280.append(i)
 
-tweet = random.choice(under280)
-tweethash = hashlib.md5(tweet.encode('utf-8')).hexdigest()
 
-while tweethash in tweet_control['tweet hashes']:
-    tweet = random.choice(under280)
-    tweethash = hashlib.md5(tweet.encode('utf-8')).hexdigest()
+response = requests.get("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"quote\"]{quote,author->{author},source->{source}}")
+DictA = response.json()
 
-tweet_control['tweet hashes'].append(tweethash)
-tweet_control['tweet count'] += 1
-with open('schemas/scifibot-sentence.json', 'w') as outfile:
-    json.dump(tweet_control, outfile)
+sentences = []
+for result in DictA['result']:
+    author = result['author']['author']
+    quote = result['quote']
+    source = result['source']['source']
+    sentence = quote + ' ~ ' + author + ', ' + source
+    sentences.append(sentence)
 
-# Load credentials from json file
-with open("schemas/twitter_credentials.json", "r") as file:
-    creds = json.load(file)
 
-# Instantiate an object
-twitter = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'], creds['ACCESS_TOKEN'], creds['ACCESS_SECRET'])
-
-twitter.update_status(status=tweet)
-print('TWEETED: ', tweet)
+tweet_sentence = random.choice(under280)
+print(tweet_sentence)
 quit()
+
+tweet_quote = random.choice(sentences)
+print(tweet_quote)
 
 print('------------------------')
 
