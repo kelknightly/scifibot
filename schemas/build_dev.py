@@ -5,262 +5,12 @@ import time
 import string
 import names
 
-
-def get_noun_list(query):
-    response = requests.get(query)
-    DictA = response.json()
-    nouns = []
-    for result in DictA['result']:
-        nouns.append({
-            "noun": result['noun'],
-            "type": result['nounType']['nounType']
-        })
-    return(nouns)
-
-def get_noun_list_for_type(nouns, nounType_filter):
-    noun_list = []
-    for noun in nouns:
-        if noun['type'] == nounType_filter:
-            noun_list.append(noun['noun'])
-    return noun_list
-
-
-def get_description_list(query):
-    response = requests.get(query)
-    DictA = response.json()
-    descriptions = []
-    for result in DictA['result']:
-        descriptions.append({
-            "description": result['description'],
-            "type": result['nounType']['nounType']
-        })
-    return(descriptions)
-
-def get_description_list_for_type(descriptions, nounType_filter):
-    description_list = []
-    for description in descriptions:
-        if description['type'] == nounType_filter:
-            description_list.append(description['description'])
-    return description_list
-
-
-def get_action_list(query):
-    response = requests.get(query)
-    DictA = response.json()
-    actions = []
-    for result in DictA['result']:
-        actions.append({
-            "action": result['action'],
-            "type": result['actionType']['actionType']
-        })
-    return(actions)
-
-def get_action_list_for_type(actions, actionType_filter):
-    action_list = []
-    for action in actions:
-        if action['type'] == actionType_filter:
-            action_list.append(action['action'])
-    return action_list
-
-def bruteForceRandomWord(part, length):
-    url = "https://wordsapiv1.p.rapidapi.com/words/"
-    querystring = {"random":"true"}
-    headers = {
-        'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
-        'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
-        }
-
-    response = requests.request("GET", url, headers=headers, params=querystring)
-
-    js = response.json()
-    return js['word']
-
-nouns = get_noun_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"noun\"]{noun,nounType->{nounType}}")
-descriptions = get_description_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
-actions = get_action_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"action\"]{action,actionType->{actionType}}")
-
-# Getting lists of Nouns
-list_primary_actor = get_noun_list_for_type(nouns, 'primary actor')
-list_secondary_actor = get_noun_list_for_type(nouns, 'secondary actor')
-list_actor = list_primary_actor + list_secondary_actor
-list_in_place = get_noun_list_for_type(nouns, 'in-place')
-list_on_place = get_noun_list_for_type(nouns, 'on-place')
-list_place = list_in_place + list_on_place
-list_weapon = get_noun_list_for_type(nouns, 'weapon')
-list_transport = get_noun_list_for_type(nouns, 'transport')
-list_transport_damage_noun = get_noun_list_for_type(nouns, 'transport damage')
-list_regime = get_noun_list_for_type(nouns, 'politics')
-list_group = get_noun_list_for_type(nouns, 'group')
-list_secondary_actor_plural = get_noun_list_for_type(nouns, 'secondary actors plural')
-list_measuring_things = get_noun_list_for_type(nouns, 'measuring')
-list_liquid = get_noun_list_for_type(nouns, 'liquid')
-list_tech = get_noun_list_for_type(nouns, 'tech')
-list_transport_name = get_noun_list_for_type(nouns, 'transport name')
-list_transports = get_noun_list_for_type(nouns, 'transport plural')
-list_engine = get_noun_list_for_type(nouns, 'engine')
-
-# Getting lists of Descriptions
-list_in_place_description = get_description_list_for_type(descriptions, 'in-place')
-list_on_place_description = get_description_list_for_type(descriptions, 'on-place')
-list_place_description = list_in_place_description + list_on_place_description
-list_primary_actor_description = get_description_list_for_type(descriptions, 'primary actor')
-list_secondary_actor_description = get_description_list_for_type(descriptions, 'secondary actor')
-list_actor_description = list_primary_actor_description + list_secondary_actor_description
-list_weapon_description = get_description_list_for_type(descriptions, 'weapon')
-list_transport_description = get_description_list_for_type(descriptions, 'transport')
-list_transport_equipped = get_description_list_for_type(descriptions, 'transport equipped')
-list_a__society = get_description_list_for_type(descriptions, 'a__society')
-list_liquid_desc = get_description_list_for_type(descriptions, 'liquid')
-list_society_is_a__ = get_description_list_for_type(descriptions, 'society_is_a__')
-list_crust = get_description_list_for_type(descriptions, 'crust')
-list_sky = get_description_list_for_type(descriptions, 'sky')
-list_transport_name_desc = get_description_list_for_type(descriptions, 'transport name')
-
-# Getting lists of Actions
-list_place_action = get_action_list_for_type(actions, 'place')
-list_weapon_action = get_action_list_for_type(actions, 'weapon')
-list_transport_action = get_action_list_for_type(actions, 'transport')
-list_sentient_positive_action = get_action_list_for_type(actions, 'sentient positive')
-list_sentient_negative_action = get_action_list_for_type(actions, 'sentient negative')
-list_sentient_action = list_sentient_positive_action + list_sentient_negative_action
-list_transport_function = get_action_list_for_type(actions, 'transport function')
-list_transport_damage_action = get_action_list_for_type(actions, 'transport damage')
-list_suddenly = get_action_list_for_type(actions, 'suddenly')
-list_sentient_action_plural = get_action_list_for_type(actions, 'sentient plural')
-list_transport_about = get_action_list_for_type(actions, 'transport about')
-list_looking_for = get_action_list_for_type(actions, 'looking for')
-
-# Randomly selecting a word within each list
-in_place = random.choice(list_in_place)
-on_place = random.choice(list_on_place)
-place = random.choice(list_place)
-place_action = random.choice(list_place_action)
-place_desc = random.choice(list_place_description)
-secondary_actor = random.choice(list_secondary_actor)
-primary_actor = random.choice(list_primary_actor)
-weapon_action = random.choice(list_weapon_action)
-transport_action = random.choice(list_transport_action)
-sentient_positive_action = random.choice(list_sentient_positive_action)
-sentient_negative_action = random.choice(list_sentient_negative_action)
-sentient_action = random.choice(list_sentient_action)
-primary_actor_desc = random.choice(list_primary_actor_description)
-secondary_actor_desc = random.choice(list_secondary_actor_description)
-weapon_desc = random.choice(list_weapon_description)
-transport_desc = random.choice(list_transport_description)
-weapon = random.choice(list_weapon)
-transport = random.choice(list_transport)
-actor = random.choice(list_actor)
-actor_desc = random.choice(list_actor_description)
-transport_function = random.choice(list_transport_function)
-transport_damage_action = random.choice(list_transport_damage_action)
-transport_equipped = random.choice(list_transport_equipped)
-transport_damage_noun = random.choice(list_transport_damage_noun)
-regime = random.choice(list_regime)
-group = random.choice(list_group)
-a__society = random.choice(list_a__society)
-secondary_actors = random.choice(list_secondary_actor_plural)
-measuring_things = random.choice(list_measuring_things)
-suddenly = random.choice(list_suddenly)
-liquid = random.choice(list_liquid)
-liquid_desc = random.choice(list_liquid_desc)
-sentient_action_plural = random.choice(list_sentient_action_plural)
-society_is_a__ = random.choice(list_society_is_a__)
-tech = random.choice(list_tech)
-crust = random.choice(list_crust)
-sky = random.choice(list_sky)
-transport_name_noun = random.choice(list_transport_name)
-transport_name_desc = random.choice(list_transport_name_desc)
-transport_about = random.choice(list_transport_about)
-transports = random.choice(list_transports)
-engine = random.choice(list_engine)
-looking_for = random.choice(list_looking_for)
-
-# Randomising a second time for variables that are used twice in a sentence
-place2 = random.choice(list_place)
-place2_desc = random.choice(list_place_description)
-secondary_actor2 = random.choice(list_secondary_actor)
-transport_equipped2 = random.choice(list_transport_equipped)
-transport_function2 = random.choice(list_transport_function)
-secondary_actor_desc2 = random.choice(list_secondary_actor_description)
-primary_actor2 = random.choice(list_primary_actor)
-
-def randomiser_duplicator(val1, val2, val_list):
-    while val1 == val2:
-        val2 = random.choice(val_list)
-        if val1 != val2:
-            return val2
-    return val2
-
-place2 = randomiser_duplicator(place, place2, list_place)
-place2_desc = randomiser_duplicator(place_desc, place2_desc, list_place_description)
-secondary_actor2 = randomiser_duplicator(secondary_actor, secondary_actor2, list_secondary_actor)
-transport_equipped2 = randomiser_duplicator(transport_equipped, transport_equipped2, list_transport_equipped)
-transport_function2 = randomiser_duplicator(transport_function, transport_function2, list_transport_function)
-secondary_actor_desc2 = randomiser_duplicator(secondary_actor_desc, secondary_actor_desc2, list_secondary_actor_description)
-primary_actor2 = randomiser_duplicator(primary_actor, primary_actor2, list_primary_actor)
-
-# Function to place 'a' or 'an' before a noun
-def article(i):
-    if i[0] in ('a','e','i','o','u','A','E','I','O','U'):
-        article = 'an'
-    elif i in ('useless','euphoric','euphemism','usurper','eunuch','eulogy','upsilon meson','eugenist','Ukrainian','utilitarian'):
-        article = 'a'
-    else: 
-        article = 'a'
-    return article
-
-primary_actor_article_on_desc = article(primary_actor_desc)
-secondary_actor_article_on_desc = article(secondary_actor_desc)
-place_article_on_desc = article(place_desc)
-weapon_article_on_desc = article(weapon_desc)
-transport_article_on_desc = article(transport_desc)
-actor_article_on_desc = article(actor_desc)
-primary_actor_article = article(primary_actor)
-secondary_actor_article = article(secondary_actor)
-place_article = article(place)
-weapon_article = article(weapon)
-transport_article = article(transport)
-actor_article = article(actor)
-a__society_article = article(list_a__society)
-secondary_actor2_article = article(secondary_actor2)
-place2_article = article(place2)
-primary_actor2_article = article(primary_actor2)
-place2_article_on_desc = article(place2_desc)
-society_is_a__article = article(society_is_a__)
-crust_article = article(crust)
-engine_article = article(engine)
-
-# Listing prepositions
-list_weapon_preposition = ['with', 'using']
-weapon_preposition = random.choice(list_weapon_preposition)
-list_transport_preposition = ['aboard', 'on']
-transport_preposition = random.choice(list_transport_preposition)
-
-if place in list_in_place:
-    place_prep = 'in'
-if place in list_on_place:
-    place_prep = 'on'
-
-list_pronoun = ['she', 'he']
-pronoun = random.choice(list_pronoun)
-# possessive pronoun
-if pronoun == 'she':
-    pos_pro = 'her'
-if pronoun == 'he':
-    pos_pro = 'his'
-
-list_planetsystemsector = ['Planet', 'System', 'Sector']
-planetsystemsector = random.choice(list_planetsystemsector)
-
-measuring = ['measuring', 'considering', 'tracking']
-measuring = random.choice(measuring)
-        
-verb = bruteForceRandomWord('verb', 10)
-noun1 = bruteForceRandomWord('noun', 10)
-noun2 = bruteForceRandomWord('noun', 10)
-name = verb.title() + ' ' + noun1.title() + ' the ' + noun2.title()
-
 # Sentence construction
+from scifisanity import scifisanity
+bot = scifisanity()
+bot.print_all_sentences()
+
+quit()
 
 structure1 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' named \'' + name + '\' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + '.'
 structure2 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_negative_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + '.'
@@ -268,15 +18,11 @@ structure3 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + 
 structure4 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + sentient_action + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' ' + place_prep + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure5 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
 structure7 = primary_actor_article_on_desc.title() + ' ' + primary_actor_desc + ' ' + primary_actor + ' ' + transport_preposition + ' ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '.'
-structure8 = primary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
+structure8 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' from ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ' ' + weapon_action + ' ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + '.'
 structure9 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '. History will remark on this for generations.'
 structure10 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' ' + place_action + ' ' + place_article_on_desc + ' ' + place_desc + ' ' + place + '. Lifetimes will pass before this moment is forgotten.'
 structure11 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' orbits ' + place2_article + ' ' + place2 + '. It is home to a ' + group + ' ' + secondary_actor_desc + ' ' + secondary_actors + ' looking for ' + looking_for + '.'
 
-if place == 'civilisation':
-    civ_soc = 'society'
-else:
-    civ_soc = 'civilisation'
 
 structure12 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' is home to ' + a__society_article + ' ' + a__society + ' ' + civ_soc + ' of ' + secondary_actors + '. They have acquired ' + weapon_article_on_desc + ' ' + weapon_desc + ' ' + weapon + ' and will use it for war.'
 structure13 = 'You have stumbled upon ' + transport_article_on_desc + ' ' + transport_desc + ' ' + transport + ' from ' + regime + '. It is equipped with ' + transport_equipped + ', and ' + transport_equipped2 + '.'
@@ -294,8 +40,6 @@ structure24 = regime.title() + ' has tasked you with tracking, capturing, and re
 structure25 = secondary_actor_article_on_desc.title() + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' orbits ' + place_article_on_desc + ' ' + place_desc + ' ' + place + ', ' + measuring + ' ' + measuring_things + '.'
 structure26 = transport_article_on_desc.title() + ' ' + transport_desc + ' ' + transport + ' you assumed to be friendly suddenly ' + suddenly + '.'
 
-list_alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-liquid_type = random.choice(['it rains', 'there are deep oceans of', 'there are clouds of', 'there are pools of', 'rivers run with', 'the skies are full of', 'there is an ocean of'])
 
 structure27 = str(random.randint(100,999)) + ' ' + 'light years away on the planet' + ' ' + bruteForceRandomWord('noun', 10).upper() + '-' + str(random.randint(1,100)) + random.choice(list_alpha) + ', ' + liquid_type + ' ' + liquid_desc + ' ' + liquid + '.'
 structure28 = 'I was ' + sentient_action_plural + ' ' + secondary_actor_article_on_desc + ' ' + secondary_actor_desc + ' ' + secondary_actor + ' the day the ' + secondary_actors + ' attacked. ' 
@@ -307,12 +51,9 @@ structure30 = 'Belay my previous order, ' + person_title + ' ' + string.capwords
 structure31 = 'The border outpost reports a contingent of ' + str(random.randint(2,20)) + ' ' + secondary_actor + ' ' + transports + ' within sensor range. Should hostilities erupt, we will be outgunned.'
 structure32 = 'The border outpost reports a contingent of ' + str(random.randint(2,20)) + ' ' + secondary_actor + ' ' + transports + ' within sensor range. We should try to maintain diplomatic relations.'
 
-stardate = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
-system_name = bruteForceRandomWord('noun', 5) + ' ' + bruteForceRandomWord('noun', 5)
 structure33 = 'Captain\'s Log, Stardate ' + stardate + '. We are cautiously entering the ' + string.capwords(system_name) + ' star system, ' + str(random.randint(2,20)) + ' days after receiving a distress call from '+ regime + ' colony. The garbled transmission reported the colony under attack.'
 structure34 = 'Captain\'s log, Stardate ' + stardate + '. Admiral ' + names.get_first_name() + ' and Lieutenant Commander ' + names.get_first_name() + ' of Starfleet Tactical have arrived to review the disappearance of New ' + bruteForceRandomWord('noun', 10).title() + ' colony. No sign remains of the ' + str(random.randint(100,1000)) + ' inhabitants.'
 
-roman_numeral = random.choice(['I','II','III','IV','V','VI','VII','VIII','X'])
 structure35 = 'Captain\'s Log, Stardate ' + stardate + '. We\'ve been ordered to Starbase ' +  str(random.randint(10,90)) + ' in orbit around ' + bruteForceRandomWord('noun', 10).title() + ' ' + roman_numeral + '. The ' + weapon_desc.title() + ' ' + weapon.title() + ' has been glitching and needs an urgent upgrade before another crewmember dies.'
 structure36 = actor_article_on_desc.title() + ' ' + actor_desc + ' ' + actor + ' drifts in empty space, following the path of a particular ' + secondary_actor +' through space-time.'
 structure37 = place_article_on_desc.title() + ' ' + place_desc + ' ' + place + ' orbits ' + place2_article_on_desc + ' ' + place2_desc + ' ' + place2 + '. Raging storms of ' + liquid_desc + ' ' + liquid + ' fill its skies.'
@@ -334,7 +75,6 @@ structure52 = primary_actor_article.title() + ' ' + primary_actor + ', codename 
 structure53 = 'We\'re taking a short detour to explore a port with a neutral market. Apparently you can get anything there. We hope to get a good deal on ' + transport_equipped + ' for our ' + transport + '.'
 structure54 = 'The ' + secondary_actors + ' onboard the distant ' + transport_desc + ' ' + transport + ' have the taste for human flesh. The ' + engine + ' on their ship is powerful. Run.'
 
-physical_space = ['valley', 'cavern', 'cave', 'crevasse']
 structure55 = 'In a shocking finding, scientists have discovered a ' + group + ' ' + secondary_actors + ' living in a previously unexplored ' + random.choice(physical_space) + '. Even more surprising to the researchers is the fact that the ' + secondary_actors + ' appear to be both ' + primary_actor_desc + ' and ' + secondary_actor_desc + '.'
 print(structure55)
 print(len(structure55))
