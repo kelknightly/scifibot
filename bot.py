@@ -38,11 +38,23 @@ with open('scifibot-sentence.json', 'w') as outfile:
     json.dump(tweet_control, outfile)
 
 # Load credentials from json file
-with open("twitter_credentials.json", "r") as file:
-    creds = json.load(file)
+try:
+    with open("twitter_credentials.json", "r") as file:
+        creds = json.load(file)
+except:
+    print("Twitter credentials are missing")
+    creds = {
+        'CONSUMER_KEY': 'KEY',
+        'CONSUMER_SECRET': 'SECRET',
+        'ACCESS_TOKEN': 'TOKEN',
+        'ACCESS_SECRET': 'SECRET'
+    }
 
 # Instantiate an object
 twitter = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'], creds['ACCESS_TOKEN'], creds['ACCESS_SECRET'])
 
-twitter.update_status(status=tweet)
-print('TWEETED: ', tweet)
+try:
+    twitter.update_status(status=tweet)
+    print('Tweet sent:', tweet)
+except:
+    print('Tweet not sent:', tweet)
