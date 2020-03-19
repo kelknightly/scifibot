@@ -1,6 +1,8 @@
 node_modules
 
-schemas/scifibot-quote.json
-schemas/scifibot-sentence.json
-schemas/twitter_credentials.json
+scifibot-quote.json
+scifibot-sentence.json
+twitter_credentials.json
 .vscode
+
+__pycache__
