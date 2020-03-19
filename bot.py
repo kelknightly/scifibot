@@ -44,5 +44,5 @@ with open("twitter_credentials.json", "r") as file:
 # Instantiate an object
 twitter = Twython(creds['CONSUMER_KEY'], creds['CONSUMER_SECRET'], creds['ACCESS_TOKEN'], creds['ACCESS_SECRET'])
 
-#twitter.update_status(status=tweet)
+twitter.update_status(status=tweet)
 print('TWEETED: ', tweet)
