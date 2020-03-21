@@ -188,8 +188,14 @@ class sentence_generator:
             self.components['place_prep'] = 'on'
 
         self.components['list_pronoun'] = ['she', 'he']
-        self.components['pronoun'] = random.choice(self.components['list_pronoun'])
         
+        if self.components['primary_actor_desc'] in ('king','prince'):
+            self.components['pronoun'] = 'he'
+        if self.components['primary_actor_desc'] in ('queen','princess'):
+            self.components['pronoun'] = 'she'
+        else:
+            self.components['pronoun'] = random.choice(self.components['list_pronoun'])          
+
         # possessive pronoun
         if self.components['pronoun'] == 'she':
             self.components['pos_pro'] = 'her'

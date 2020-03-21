@@ -5,7 +5,7 @@ import string
 class sentence23(base_sentence):
     
     def get_sentence(self, components):
-        sentence = components['primary_actor_article_on_desc'].title() 
+        sentence = components['primary_actor_article'].title() 
         sentence += ' ' + components['primary_actor'] 
         sentence += ', codename ' + (''.join(random.choice(string.ascii_letters) for x in range(5)))
         sentence += ', has been hired to abduct or kill ' + components['primary_actor_article_on_desc'] 
