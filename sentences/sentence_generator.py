@@ -260,7 +260,7 @@ class sentence_generator:
     def article(self, i):
         if i[0] in ('a','e','i','o','u','A','E','I','O','U'):
             article = 'an'
-        elif i in ('useless','euphoric','euphemism','usurper','eunuch','eulogy','upsilon meson','eugenist','Ukrainian','utilitarian'):
+        elif i in ('useless','euphoric','euphemism','usurper','eunuch','eulogy','upsilon meson','eugenist','Ukrainian','utilitarian', 'unipedal'):
             article = 'a'
         else: 
             article = 'a'
