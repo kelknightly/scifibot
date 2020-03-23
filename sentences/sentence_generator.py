@@ -227,6 +227,26 @@ class sentence_generator:
 
         self.components['planet_end'] = random.choice(['There is something eery about this system.', 'You can see it too, right?', 'Let\'s get in and get out.', 'I have a bad feeling about this.', 'The metal spaceship creaks and groans - an ignored voice of resistance.', 'I\'ve heard some messed-up stories about this place.', 'We can hide out there until this all blows over.', 'We can make this work.'])
 
+        self.components['list_consonants'] = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
+        self.components['list_vowels'] = ['a','e','i','o','u']
+
+        self.components['L1'] = random.choice(self.components['list_consonants'])
+        self.components['L2'] = random.choice(self.components['list_vowels'])
+        self.components['L3'] = random.choice(self.components['list_consonants'])
+        self.components['L4'] = random.choice(self.components['list_vowels'])
+        self.components['L5'] = random.choice(self.components['list_consonants'])
+        self.components['L6'] = random.choice(self.components['list_vowels'])
+        self.components['L7'] = random.choice(self.components['list_vowels'])
+        self.components['L8'] = random.choice(self.components['list_consonants'])
+
+        self.components['L9'] = random.choice(self.components['list_consonants'])
+        self.components['L10'] = random.choice(self.components['list_vowels'])
+        self.components['L11'] = random.choice(self.components['list_consonants'])
+
+        self.components['planetname'] = self.components['L1'].title() + self.components['L2'] + self.components['L3'] + self.components['L4'] + self.components['L5'] + self.components['L6'] + self.components['L7'] + self.components['L8'] + ' ' + self.components['L9'].title() + self.components['L10'] + self.components['L11']
+               
+        self.components['stranded'] = random.choice(['Sons of bitches. It was only a little mutiny.', 'Some people are so easily offended.', 'Talk about an overreaction to a minor mishap. No one even died.', 'Jeez, there\'s just no pleasing some people.', 'Some people are so sensitive. The explosion wasn\'t even intentional.', 'When you told them to \"just let it go already\" this is not what you meant.'])
+
         self.components['stardate'] = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
         self.components['system_name'] = self.get_random_word('noun', 5) + ' ' + self.get_random_word('noun', 5)
 
