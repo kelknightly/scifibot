@@ -79,6 +79,7 @@ class sentence_generator:
         self.components['list_crust'] = self.get_description_list_for_type(descriptions, 'crust')
         self.components['list_sky'] = self.get_description_list_for_type(descriptions, 'sky')
         self.components['list_transport_name_desc'] = self.get_description_list_for_type(descriptions, 'transport name')
+        self.components['list_planet_with'] = self.get_description_list_for_type(descriptions, 'planet with')
 
         # Getting lists of Actions
         self.components['list_place_action'] = self.get_action_list_for_type(actions, 'place')
@@ -138,6 +139,7 @@ class sentence_generator:
         self.components['transports'] = random.choice(self.components['list_transports'])
         self.components['engine'] = random.choice(self.components['list_engine'])
         self.components['looking_for'] = random.choice(self.components['list_looking_for'])
+        self.components['planet_with'] = random.choice(self.components['list_planet_with'])
 
         # Randomising a second time for variables that are used twice in a sentence
         self.components['place2'] = random.choice(self.components['list_place'])
@@ -147,6 +149,7 @@ class sentence_generator:
         self.components['transport_function2'] = random.choice(self.components['list_transport_function'])
         self.components['secondary_actor_desc2'] = random.choice(self.components['list_secondary_actor_description'])
         self.components['primary_actor2'] = random.choice(self.components['list_primary_actor'])
+        self.components['planet_with2'] = random.choice(self.components['list_planet_with'])
 
         self.components['place2'] = self.randomiser_duplicator(self.components['place'], self.components['place2'], self.components['list_place'])
         self.components['place2_desc'] = self.randomiser_duplicator(self.components['place_desc'], self.components['place2_desc'], self.components['list_place_description'])
@@ -154,6 +157,7 @@ class sentence_generator:
         self.components['transport_function2'] = self.randomiser_duplicator(self.components['transport_function'], self.components['transport_function2'], self.components['list_transport_function'])
         self.components['secondary_actor_desc2'] = self.randomiser_duplicator(self.components['secondary_actor_desc'], self.components['secondary_actor_desc2'], self.components['list_secondary_actor_description'])
         self.components['primary_actor2'] = self.randomiser_duplicator(self.components['primary_actor'], self.components['primary_actor2'], self.components['list_primary_actor'])
+        self.components['planet_with2'] = self.randomiser_duplicator(self.components['planet_with'], self.components['planet_with2'], self.components['list_planet_with'])
 
         self.components['primary_actor_article_on_desc'] = self.article(self.components['primary_actor_desc'])
         self.components['secondary_actor_article_on_desc'] = self.article(self.components['secondary_actor_desc'])
@@ -220,6 +224,8 @@ class sentence_generator:
 
         self.components['list_alpha'] = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
         self.components['liquid_type'] = random.choice(['it rains', 'there are deep oceans of', 'there are clouds of', 'there are pools of', 'rivers run with', 'the skies are full of', 'there is an ocean of'])
+
+        self.components['planet_end'] = random.choice(['There is something eery about this system.', 'You can see it too, right?', 'Let\'s get in and get out.', 'I have a bad feeling about this.', 'The metal spaceship creaks and groans - an ignored voice of resistance.', 'I\'ve heard some messed-up stories about this place.', 'We can hide out there until this all blows over.', 'We can make this work.'])
 
         self.components['stardate'] = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
         self.components['system_name'] = self.get_random_word('noun', 5) + ' ' + self.get_random_word('noun', 5)
