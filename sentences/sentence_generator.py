@@ -80,6 +80,7 @@ class sentence_generator:
         self.components['list_sky'] = self.get_description_list_for_type(descriptions, 'sky')
         self.components['list_transport_name_desc'] = self.get_description_list_for_type(descriptions, 'transport name')
         self.components['list_planet_with'] = self.get_description_list_for_type(descriptions, 'planet with')
+        self.components['list_a__planet'] = self.get_description_list_for_type(descriptions, 'a__planet')
 
         # Getting lists of Actions
         self.components['list_place_action'] = self.get_action_list_for_type(actions, 'place')
@@ -140,6 +141,7 @@ class sentence_generator:
         self.components['engine'] = random.choice(self.components['list_engine'])
         self.components['looking_for'] = random.choice(self.components['list_looking_for'])
         self.components['planet_with'] = random.choice(self.components['list_planet_with'])
+        self.components['a__planet'] = random.choice(self.components['list_a__planet'])
 
         # Randomising a second time for variables that are used twice in a sentence
         self.components['place2'] = random.choice(self.components['list_place'])
@@ -179,6 +181,7 @@ class sentence_generator:
         self.components['society_is_a__article'] = self.article(self.components['society_is_a__'])
         self.components['crust_article'] = self.article(self.components['crust'])
         self.components['engine_article'] = self.article(self.components['engine'])
+        self.components['a__planet_article'] = self.article(self.components['a__planet'])
 
         # Listing prepositions
         self.components['list_weapon_preposition'] = ['with', 'using']

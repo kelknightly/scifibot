@@ -273,7 +273,7 @@
 {"_id": "TSPABT274", "_type": "action", "action": "has seen better days", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT275", "_type": "action", "action": "often interferes with the development of alien societies", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT276", "_type": "action", "action": "is in average condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT277", "_type": "action", "action": "was saved from an outerplanet scrapyard and refitted", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT277", "_type": "action", "action": "was saved from an outerplanet scrapyard", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT278", "_type": "action", "action": "is in good condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT279", "_type": "action", "action": "is in bad shape", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT280", "_type": "action", "action": "has an ultra-modern interior", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
@@ -1608,6 +1608,7 @@
 {"_id": "tsps1", "_type": "nounType", "nounType": "transport plural"}
 {"_id": "eng1", "_type": "nounType", "nounType": "engine"}
 {"_id": "planet1", "_type": "nounType", "nounType": "planet with"}
+{"_id": "a__planet", "_type": "nounType", "nounType": "a__planet"}
 {"_id": "DESC2", "_type": "description", "description": "hidden", "nounType": {"_type": "reference", "_ref": "tsp1"}}
 {"_id": "DESC3", "_type": "description", "description": "exotic", "nounType": {"_type": "reference", "_ref": "tsp1"}}
 {"_id": "DESC4", "_type": "description", "description": "derelict", "nounType": {"_type": "reference", "_ref": "tsp1"}}
@@ -3061,6 +3062,26 @@
 {"_id": "DESC1452", "_type": "description", "description": "graveyards of failed attempts at bioengineering", "nounType": {"_type": "reference", "_ref": "planet1"}}
 {"_id": "DESC1453", "_type": "description", "description": "an inferiority complex", "nounType": {"_type": "reference", "_ref": "planet1"}}
 {"_id": "DESC1454", "_type": "description", "description": "a god complex", "nounType": {"_type": "reference", "_ref": "planet1"}}
+{"_id": "DESC1455", "_type": "description", "description": "uninhabited", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1456", "_type": "description", "description": "uninhabitable", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1457", "_type": "description", "description": "toxic", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1458", "_type": "description", "description": "distant", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1459", "_type": "description", "description": "uncharted", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1460", "_type": "description", "description": "unhinged", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1461", "_type": "description", "description": "unstable", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1462", "_type": "description", "description": "unheard of", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1463", "_type": "description", "description": "passing", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1464", "_type": "description", "description": "tiny", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1465", "_type": "description", "description": "quarrelsome", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1466", "_type": "description", "description": "tropical", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1467", "_type": "description", "description": "alien", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1468", "_type": "description", "description": "mountainous", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1469", "_type": "description", "description": "odd", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1470", "_type": "description", "description": "strange", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1471", "_type": "description", "description": "unusual", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1472", "_type": "description", "description": "unlivable", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1473", "_type": "description", "description": "unthinkable", "nounType": {"_type": "reference", "_ref": "a__planet"}}
+{"_id": "DESC1474", "_type": "description", "description": "bizarre", "nounType": {"_type": "reference", "_ref": "a__planet"}}
 {"_id": "QUOTE2", "_type": "quote", "quote": "\"The sky was a dawn blue with pink shining from the retreating clouds like a coming sunrise. In the center of the fragile blue the sun flared out on all sides from behind the moon.\" ", "author": {"_type": "reference", "_ref": "Conn13"}, "source": {"_type": "reference", "_ref": "And26Conn13"}}
 {"_id": "QUOTE3", "_type": "quote", "quote": "\"There was a flash, like the captured light from a diamond, and then it was there, suspended in the sky. The sky was not totally dark.\"", "author": {"_type": "reference", "_ref": "Conn13"}, "source": {"_type": "reference", "_ref": "And26Conn13"}}
 {"_id": "QUOTE4", "_type": "quote", "quote": "\"The amazing coincidence part was that the sun and the moon were an exact geometric fit, so that instead of just darkness there were the corona, the prominences.\" ", "author": {"_type": "reference", "_ref": "Conn13"}, "source": {"_type": "reference", "_ref": "And26Conn13"}}
@@ -3394,6 +3415,11 @@
 {"_id": "QUOTE332", "_type": "quote", "quote": "\"New York glowed in the night, and the squibs about him scuttled and bounced through night skies and daytime and flooding and drought.\"", "author": {"_type": "reference", "_ref": "philip23"}, "source": {"_type": "reference", "_ref": "electricant23"}}
 {"_id": "QUOTE333", "_type": "quote", "quote": "\"Through her legs the carpet showed, and then the carpet became dim, and she saw, through it, farther layers of disintegrating matter beyond.\"", "author": {"_type": "reference", "_ref": "philip23"}, "source": {"_type": "reference", "_ref": "electricant23"}}
 {"_id": "QUOTE334", "_type": "quote", "quote": "\"You err but once when you ride the light.\nStout hearts must con that helm.\nAll men grow sad and some go mad,\nFor the voids can overwhelm.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE335", "_type": "quote", "quote": "\"somehow, though it meant circumventing the sociologists, deluding the geneticists, and subverting the State, he was going to be legally mated to Helix.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE336", "_type": "quote", "quote": "\"Remember those spacemen waddling toward the cameras, heavy-jawed and thick-bodied, like toads oozing out of the primordial slime,\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE337", "_type": "quote", "quote": "\"O dark, dark, dark, amid the blaze of noon, Irrecoverably dark! total eclipse, Without all hope of day.\" (Milton)", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE338", "_type": "quote", "quote": "\"Maybe I don't want to be a cipher in a series. Maybe I'd like to be the sum of the digits.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE339", "_type": "quote", "quote": "\"If he had been a dog, the shape of his droopy blue eyes would have put him in the cocker spaniel breed. But he was not a dog; he was a newspaper reporter.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
