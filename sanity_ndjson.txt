@@ -438,7 +438,7 @@
 {"_id": "NOUN129", "_type": "noun", "noun": "Jaeger pilot", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN130", "_type": "noun", "noun": "replicant hunter", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN131", "_type": "noun", "noun": "ghostbuster", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN132", "_type": "noun", "noun": "helmsna", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN132", "_type": "noun", "noun": "helmsman", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN133", "_type": "noun", "noun": "xenologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN134", "_type": "noun", "noun": "avionics engineer", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN135", "_type": "noun", "noun": "xenolinguist", "nounType": {"_type": "reference", "_ref": "pa1"}}
@@ -3468,6 +3468,7 @@
 {"_id": "QUOTE337", "_type": "quote", "quote": "\"O dark, dark, dark, amid the blaze of noon, Irrecoverably dark! total eclipse, Without all hope of day.\" (Milton)", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "QUOTE338", "_type": "quote", "quote": "\"Maybe I don't want to be a cipher in a series. Maybe I'd like to be the sum of the digits.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "QUOTE339", "_type": "quote", "quote": "\"If he had been a dog, the shape of his droopy blue eyes would have put him in the cocker spaniel breed. But he was not a dog; he was a newspaper reporter.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE340", "_type": "quote", "quote": "\"They were light, riding a wave of simultaneity that would hae sent them hurtling through the core of the sun unscathed.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
