@@ -1,7 +1,5 @@
 from sentences.base_sentence import base_sentence
 
-#The first planet discovery of the TESS-Keck Survey (TKS) has been announced. HD 332231 b is [planet_short] and [planet_long]
-
 class sentence58(base_sentence):
     
     def get_sentence(self, components):

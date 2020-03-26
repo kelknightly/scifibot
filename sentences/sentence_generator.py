@@ -260,6 +260,8 @@ class sentence_generator:
                
         self.components['stranded'] = random.choice(['Sons of bitches. It was only a little mutiny.', 'Some people are so easily offended.', 'Talk about an overreaction to a minor mishap. No one even died.', 'Jeez, there\'s just no pleasing some people.', 'Some people are so sensitive. The explosion wasn\'t even intentional.', 'When you told them to \"just let it go already\" this is not what you meant.', 'Some people just can\'t take a joke.', 'You\'re gonna get back at them by not dying. Somehow.'])
 
+        self.components['breaking_through'] = random.choice(['the planet\'s crust', 'the ship\'s hull', 'the force field', 'the cargo bay doors'])
+
         self.components['stardate'] = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
         self.components['system_name'] = self.get_random_word('noun', 5) + ' ' + self.get_random_word('noun', 5)
 
@@ -274,6 +276,8 @@ class sentence_generator:
         self.components['silly_adjective1'] = silly.adjective()
         self.components['silly_adjective2'] = silly.adjective()
         self.components['silly_plural1'] = silly.plural()
+        self.components['silly_name1'] = silly.name().split()
+        
 
         self.components['list_of_rhyming_words'] = pronouncing.rhymes(silly.noun())
         try:
