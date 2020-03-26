@@ -4,6 +4,8 @@ import random
 import time
 import string
 import names
+import silly
+import pronouncing
 
 # sentence generator class has a list of sentences (sentence objects)
 # and list of sentence components
@@ -212,8 +214,10 @@ class sentence_generator:
         # possessive pronoun
         if self.components['pronoun'] == 'she':
             self.components['pos_pro'] = 'her'
+            self.components['obj_pro'] = 'her'
         if self.components['pronoun'] == 'he':
             self.components['pos_pro'] = 'his'
+            self.components['obj_pro'] = 'him'
 
         self.components['list_planetsystemsector'] = ['Planet', 'System', 'Sector']
         self.components['planetsystemsector'] = random.choice(self.components['list_planetsystemsector'])
@@ -264,7 +268,23 @@ class sentence_generator:
         self.components['physical_space'] = random.choice(['valley', 'cavern', 'cave', 'crevasse'])
 
         self.components['person_title'] = random.choice(['Ms', 'Mr', 'Dr'])
- 
+
+        self.components['silly_noun1'] = silly.noun()
+        self.components['silly_noun2'] = silly.noun()
+        self.components['silly_adjective1'] = silly.adjective()
+        self.components['silly_adjective2'] = silly.adjective()
+        self.components['silly_plural1'] = silly.plural()
+
+        self.components['list_of_rhyming_words'] = pronouncing.rhymes(silly.noun())
+        try:
+            self.components['rhyme_word1'] = self.components['list_of_rhyming_words'][0]
+            self.components['rhyme_word2'] = self.components['list_of_rhyming_words'][1]
+        except:
+            self.components['rhyme_word1'] = 'AG'
+            self.components['rhyme_word2'] = 'Bagg'
+
+        self.components['planet_name'] = random.choice(self.components['list_alpha']).title() + random.choice(self.components['list_alpha']).title() + ' ' + str(random.randint(100000, 999999)) + ' ' + random.choice(self.components['list_alpha'])
+
     # Function to place 'a' or 'an' before a word
     def article(self, i):
         if i[0] in ('a','e','i','o','u','A','E','I','O','U') and i not in self.components['list_an_article_exceptions']:

@@ -14,7 +14,8 @@ bot = scifisanity()
 #bot.print_all_sentences()
 
 # Print just one sentence from one of the sentences registered with the generator inside scifisanity
-#bot.print_sentence_by_name('Sentence 1')
+bot.print_sentence_by_name('Sentence 58')
 
-#bot.print_component_data('list_an_article_exceptions')
+#bot.print_component_data('list_of_rhyming_words')
+
 #bot.get_random_word('verb', 10)
