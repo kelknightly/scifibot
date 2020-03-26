@@ -143,3 +143,6 @@ class scifisanity(object):
 
     def get_all_sentences(self, max_length):
         return self.generator.get_all_sentences(max_length)
+
+    def print_component_data(self, component_key):
+        return self.generator.print_component_data(component_key)

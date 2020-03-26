@@ -78,6 +78,35 @@ with open('C:\\Users\\kellt\\OneDrive\\Documents\\scifi_imports_sanity\\sanity_i
         }
         jsons.append(json.dumps(description))
 
+# articleword
+with open('C:\\Users\\kellt\\OneDrive\\Documents\\scifi_imports_sanity\\sanity_import_articleword.csv', newline='') as csvfile:
+    sanityread = csv.reader(csvfile)
+    next(sanityread)
+    for row in sanityread:
+        articleword = {
+            '_id': row[0].replace(' ', ''), 
+            '_type': 'articleword',
+            'articleword': row[1],
+            'articleType': {
+                '_type': 'reference',
+                '_ref': row[2]
+            }
+        }
+        jsons.append(json.dumps(articleword))
+
+
+# articletype
+with open('C:\\Users\\kellt\\OneDrive\\Documents\\scifi_imports_sanity\\sanity_import_articletype.csv', newline='') as csvfile:
+    sanityread = csv.reader(csvfile)
+    next(sanityread)
+    for row in sanityread:
+        articleType = {
+            '_id': row[0],    
+            '_type': 'articleType',
+            'articleType': row[1],
+        }
+        jsons.append(json.dumps(articleType))
+
 
 # quote
 with open('C:\\Users\\kellt\\OneDrive\\Documents\\scifi_imports_sanity\\sanity_import_quote.csv', newline='') as csvfile:

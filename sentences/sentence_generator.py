@@ -42,6 +42,7 @@ class sentence_generator:
         nouns = self.get_noun_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"noun\"]{noun,nounType->{nounType}}")
         descriptions = self.get_description_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"description\"]{description,nounType->{nounType}}")
         actions = self.get_action_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"action\"]{action,actionType->{actionType}}")
+        articleword = self.get_article_list("https://3hjj9iij.api.sanity.io/v1/data/query/production?query=*[_type==\"articleword\"]{articleword,articleType->{articleType}}")
 
         # Getting lists of Nouns
         self.components['list_primary_actor'] = self.get_noun_list_for_type(nouns, 'primary actor')
@@ -95,6 +96,10 @@ class sentence_generator:
         self.components['list_sentient_action_plural'] = self.get_action_list_for_type(actions, 'sentient plural')
         self.components['list_transport_about'] = self.get_action_list_for_type(actions, 'transport about')
         self.components['list_looking_for'] = self.get_action_list_for_type(actions, 'looking for')
+
+        # Getting article exception lists
+        self.components['list_an_article_exceptions'] = self.get_article_list_for_type(articleword, 'an_exception')
+        self.components['list_a_article_exceptions'] = self.get_article_list_for_type(articleword, 'a_exception')
 
         # Randomly selecting a word within each list
         self.components['in_place'] = random.choice(self.components['list_in_place'])
@@ -258,17 +263,19 @@ class sentence_generator:
         self.components['physical_space'] = random.choice(['valley', 'cavern', 'cave', 'crevasse'])
 
         self.components['person_title'] = random.choice(['Ms', 'Mr', 'Dr'])
-
-    # Function to place 'a' or 'an' before a noun
+ 
+    # Function to place 'a' or 'an' before a word
     def article(self, i):
-        if i[0] in ('a','e','i','o','u','A','E','I','O','U'):
+        if i[0] in ('a','e','i','o','u','A','E','I','O','U') and i not in self.components['list_an_article_exceptions']:
             article = 'an'
-        elif i in ('useless','euphoric','euphemism','usurper','eunuch','eulogy','upsilon meson','eugenist','Ukrainian','utilitarian', 'unipedal'):
+        elif i in self.components['list_a_article_exceptions']:
+            article = 'an'
+        elif i in self.components['list_an_article_exceptions']:
             article = 'a'
         else: 
             article = 'a'
         return article
-    
+
     def randomiser_duplicator(self, val1, val2, val_list):
         while val1 == val2:
             val2 = random.choice(val_list)
@@ -332,6 +339,27 @@ class sentence_generator:
                 action_list.append(action['action'])
         return action_list
 
+    def get_article_list(self, query):
+        response = requests.get(query)
+        #print(response.json())
+        DictA = response.json()
+        articles = []
+        for result in DictA['result']:
+            articles.append({
+                "articleword": result['articleword'],
+                "type": result['articleType']['articleType']
+            })
+        return(articles)
+
+    def get_article_list_for_type(self, articleword, articleType_filter):
+        article_list = []
+        for article in articleword:
+            if article['type'] == articleType_filter:
+                article_list.append(article['articleword'])
+        #print("word",articleword)
+        #print("articleType_filter", articleType_filter)
+        return article_list
+
     def get_random_word(self, part, length):
         url = "https://wordsapiv1.p.rapidapi.com/words/"
         querystring = {"random":"true"}
@@ -344,3 +372,7 @@ class sentence_generator:
 
         js = response.json()
         return js['word']
+
+    def print_component_data(self, component_key):
+        print("Component for", component_key, self.components[component_key])
+    
