@@ -35,6 +35,7 @@ class sentence_generator:
             sentence_string = sentence.get_sentence(self.components)
             if len(sentence_string) <= max_length:
                 eligible_sentences.append(sentence_string)
+        random.shuffle(eligible_sentences)
 
         return eligible_sentences
              

@@ -146,3 +146,15 @@ class scifisanity(object):
 
     def print_component_data(self, component_key):
         return self.generator.print_component_data(component_key)
+
+    def get_random_word(self, part, length):
+        url = "https://wordsapiv1.p.rapidapi.com/words/"
+        querystring = {"random":"true"}
+        headers = {
+            'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
+            'x-rapidapi-key': "d13b08e2c9mshdb21833bede88e1p13c577jsn79fe44d0a6f9"
+            }
+
+        response = requests.request("GET", url, headers=headers, params=querystring)
+        js = response.json()
+        print(js['word'])
