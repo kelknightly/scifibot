@@ -1,6 +1,6 @@
 from sentences.base_sentence import base_sentence
 
-class sentence55(base_sentence):
+class sentence20(base_sentence):
     
     def get_sentence(self, components):
         sentence = 'Our next stop is a planet with ' + components['planet_with']

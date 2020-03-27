@@ -1,6 +1,6 @@
 from sentences.base_sentence import base_sentence
 
-class sentence54(base_sentence):
+class sentence9(base_sentence):
     
     def get_sentence(self, components):
         sentence = components['primary_actor_article_on_desc'].title() 

@@ -1,6 +1,6 @@
 from sentences.base_sentence import base_sentence
 
-class sentence59(base_sentence):
+class sentence39(base_sentence):
     
     def get_sentence(self, components):
         sentence = '\"Oh God, they\'re breaking through!\" '

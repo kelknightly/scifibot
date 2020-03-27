@@ -1,6 +1,6 @@
 from sentences.base_sentence import base_sentence
 
-class sentence58(base_sentence):
+class sentence32(base_sentence):
     
     def get_sentence(self, components):
         sentence = 'The first planet discovery of the ' 

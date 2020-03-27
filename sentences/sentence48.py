@@ -2,7 +2,7 @@
 
 from sentences.base_sentence import base_sentence
 
-class sentence60(base_sentence):
+class sentence48(base_sentence):
     
     def get_sentence(self, components):
         sentence = 'In ' + components['random_year']
