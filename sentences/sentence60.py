@@ -10,7 +10,7 @@ class sentence60(base_sentence):
         sentence += components['secondary_actors']
         sentence += ' successfully injected ' + components['sense_noun2'] + ' into a captive '
         sentence += components['primary_actor'] + '\'s '
-        sentence += components['body_part'] + ', accidentally giving ' + components['pronoun'] + ' the ability to '
+        sentence += components['body_part'] + ', accidentally giving ' + components['obj_pro'] + ' the ability to '
         sentence += components['sense'] + ' ' + components['sense_noun'] + '.'
 
         return sentence

@@ -217,22 +217,24 @@ class sentence_generator:
         if self.components['place'] in self.components['list_on_place']:
             self.components['place_prep'] = 'on'
 
+        # dealing with pronouns
         self.components['list_pronoun'] = ['she', 'he']
         
-        if self.components['primary_actor_desc'] in ('king','prince'):
+        if self.components['primary_actor'] in ['king','prince','dad']:
             self.components['pronoun'] = 'he'
-        if self.components['primary_actor_desc'] in ('queen','princess'):
+        elif self.components['primary_actor'] in ['queen','princess','mom']:
             self.components['pronoun'] = 'she'
         else:
             self.components['pronoun'] = random.choice(self.components['list_pronoun'])          
 
-        # possessive pronoun
         if self.components['pronoun'] == 'she':
             self.components['pos_pro'] = 'her'
             self.components['obj_pro'] = 'her'
-        if self.components['pronoun'] == 'he':
+        elif self.components['pronoun'] == 'he':
             self.components['pos_pro'] = 'his'
             self.components['obj_pro'] = 'him'
+        
+
 
         self.components['list_planetsystemsector'] = ['Planet', 'System', 'Sector']
         self.components['planetsystemsector'] = random.choice(self.components['list_planetsystemsector'])
@@ -284,7 +286,7 @@ class sentence_generator:
         self.components['silly_thing_number'] = num2words(random.randint(2, 200)) + ' ' + self.components['basic_nouns']
         self.components['silly_thing'] = random.choice([self.components['silly_thing_group'], self.components['silly_thing_single'], self.components['silly_thing_number']])
  
-        self.components['random_year'] = str(random.randint(2050, 5000))
+        self.components['random_year'] = str(random.randint(3000, 8000))
 
         self.components['body_part'] = random.choice(['ear', 'eye', 'nose', 'lips', 'tongue', 'skin', 'arm', 'leg', 'foot', 'hand', 'brain'])
 

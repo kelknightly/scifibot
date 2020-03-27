@@ -10,7 +10,7 @@ class sentence57(base_sentence):
         sentence += ' ' + components['secondary_actor'] 
         sentence += ' pursued ' + components['obj_pro']
         sentence+= ' with single-minded determination. It would retrieve its ' 
-        sentence += components['silly_noun1']
+        sentence += components['basic_noun']
         sentence += ', whatever the cost.'
 
         return sentence
