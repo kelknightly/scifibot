@@ -61,7 +61,7 @@ class sentence_generator:
         self.components['list_regime'] = self.get_noun_list_for_type(nouns, 'politics')
         self.components['list_group'] = self.get_noun_list_for_type(nouns, 'group')
         self.components['list_secondary_actor_plural'] = self.get_noun_list_for_type(nouns, 'secondary actors plural')
-        self.components['list_measuring_things'] = self.get_noun_list_for_type(nouns, 'measuring')
+        self.components['list_orbits_noun'] = self.get_noun_list_for_type(nouns, 'orbits')
         self.components['list_liquid'] = self.get_noun_list_for_type(nouns, 'liquid')
         self.components['list_tech'] = self.get_noun_list_for_type(nouns, 'tech')
         self.components['list_transport_name'] = self.get_noun_list_for_type(nouns, 'transport name')
@@ -106,6 +106,7 @@ class sentence_generator:
         self.components['list_sentient_action_plural'] = self.get_action_list_for_type(actions, 'sentient plural')
         self.components['list_transport_about'] = self.get_action_list_for_type(actions, 'transport about')
         self.components['list_looking_for'] = self.get_action_list_for_type(actions, 'looking for')
+        self.components['list_orbits_verb'] = self.get_action_list_for_type(actions, 'orbits')
 
         # Getting article exception lists
         self.components['list_an_article_exceptions'] = self.get_article_list_for_type(articleword, 'an_exception')
@@ -140,7 +141,8 @@ class sentence_generator:
         self.components['group'] = random.choice(self.components['list_group'])
         self.components['a__society'] = random.choice(self.components['list_a__society'])
         self.components['secondary_actors'] = random.choice(self.components['list_secondary_actor_plural'])
-        self.components['measuring_things'] = random.choice(self.components['list_measuring_things'])
+        self.components['orbits_verb'] = random.choice(self.components['list_orbits_verb'])
+        self.components['orbits_noun'] = random.choice(self.components['list_orbits_noun'])
         self.components['suddenly'] = random.choice(self.components['list_suddenly'])
         self.components['liquid'] = random.choice(self.components['list_liquid'])
         self.components['liquid_desc'] = random.choice(self.components['list_liquid_desc'])
@@ -234,13 +236,16 @@ class sentence_generator:
             self.components['pos_pro'] = 'his'
             self.components['obj_pro'] = 'him'
         
+        # select constructions
 
+        self.components['history'] = random.choice(['History will remark on this for generations.','Lifetimes will pass before this moment is forgotten.','Make a note of this day, gentleman.','Make a note of this day, ladies.','So anyway, I started blasting.'])
 
         self.components['list_planetsystemsector'] = ['Planet', 'System', 'Sector']
         self.components['planetsystemsector'] = random.choice(self.components['list_planetsystemsector'])
 
-        self.components['measuring'] = ['measuring', 'considering', 'tracking']
-        self.components['measuring'] = random.choice(self.components['measuring'])
+        self.components['in-range'] = random.choice(['Should hostilities erupt, we will be outgunned.','We should try to maintain diplomatic relations.'])
+
+        self.components['taste for human flesh'] = random.choice(['The human race will come to an end tonight.','The human race faces extinction tonight.','Run.'])
                 
         self.components['verb'] = self.get_random_word('verb', 10)
         self.components['noun1'] = self.get_random_word('noun', 10)

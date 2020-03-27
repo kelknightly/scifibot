@@ -9,8 +9,7 @@ class sentence25(base_sentence):
         sentence += ' orbits ' + components['place_article_on_desc']
         sentence += ' ' + components['place_desc'] 
         sentence += ' ' + components['place'] 
-        sentence += ', ' + components['measuring']
-        sentence += ' ' + components['measuring_things']
-        sentence += '.'
+        sentence += ', ' + components['orbits_verb']
+        sentence += ' ' + components['orbits_noun'] + '.'
 
         return sentence

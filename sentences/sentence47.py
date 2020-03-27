@@ -7,6 +7,6 @@ class sentence47(base_sentence):
         sentence += ' onboard the distant ' + components['transport_desc'] 
         sentence += ' ' + components['transport'] 
         sentence += ' have a taste for human flesh. The ' + components['engine'] 
-        sentence += ' on their ship is powerful. The human race will come to an end tonight.'
+        sentence += ' on their ship is powerful. ' + components['taste for human flesh']
 
         return sentence

@@ -7,6 +7,6 @@ class sentence31(base_sentence):
         sentence = 'The border outpost reports a contingent of ' + str(random.randint(2,20))
         sentence += ' ' + components['secondary_actor']
         sentence += ' ' + components['transports'] 
-        sentence += ' within sensor range. Should hostilities erupt, we will be outgunned.'
+        sentence += ' within sensor range. ' + components['in-range']
 
         return sentence

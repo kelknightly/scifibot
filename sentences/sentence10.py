@@ -11,7 +11,7 @@ class sentence10(base_sentence):
         sentence += '. It is home to a ' + components['group'] 
         sentence += ' ' + components['secondary_actor_desc'] 
         sentence += ' ' + components['secondary_actors']
-        sentence += ' looking for ' + components['looking_for']
+        sentence += ' ' + components['looking_for']
         sentence += '.'
 
         return sentence

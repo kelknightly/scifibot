@@ -284,19 +284,28 @@
 {"_id": "TSPABT285", "_type": "action", "action": "has a passive-aggressive AI", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT286", "_type": "action", "action": "is fairly sturdy and fuel-efficient", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT287", "_type": "action", "action": "was sold in a hurry by its last owners", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT288", "_type": "action", "action": "food", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT289", "_type": "action", "action": "revenge", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT290", "_type": "action", "action": "love", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT291", "_type": "action", "action": "supplies", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT292", "_type": "action", "action": "help", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT293", "_type": "action", "action": "advice", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT294", "_type": "action", "action": "adventure", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT295", "_type": "action", "action": "emotional support", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT296", "_type": "action", "action": "confirmation that they are making the right decision", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT297", "_type": "action", "action": "a way out", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT298", "_type": "action", "action": "a way home", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT299", "_type": "action", "action": "mates", "actionType": {"_type": "reference", "_ref": "look1"}}
-{"_id": "TSPABT300", "_type": "action", "action": "work", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT288", "_type": "action", "action": "hunting for food", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT289", "_type": "action", "action": "seeking revenge", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT290", "_type": "action", "action": "looking for love", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT291", "_type": "action", "action": "scavenging for supplies", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT292", "_type": "action", "action": "in need of help", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT293", "_type": "action", "action": "looking for advice", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT294", "_type": "action", "action": "searching for adventure", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT295", "_type": "action", "action": "needing emotional support", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT296", "_type": "action", "action": "anxious to prove themselves", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT297", "_type": "action", "action": "looking for a way out", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT298", "_type": "action", "action": "looking for a way home", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT299", "_type": "action", "action": "seeking mates", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT300", "_type": "action", "action": "looking for work", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT301", "_type": "action", "action": "dying to meet you", "actionType": {"_type": "reference", "_ref": "look1"}}
+{"_id": "TSPABT302", "_type": "action", "action": "measuring", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT303", "_type": "action", "action": "aware of", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT304", "_type": "action", "action": "riding", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT305", "_type": "action", "action": "waiting for", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT306", "_type": "action", "action": "monitoring", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT307", "_type": "action", "action": "sensing", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT308", "_type": "action", "action": "collecting", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
+{"_id": "TSPABT309", "_type": "action", "action": "thinking of", "actionType": {"_type": "reference", "_ref": "orbitsaction"}}
 {"_id": "senpl1", "_type": "actionType", "actionType": "sentient plural"}
 {"_id": "sud1", "_type": "actionType", "actionType": "suddenly"}
 {"_id": "tspdmga1", "_type": "actionType", "actionType": "transport damage"}
@@ -308,6 +317,7 @@
 {"_id": "senneg1", "_type": "actionType", "actionType": "sentient negative"}
 {"_id": "tspabt1", "_type": "actionType", "actionType": "transport about"}
 {"_id": "look1", "_type": "actionType", "actionType": "looking for"}
+{"_id": "orbitsaction", "_type": "actionType", "actionType": "orbits"}
 {"_id": "NOUN2", "_type": "noun", "noun": "engineer", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN3", "_type": "noun", "noun": "paramedic", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN4", "_type": "noun", "noun": "explorer", "nounType": {"_type": "reference", "_ref": "pa1"}}
@@ -356,795 +366,795 @@
 {"_id": "NOUN47", "_type": "noun", "noun": "sergeant", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN48", "_type": "noun", "noun": "slaver", "nounType": {"_type": "reference", "_ref": "pa1"}}
 {"_id": "NOUN49", "_type": "noun", "noun": "time lord", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN50", "_type": "noun", "noun": "admiral", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN51", "_type": "noun", "noun": "viscount", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN52", "_type": "noun", "noun": "terrorist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN53", "_type": "noun", "noun": "devotee", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN54", "_type": "noun", "noun": "priest", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN55", "_type": "noun", "noun": "president", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN56", "_type": "noun", "noun": "prime minister", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN57", "_type": "noun", "noun": "senator", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN58", "_type": "noun", "noun": "mayor", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN59", "_type": "noun", "noun": "martial artist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN60", "_type": "noun", "noun": "linguist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN61", "_type": "noun", "noun": "lecturer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN62", "_type": "noun", "noun": "teacher", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN63", "_type": "noun", "noun": "professor", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN64", "_type": "noun", "noun": "actuary", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN65", "_type": "noun", "noun": "eunuch", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN66", "_type": "noun", "noun": "usurper", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN67", "_type": "noun", "noun": "accountant", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN68", "_type": "noun", "noun": "mathematician", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN69", "_type": "noun", "noun": "geologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN70", "_type": "noun", "noun": "sultan", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN71", "_type": "noun", "noun": "volcanologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN72", "_type": "noun", "noun": "seismologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN73", "_type": "noun", "noun": "sniper", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN74", "_type": "noun", "noun": "grunt", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN75", "_type": "noun", "noun": "journalist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN76", "_type": "noun", "noun": "composer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN77", "_type": "noun", "noun": "bureaucrat", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN78", "_type": "noun", "noun": "astronomer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN79", "_type": "noun", "noun": "cosmologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN80", "_type": "noun", "noun": "anthrozoologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN81", "_type": "noun", "noun": "meteorologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN82", "_type": "noun", "noun": "software developer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN83", "_type": "noun", "noun": "web designer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN84", "_type": "noun", "noun": "risk manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN85", "_type": "noun", "noun": "manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN86", "_type": "noun", "noun": "physician", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN87", "_type": "noun", "noun": "physicist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN88", "_type": "noun", "noun": "dinosaur supervisor", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN89", "_type": "noun", "noun": "project manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN90", "_type": "noun", "noun": "electrician", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN91", "_type": "noun", "noun": "plumber", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN92", "_type": "noun", "noun": "architect", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN93", "_type": "noun", "noun": "hairdresser", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN94", "_type": "noun", "noun": "consultant", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN95", "_type": "noun", "noun": "midwife", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN96", "_type": "noun", "noun": "surveyor", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN97", "_type": "noun", "noun": "geisha", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN98", "_type": "noun", "noun": "pharmacist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN99", "_type": "noun", "noun": "veterinarian", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN100", "_type": "noun", "noun": "lawyer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN101", "_type": "noun", "noun": "physiotherapist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN102", "_type": "noun", "noun": "aviator", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN103", "_type": "noun", "noun": "waiter", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN104", "_type": "noun", "noun": "surgeon", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN105", "_type": "noun", "noun": "broker", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN106", "_type": "noun", "noun": "eugenist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN107", "_type": "noun", "noun": "psychic", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN108", "_type": "noun", "noun": "gambler", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN109", "_type": "noun", "noun": "judge", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN110", "_type": "noun", "noun": "radiographer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN111", "_type": "noun", "noun": "videographer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN112", "_type": "noun", "noun": "drag queen", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN113", "_type": "noun", "noun": "dental hygienist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN114", "_type": "noun", "noun": "orthodontist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN115", "_type": "noun", "noun": "nun", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN116", "_type": "noun", "noun": "dentist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN117", "_type": "noun", "noun": "farmer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN118", "_type": "noun", "noun": "psychologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN119", "_type": "noun", "noun": "firefighter", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN120", "_type": "noun", "noun": "police officer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN121", "_type": "noun", "noun": "estate agent", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN122", "_type": "noun", "noun": "cleaner", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN123", "_type": "noun", "noun": "athlete", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN124", "_type": "noun", "noun": "author", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN125", "_type": "noun", "noun": "Rancour keeper", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN126", "_type": "noun", "noun": "Truman Show extra", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN127", "_type": "noun", "noun": "avatar operator", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN128", "_type": "noun", "noun": "Jaeger pilot", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN129", "_type": "noun", "noun": "replicant hunter", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN130", "_type": "noun", "noun": "ghostbuster", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN131", "_type": "noun", "noun": "helmsman", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN132", "_type": "noun", "noun": "xenologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN133", "_type": "noun", "noun": "avionics engineer", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN134", "_type": "noun", "noun": "xenolinguist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN135", "_type": "noun", "noun": "xenobotanist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN136", "_type": "noun", "noun": "xenopathologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN137", "_type": "noun", "noun": "paleopathologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN138", "_type": "noun", "noun": "psychohistorian", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN139", "_type": "noun", "noun": "stowaway", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN140", "_type": "noun", "noun": "alchemist", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN141", "_type": "noun", "noun": "librarian", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN142", "_type": "noun", "noun": "technomage", "nounType": {"_type": "reference", "_ref": "pa1"}}
-{"_id": "NOUN143", "_type": "noun", "noun": "android", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN144", "_type": "noun", "noun": "robot", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN145", "_type": "noun", "noun": "beast", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN146", "_type": "noun", "noun": "cyborg", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN147", "_type": "noun", "noun": "cylon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN148", "_type": "noun", "noun": "clone", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN149", "_type": "noun", "noun": "whisper", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN150", "_type": "noun", "noun": "insect", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN151", "_type": "noun", "noun": "worm", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN152", "_type": "noun", "noun": "animal", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN153", "_type": "noun", "noun": "sparrow", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN154", "_type": "noun", "noun": "hawk", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN155", "_type": "noun", "noun": "cat", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN156", "_type": "noun", "noun": "wolf", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN157", "_type": "noun", "noun": "tardigrade", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN158", "_type": "noun", "noun": "organism", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN159", "_type": "noun", "noun": "microbe", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN160", "_type": "noun", "noun": "monster", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN161", "_type": "noun", "noun": "god", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN162", "_type": "noun", "noun": "dinosaur", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN163", "_type": "noun", "noun": "velociprator", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN164", "_type": "noun", "noun": "xenomorph", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN165", "_type": "noun", "noun": "fungi", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN166", "_type": "noun", "noun": "memory", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN167", "_type": "noun", "noun": "database", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN168", "_type": "noun", "noun": "microchip", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN169", "_type": "noun", "noun": "cephalopoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN170", "_type": "noun", "noun": "algae", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN171", "_type": "noun", "noun": "bat", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN172", "_type": "noun", "noun": "atom", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN173", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN174", "_type": "noun", "noun": "comet", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN175", "_type": "noun", "noun": "neuron", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN176", "_type": "noun", "noun": "nanite", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN177", "_type": "noun", "noun": "neural net", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN178", "_type": "noun", "noun": "blockchain", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN179", "_type": "noun", "noun": "megaladon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN180", "_type": "noun", "noun": "eulogy", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN181", "_type": "noun", "noun": "cryptocurrency", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN182", "_type": "noun", "noun": "neutrino", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN183", "_type": "noun", "noun": "proton", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN184", "_type": "noun", "noun": "electron", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN185", "_type": "noun", "noun": "God particle", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN186", "_type": "noun", "noun": "muon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN187", "_type": "noun", "noun": "cloud of nitrogen", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN188", "_type": "noun", "noun": "cloud of hydrogen", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN189", "_type": "noun", "noun": "cloud of oxygen", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN190", "_type": "noun", "noun": "quark", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN191", "_type": "noun", "noun": "sheep", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN192", "_type": "noun", "noun": "spider", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN193", "_type": "noun", "noun": "cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN194", "_type": "noun", "noun": "mutant", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN195", "_type": "noun", "noun": "squid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN196", "_type": "noun", "noun": "mulefa", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN197", "_type": "noun", "noun": "Kraken", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN198", "_type": "noun", "noun": "Dalek", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN199", "_type": "noun", "noun": "lobster", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN200", "_type": "noun", "noun": "conspiracy", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN201", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN202", "_type": "noun", "noun": "heuristic", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN203", "_type": "noun", "noun": "algorithm", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN204", "_type": "noun", "noun": "hydra", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN205", "_type": "noun", "noun": "spore", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN206", "_type": "noun", "noun": "plant", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN207", "_type": "noun", "noun": "gastropod", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN208", "_type": "noun", "noun": "heptapod", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN209", "_type": "noun", "noun": "slug", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN210", "_type": "noun", "noun": "symbiot", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN211", "_type": "noun", "noun": "parasite", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN212", "_type": "noun", "noun": "amoeba", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN213", "_type": "noun", "noun": "dragon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN214", "_type": "noun", "noun": "scorpion", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN215", "_type": "noun", "noun": "bovine", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN216", "_type": "noun", "noun": "energy being", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN217", "_type": "noun", "noun": "pillbug", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN218", "_type": "noun", "noun": "Babel fish", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN219", "_type": "noun", "noun": "Grammaton Cleric", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN220", "_type": "noun", "noun": "Brontosaurus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN221", "_type": "noun", "noun": "Betazoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN222", "_type": "noun", "noun": "Bantha", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN223", "_type": "noun", "noun": "Besalisk", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN224", "_type": "noun", "noun": "dust cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN225", "_type": "noun", "noun": "crustacean", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN226", "_type": "noun", "noun": "Borg", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN227", "_type": "noun", "noun": "star mind", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN228", "_type": "noun", "noun": "fox", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN229", "_type": "noun", "noun": "Catbug", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN230", "_type": "noun", "noun": "Cheela", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN231", "_type": "noun", "noun": "chimera", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN232", "_type": "noun", "noun": "hairball", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN233", "_type": "noun", "noun": "Cthulhu", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN234", "_type": "noun", "noun": "lifeform", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN235", "_type": "noun", "noun": "Kaiju", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN236", "_type": "noun", "noun": "Jaeger", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN237", "_type": "noun", "noun": "drone", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN238", "_type": "noun", "noun": "frog", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN239", "_type": "noun", "noun": "ekoplektoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN240", "_type": "noun", "noun": "elf", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN241", "_type": "noun", "noun": "Elda", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN242", "_type": "noun", "noun": "Ewok", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN243", "_type": "noun", "noun": "Ferengi", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN244", "_type": "noun", "noun": "shape-shifter", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN245", "_type": "noun", "noun": "Formic", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN246", "_type": "noun", "noun": "squidling", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN247", "_type": "noun", "noun": "corpse", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN248", "_type": "noun", "noun": "Godzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN249", "_type": "noun", "noun": "Mechagodzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN250", "_type": "noun", "noun": "Gorn", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN251", "_type": "noun", "noun": "chromosome", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN252", "_type": "noun", "noun": "hallucinogenic", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN253", "_type": "noun", "noun": "mushroom", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN254", "_type": "noun", "noun": "flatworm", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN255", "_type": "noun", "noun": "octopus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN256", "_type": "noun", "noun": "marsupial", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN257", "_type": "noun", "noun": "Jawa", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN258", "_type": "noun", "noun": "rhino", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN259", "_type": "noun", "noun": "Klingon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN260", "_type": "noun", "noun": "trilobite", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN261", "_type": "noun", "noun": "hybrid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN262", "_type": "noun", "noun": "Thermian", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN263", "_type": "noun", "noun": "locust", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN264", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN265", "_type": "noun", "noun": "Vogon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN266", "_type": "noun", "noun": "Betelgeusian", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN267", "_type": "noun", "noun": "dolphin", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN268", "_type": "noun", "noun": "Ameglian Major Cow", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN269", "_type": "noun", "noun": "leech", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN270", "_type": "noun", "noun": "changeling", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN271", "_type": "noun", "noun": "Romulan", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN272", "_type": "noun", "noun": "gryphon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN273", "_type": "noun", "noun": "Vulcan", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN274", "_type": "noun", "noun": "Gungan", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN275", "_type": "noun", "noun": "Yoda", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN276", "_type": "noun", "noun": "Wookiee", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN277", "_type": "noun", "noun": "millipede", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN278", "_type": "noun", "noun": "bacteria", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN279", "_type": "noun", "noun": "mollusc", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN280", "_type": "noun", "noun": "saurian", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN281", "_type": "noun", "noun": "entity", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN282", "_type": "noun", "noun": "breeder", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN283", "_type": "noun", "noun": "predator", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN284", "_type": "noun", "noun": "lizard", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN285", "_type": "noun", "noun": "super-Saiyan", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN286", "_type": "noun", "noun": "sandworm", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN287", "_type": "noun", "noun": "shadow", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN288", "_type": "noun", "noun": "sunbeam", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN289", "_type": "noun", "noun": "ray of light", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN290", "_type": "noun", "noun": "spacechicken", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN291", "_type": "noun", "noun": "Gyarados", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN292", "_type": "noun", "noun": "species", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN293", "_type": "noun", "noun": "Sun-Dog", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN294", "_type": "noun", "noun": "Titan", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN295", "_type": "noun", "noun": "Trill", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN296", "_type": "noun", "noun": "Tusken Raider", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN297", "_type": "noun", "noun": "Ringwraith", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN298", "_type": "noun", "noun": "hornet", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN299", "_type": "noun", "noun": "upsilon meson", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN300", "_type": "noun", "noun": "euphemism", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN301", "_type": "noun", "noun": "Who", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN302", "_type": "noun", "noun": "will-o'-the-wisp", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN303", "_type": "noun", "noun": "quarkonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN304", "_type": "noun", "noun": "bottomonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN305", "_type": "noun", "noun": "Nazg\u00c3\u00bbl", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN306", "_type": "noun", "noun": "prayer", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN307", "_type": "noun", "noun": "curse", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN308", "_type": "noun", "noun": "language", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN309", "_type": "noun", "noun": "stock market", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN310", "_type": "noun", "noun": "lake", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN311", "_type": "noun", "noun": "river", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN312", "_type": "noun", "noun": "hoglet", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN313", "_type": "noun", "noun": "feral hog", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN314", "_type": "noun", "noun": "waterfall", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN315", "_type": "noun", "noun": "panda", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN316", "_type": "noun", "noun": "cumulonimbus cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN317", "_type": "noun", "noun": "mountain", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN318", "_type": "noun", "noun": "soul", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN319", "_type": "noun", "noun": "Gundam", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN320", "_type": "noun", "noun": "icicle", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN321", "_type": "noun", "noun": "egg", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN322", "_type": "noun", "noun": "crystal", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN323", "_type": "noun", "noun": "cloud of metallic plasma", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN324", "_type": "noun", "noun": "space shark", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN325", "_type": "noun", "noun": "space whale", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN326", "_type": "noun", "noun": "cloud of organic molecules", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN327", "_type": "noun", "noun": "stardust", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN328", "_type": "noun", "noun": "spacecrab", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN329", "_type": "noun", "noun": "monstrosity", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN330", "_type": "noun", "noun": "minotaur", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN331", "_type": "noun", "noun": "sphinx", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN332", "_type": "noun", "noun": "siren", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN333", "_type": "noun", "noun": "harpy", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN334", "_type": "noun", "noun": "goblin", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN335", "_type": "noun", "noun": "seraph", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN336", "_type": "noun", "noun": "osprey", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN337", "_type": "noun", "noun": "ogre", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN338", "_type": "noun", "noun": "sea serpent", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN339", "_type": "noun", "noun": "drop bear", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN340", "_type": "noun", "noun": "equation", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN341", "_type": "noun", "noun": "wyvern", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN342", "_type": "noun", "noun": "basalisk", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN343", "_type": "noun", "noun": "griffin", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN344", "_type": "noun", "noun": "hippogriff", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN345", "_type": "noun", "noun": "questing beast", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN346", "_type": "noun", "noun": "phoenix", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN347", "_type": "noun", "noun": "salamandar", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN348", "_type": "noun", "noun": "axion", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN349", "_type": "noun", "noun": "mandrake", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN350", "_type": "noun", "noun": "manticore", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN351", "_type": "noun", "noun": "snow monkey", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN352", "_type": "noun", "noun": "banshee", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN353", "_type": "noun", "noun": "mummy", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN354", "_type": "noun", "noun": "Krampus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN355", "_type": "noun", "noun": "Mephistopheles", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN356", "_type": "noun", "noun": "Cerberus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN357", "_type": "noun", "noun": "gorgon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN358", "_type": "noun", "noun": "Xenotherian", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN359", "_type": "noun", "noun": "Medusa", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN360", "_type": "noun", "noun": "Pegasus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN361", "_type": "noun", "noun": "Lovecraftian horror", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN362", "_type": "noun", "noun": "sandwalker", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN363", "_type": "noun", "noun": "behemoth", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN364", "_type": "noun", "noun": "incubus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN365", "_type": "noun", "noun": "leviathon", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN366", "_type": "noun", "noun": "succubus", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN367", "_type": "noun", "noun": "El Chupacabra", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN368", "_type": "noun", "noun": "zombie", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN369", "_type": "noun", "noun": "gray alien", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN370", "_type": "noun", "noun": "gremlin", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN371", "_type": "noun", "noun": "mermaid", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN372", "_type": "noun", "noun": "merman", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN373", "_type": "noun", "noun": "mothman", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN374", "_type": "noun", "noun": "apparition", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN375", "_type": "noun", "noun": "owlman", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN376", "_type": "noun", "noun": "panther", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN377", "_type": "noun", "noun": "werewolf", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN378", "_type": "noun", "noun": "vampire", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN379", "_type": "noun", "noun": "future", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN380", "_type": "noun", "noun": "troll", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN381", "_type": "noun", "noun": "batman", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN382", "_type": "noun", "noun": "manbat", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN383", "_type": "noun", "noun": "balrog", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN384", "_type": "noun", "noun": "sandwich", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN385", "_type": "noun", "noun": "morlock", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN386", "_type": "noun", "noun": "orc", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN387", "_type": "noun", "noun": "spacegodzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN388", "_type": "noun", "noun": "King Kong", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN389", "_type": "noun", "noun": "anti-fairy", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN390", "_type": "noun", "noun": "yawn", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN391", "_type": "noun", "noun": "civilisation", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN392", "_type": "noun", "noun": "solar system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN393", "_type": "noun", "noun": "star system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN394", "_type": "noun", "noun": "galaxy", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN395", "_type": "noun", "noun": "fortification", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN396", "_type": "noun", "noun": "ocean", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN397", "_type": "noun", "noun": "settlement", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN398", "_type": "noun", "noun": "nebula", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN399", "_type": "noun", "noun": "supernova", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN400", "_type": "noun", "noun": "star cluster", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN401", "_type": "noun", "noun": "gas giant", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN402", "_type": "noun", "noun": "black hole", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN403", "_type": "noun", "noun": "singularity", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN404", "_type": "noun", "noun": "wormhole", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN405", "_type": "noun", "noun": "space colony", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN406", "_type": "noun", "noun": "society", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN407", "_type": "noun", "noun": "empire", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN408", "_type": "noun", "noun": "dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN409", "_type": "noun", "noun": "pocket dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN410", "_type": "noun", "noun": "shadow", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN411", "_type": "noun", "noun": "culture", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN412", "_type": "noun", "noun": "commonwealth", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN413", "_type": "noun", "noun": "imperium", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN414", "_type": "noun", "noun": "mirror dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN415", "_type": "noun", "noun": "universe", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN416", "_type": "noun", "noun": "wasteland", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN417", "_type": "noun", "noun": "city", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN418", "_type": "noun", "noun": "citadel", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN419", "_type": "noun", "noun": "palace", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN420", "_type": "noun", "noun": "construct", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN421", "_type": "noun", "noun": "nexus", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN422", "_type": "noun", "noun": "variable", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN423", "_type": "noun", "noun": "remnant", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN424", "_type": "noun", "noun": "globular cluster", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN425", "_type": "noun", "noun": "void", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN426", "_type": "noun", "noun": "constellation", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN427", "_type": "noun", "noun": "stellar stream", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN428", "_type": "noun", "noun": "system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN429", "_type": "noun", "noun": "hypernova", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN430", "_type": "noun", "noun": "delta", "nounType": {"_type": "reference", "_ref": "inplc1"}}
-{"_id": "NOUN431", "_type": "noun", "noun": "atoll", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN432", "_type": "noun", "noun": "planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN433", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN434", "_type": "noun", "noun": "moon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN435", "_type": "noun", "noun": "rock", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN436", "_type": "noun", "noun": "island", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN437", "_type": "noun", "noun": "world", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN438", "_type": "noun", "noun": "battlefield", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN439", "_type": "noun", "noun": "star", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN440", "_type": "noun", "noun": "blue giant", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN441", "_type": "noun", "noun": "red hypergiant", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN442", "_type": "noun", "noun": "neutron star", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN443", "_type": "noun", "noun": "exoplanet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN444", "_type": "noun", "noun": "red dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN445", "_type": "noun", "noun": "ringed planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN446", "_type": "noun", "noun": "dyson sphere", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN447", "_type": "noun", "noun": "hyperspace bypass", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN448", "_type": "noun", "noun": "background", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN449", "_type": "noun", "noun": "pulsar", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN450", "_type": "noun", "noun": "white dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN451", "_type": "noun", "noun": "filament", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN452", "_type": "noun", "noun": "brown dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN453", "_type": "noun", "noun": "quasar", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN454", "_type": "noun", "noun": "exomoon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN455", "_type": "noun", "noun": "tesseract", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN456", "_type": "noun", "noun": "ocean planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN457", "_type": "noun", "noun": "desert planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN458", "_type": "noun", "noun": "forest planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN459", "_type": "noun", "noun": "asteroid base", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN460", "_type": "noun", "noun": "horizon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
-{"_id": "NOUN461", "_type": "noun", "noun": "the Planetary Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN462", "_type": "noun", "noun": "the Interstellar Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN463", "_type": "noun", "noun": "the Galactic Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN464", "_type": "noun", "noun": "the United Federation of Planets", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN465", "_type": "noun", "noun": "the Trade Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN466", "_type": "noun", "noun": "the Galactic Empire", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN467", "_type": "noun", "noun": "the Planetary Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN468", "_type": "noun", "noun": "the Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN469", "_type": "noun", "noun": "the Galactic Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN470", "_type": "noun", "noun": "the Union of Allied Planets", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN471", "_type": "noun", "noun": "the System Lords", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN472", "_type": "noun", "noun": "the United Earth Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN473", "_type": "noun", "noun": "the Global Defense Initiative", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN474", "_type": "noun", "noun": "the Unified Earth Government", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN475", "_type": "noun", "noun": "the Confederation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN476", "_type": "noun", "noun": "the Earth Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN477", "_type": "noun", "noun": "the Terran Confederation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN478", "_type": "noun", "noun": "the World Air Force", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN479", "_type": "noun", "noun": "the Hegemon", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN480", "_type": "noun", "noun": "the Central Management Bureau", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN481", "_type": "noun", "noun": "the United Forces of Earth", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN482", "_type": "noun", "noun": "the Earth Government Colonial Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN483", "_type": "noun", "noun": "the New Solar System", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN484", "_type": "noun", "noun": "the Earth Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN485", "_type": "noun", "noun": "the United Nations Space Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN486", "_type": "noun", "noun": "the United Nations Interstellar Protectorate", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN487", "_type": "noun", "noun": "the Imperium", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN488", "_type": "noun", "noun": "the United Earth Directorate", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN489", "_type": "noun", "noun": "the Galactic Commons", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN490", "_type": "noun", "noun": "Starfleet", "nounType": {"_type": "reference", "_ref": "pol1"}}
-{"_id": "NOUN491", "_type": "noun", "noun": "mass of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN492", "_type": "noun", "noun": "crowd of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN493", "_type": "noun", "noun": "colony of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN494", "_type": "noun", "noun": "band of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN495", "_type": "noun", "noun": "crew of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN496", "_type": "noun", "noun": "pack of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN497", "_type": "noun", "noun": "hive of", "nounType": {"_type": "reference", "_ref": "grp1"}}
-{"_id": "NOUN498", "_type": "noun", "noun": "a meteroid collision", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN499", "_type": "noun", "noun": "an explosion", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN500", "_type": "noun", "noun": "gunfire", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN501", "_type": "noun", "noun": "an interstellar battle", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN502", "_type": "noun", "noun": "a space dogfight", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN503", "_type": "noun", "noun": "radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN504", "_type": "noun", "noun": "a rogue AI", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN505", "_type": "noun", "noun": "increased stellar activity", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN506", "_type": "noun", "noun": "a storm of metallic asteroids", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN507", "_type": "noun", "noun": "exotic particles", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN508", "_type": "noun", "noun": "a mutiny", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN509", "_type": "noun", "noun": "an alien device", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN510", "_type": "noun", "noun": "laser fire", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN511", "_type": "noun", "noun": "cryopod failure", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN512", "_type": "noun", "noun": "a swarm of nanobots", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN513", "_type": "noun", "noun": "illegal salvage", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN514", "_type": "noun", "noun": "medical robots", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN515", "_type": "noun", "noun": "solar radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN516", "_type": "noun", "noun": "overconfidence", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN517", "_type": "noun", "noun": "hubris", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN518", "_type": "noun", "noun": "a hypernova", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN519", "_type": "noun", "noun": "a supernova", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN520", "_type": "noun", "noun": "a religious cult", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN521", "_type": "noun", "noun": "social breakdown", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN522", "_type": "noun", "noun": "a hyperspatial disaster", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN523", "_type": "noun", "noun": "resource depletion", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN524", "_type": "noun", "noun": "a nearby civilisation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN525", "_type": "noun", "noun": "an enemy alliance", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN526", "_type": "noun", "noun": "a bizarre experiment", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN527", "_type": "noun", "noun": "a micro-wormhole", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN528", "_type": "noun", "noun": "a fast-moving black hole", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN529", "_type": "noun", "noun": "its own self-destruct sequence", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN530", "_type": "noun", "noun": "orbital space debris", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN531", "_type": "noun", "noun": "a clawed monstrosity", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN532", "_type": "noun", "noun": "hostile aliens", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN533", "_type": "noun", "noun": "alien slime mold", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN534", "_type": "noun", "noun": "a pulsar", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN535", "_type": "noun", "noun": "gamma radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN536", "_type": "noun", "noun": "a magnetar starquake", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN537", "_type": "noun", "noun": "a Class A stellar engine", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN538", "_type": "noun", "noun": "malfunctioning tech", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN539", "_type": "noun", "noun": "gravitational waves", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN540", "_type": "noun", "noun": "a temporal pocket", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN541", "_type": "noun", "noun": "an unreliable first officer", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN542", "_type": "noun", "noun": "miscalculations", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN543", "_type": "noun", "noun": "thousands of miniature singularities", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN544", "_type": "noun", "noun": "a time loop", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN545", "_type": "noun", "noun": "accidentally folding space-time on itself", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN546", "_type": "noun", "noun": "a malfunctioning navigational system", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN547", "_type": "noun", "noun": "time slippage", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN548", "_type": "noun", "noun": "an AI attempting to grappel with G\u00c3\u00b6del's incompleteness theorem", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN549", "_type": "noun", "noun": "androids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN550", "_type": "noun", "noun": "robots", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN551", "_type": "noun", "noun": "beasts", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN552", "_type": "noun", "noun": "snow monkeys", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN553", "_type": "noun", "noun": "cyborgs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN554", "_type": "noun", "noun": "cylons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN555", "_type": "noun", "noun": "clones", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN556", "_type": "noun", "noun": "gryphons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN557", "_type": "noun", "noun": "insects", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN558", "_type": "noun", "noun": "worms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN559", "_type": "noun", "noun": "animals", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN560", "_type": "noun", "noun": "sparrows", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN561", "_type": "noun", "noun": "foxes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN562", "_type": "noun", "noun": "bovines", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN563", "_type": "noun", "noun": "hawks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN564", "_type": "noun", "noun": "cats", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN565", "_type": "noun", "noun": "wolves", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN566", "_type": "noun", "noun": "axions", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN567", "_type": "noun", "noun": "tardigrades", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN568", "_type": "noun", "noun": "organisms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN569", "_type": "noun", "noun": "futures", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN570", "_type": "noun", "noun": "mulefa", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN571", "_type": "noun", "noun": "microbes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN572", "_type": "noun", "noun": "monsters", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN573", "_type": "noun", "noun": "gods", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN574", "_type": "noun", "noun": "dinosaurs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN575", "_type": "noun", "noun": "velociraptors", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN576", "_type": "noun", "noun": "xenomorphs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN577", "_type": "noun", "noun": "fungi", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN578", "_type": "noun", "noun": "memories", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN579", "_type": "noun", "noun": "databases", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN580", "_type": "noun", "noun": "microchips", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN581", "_type": "noun", "noun": "cephalopoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN582", "_type": "noun", "noun": "algae", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN583", "_type": "noun", "noun": "bats", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN584", "_type": "noun", "noun": "atoms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN585", "_type": "noun", "noun": "asteroids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN586", "_type": "noun", "noun": "comets", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN587", "_type": "noun", "noun": "neurons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN588", "_type": "noun", "noun": "hoglets", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN589", "_type": "noun", "noun": "feral hogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN590", "_type": "noun", "noun": "equations", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN591", "_type": "noun", "noun": "neural nets", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN592", "_type": "noun", "noun": "blockchains", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN593", "_type": "noun", "noun": "cryptocurrencies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN594", "_type": "noun", "noun": "neutrinos", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN595", "_type": "noun", "noun": "nanites", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN596", "_type": "noun", "noun": "eulogies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN597", "_type": "noun", "noun": "protons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN598", "_type": "noun", "noun": "electrons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN599", "_type": "noun", "noun": "ospreys", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN600", "_type": "noun", "noun": "seraphim", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN601", "_type": "noun", "noun": "God particles", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN602", "_type": "noun", "noun": "muons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN603", "_type": "noun", "noun": "clouds of nitrogen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN604", "_type": "noun", "noun": "quarkonia", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN605", "_type": "noun", "noun": "bottomoniums", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN606", "_type": "noun", "noun": "megaladon", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN607", "_type": "noun", "noun": "whispers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN608", "_type": "noun", "noun": "upsilon meson", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN609", "_type": "noun", "noun": "clouds of hydrogen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN610", "_type": "noun", "noun": "clouds of oxygen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN611", "_type": "noun", "noun": "quarks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN612", "_type": "noun", "noun": "hornets", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN613", "_type": "noun", "noun": "sheep", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN614", "_type": "noun", "noun": "spiders", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN615", "_type": "noun", "noun": "Xenotherians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN616", "_type": "noun", "noun": "clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN617", "_type": "noun", "noun": "mutants", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN618", "_type": "noun", "noun": "squid", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN619", "_type": "noun", "noun": "Kraken", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN620", "_type": "noun", "noun": "Daleks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN621", "_type": "noun", "noun": "lobsters", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN622", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN623", "_type": "noun", "noun": "hydras", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN624", "_type": "noun", "noun": "spores", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN625", "_type": "noun", "noun": "plants", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN626", "_type": "noun", "noun": "gastropods", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN627", "_type": "noun", "noun": "heptapods", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN628", "_type": "noun", "noun": "slugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN629", "_type": "noun", "noun": "symbiots", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN630", "_type": "noun", "noun": "parasites", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN631", "_type": "noun", "noun": "amoeba", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN632", "_type": "noun", "noun": "dragons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN633", "_type": "noun", "noun": "scorpions", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN634", "_type": "noun", "noun": "energy beings", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN635", "_type": "noun", "noun": "apparitions", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN636", "_type": "noun", "noun": "pillbugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN637", "_type": "noun", "noun": "Babel fish", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN638", "_type": "noun", "noun": "Brontosauruses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN639", "_type": "noun", "noun": "Betazoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN640", "_type": "noun", "noun": "Whos", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN641", "_type": "noun", "noun": "Banthas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN642", "_type": "noun", "noun": "conspiracies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN643", "_type": "noun", "noun": "Grammaton Clerics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN644", "_type": "noun", "noun": "Besalisks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN645", "_type": "noun", "noun": "dust clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN646", "_type": "noun", "noun": "heuristics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN647", "_type": "noun", "noun": "algorithms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN648", "_type": "noun", "noun": "crustaceans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN649", "_type": "noun", "noun": "Borg", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN650", "_type": "noun", "noun": "star minds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN651", "_type": "noun", "noun": "Catbugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN652", "_type": "noun", "noun": "Cheela", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN653", "_type": "noun", "noun": "chimeras", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN654", "_type": "noun", "noun": "hairballs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN655", "_type": "noun", "noun": "Cthulhus", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN656", "_type": "noun", "noun": "lifeforms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN657", "_type": "noun", "noun": "sandwiches", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN658", "_type": "noun", "noun": "Kaiju", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN659", "_type": "noun", "noun": "Jaegers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN660", "_type": "noun", "noun": "drones", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN661", "_type": "noun", "noun": "frogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN662", "_type": "noun", "noun": "ekoplektoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN663", "_type": "noun", "noun": "elves", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN664", "_type": "noun", "noun": "Eldar", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN665", "_type": "noun", "noun": "Ewoks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN666", "_type": "noun", "noun": "Ferengi", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN667", "_type": "noun", "noun": "shape-shifters", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN668", "_type": "noun", "noun": "moms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN669", "_type": "noun", "noun": "dads", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN670", "_type": "noun", "noun": "Formics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN671", "_type": "noun", "noun": "squidlings", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN672", "_type": "noun", "noun": "corpses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN673", "_type": "noun", "noun": "Godzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN674", "_type": "noun", "noun": "Mechagodzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN675", "_type": "noun", "noun": "Gorn", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN676", "_type": "noun", "noun": "chromosomes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN677", "_type": "noun", "noun": "hallucinogenics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN678", "_type": "noun", "noun": "mushrooms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN679", "_type": "noun", "noun": "flatworms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN680", "_type": "noun", "noun": "octopia", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN681", "_type": "noun", "noun": "marsupials", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN682", "_type": "noun", "noun": "Jawa", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN683", "_type": "noun", "noun": "rhinos", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN684", "_type": "noun", "noun": "Klingons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN685", "_type": "noun", "noun": "trilobites", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN686", "_type": "noun", "noun": "hybrids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN687", "_type": "noun", "noun": "Thermians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN688", "_type": "noun", "noun": "locusts", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN689", "_type": "noun", "noun": "plagues", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN690", "_type": "noun", "noun": "Vogons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN691", "_type": "noun", "noun": "Betelgeusians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN692", "_type": "noun", "noun": "dolphins", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN693", "_type": "noun", "noun": "Ameglian Major Cows", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN694", "_type": "noun", "noun": "leeches", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN695", "_type": "noun", "noun": "changelings", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN696", "_type": "noun", "noun": "Romulans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN697", "_type": "noun", "noun": "Vulcans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN698", "_type": "noun", "noun": "Gungans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN699", "_type": "noun", "noun": "Yodas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN700", "_type": "noun", "noun": "Wookiees", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN701", "_type": "noun", "noun": "millipedes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN702", "_type": "noun", "noun": "bacteria", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN703", "_type": "noun", "noun": "molluscs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN704", "_type": "noun", "noun": "saurians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN705", "_type": "noun", "noun": "entities", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN706", "_type": "noun", "noun": "protectors", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN707", "_type": "noun", "noun": "breeders", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN708", "_type": "noun", "noun": "predators", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN709", "_type": "noun", "noun": "lizards", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN710", "_type": "noun", "noun": "super-Saiyans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN711", "_type": "noun", "noun": "sandworms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN712", "_type": "noun", "noun": "shadows", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN713", "_type": "noun", "noun": "sunbeams", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN714", "_type": "noun", "noun": "rays of light", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN715", "_type": "noun", "noun": "Lovecraftian horrors", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN716", "_type": "noun", "noun": "space chickens", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN717", "_type": "noun", "noun": "Gyarados", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN718", "_type": "noun", "noun": "species", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN719", "_type": "noun", "noun": "Sun-Dogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN720", "_type": "noun", "noun": "Titans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN721", "_type": "noun", "noun": "Trills", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN722", "_type": "noun", "noun": "Tusken Raiders", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN723", "_type": "noun", "noun": "Ringwraiths", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN724", "_type": "noun", "noun": "will-o'-the-wisps", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN725", "_type": "noun", "noun": "Nazgul", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN726", "_type": "noun", "noun": "prayers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN727", "_type": "noun", "noun": "curses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN728", "_type": "noun", "noun": "languages", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN729", "_type": "noun", "noun": "stock markets", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN730", "_type": "noun", "noun": "lakes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN731", "_type": "noun", "noun": "euphemisms", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN732", "_type": "noun", "noun": "rivers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN733", "_type": "noun", "noun": "waterfalls", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN734", "_type": "noun", "noun": "mountains", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN735", "_type": "noun", "noun": "souls", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN736", "_type": "noun", "noun": "Gundam", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN737", "_type": "noun", "noun": "icicles", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN738", "_type": "noun", "noun": "eggs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN739", "_type": "noun", "noun": "crystals", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN740", "_type": "noun", "noun": "clouds of metallic plasma", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN741", "_type": "noun", "noun": "space sharks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN742", "_type": "noun", "noun": "space whales", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN743", "_type": "noun", "noun": "clouds or oganic molecules", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN744", "_type": "noun", "noun": "space crabs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN745", "_type": "noun", "noun": "monstrosities", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN746", "_type": "noun", "noun": "felinoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN747", "_type": "noun", "noun": "sphinxes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN748", "_type": "noun", "noun": "sirens", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN749", "_type": "noun", "noun": "harpies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN750", "_type": "noun", "noun": "goblins", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN751", "_type": "noun", "noun": "ogres", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN752", "_type": "noun", "noun": "cumulonimbus clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN753", "_type": "noun", "noun": "sea serpents", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN754", "_type": "noun", "noun": "drop bears", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN755", "_type": "noun", "noun": "wyverns", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN756", "_type": "noun", "noun": "basalisks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN757", "_type": "noun", "noun": "griffins", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN758", "_type": "noun", "noun": "hippogriffs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN759", "_type": "noun", "noun": "questing beasts", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN760", "_type": "noun", "noun": "phoenixes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN761", "_type": "noun", "noun": "salamandars", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN762", "_type": "noun", "noun": "mandrakes", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN763", "_type": "noun", "noun": "manticores", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN764", "_type": "noun", "noun": "banshees", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN765", "_type": "noun", "noun": "mummies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN766", "_type": "noun", "noun": "Krampuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN767", "_type": "noun", "noun": "Mephistopheles", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN768", "_type": "noun", "noun": "Cerberuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN769", "_type": "noun", "noun": "gorgons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN770", "_type": "noun", "noun": "Medusas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN771", "_type": "noun", "noun": "Pegasuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN772", "_type": "noun", "noun": "sandwalkers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN773", "_type": "noun", "noun": "behemoths", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN774", "_type": "noun", "noun": "incubuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN775", "_type": "noun", "noun": "leviathons", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN776", "_type": "noun", "noun": "pandas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN777", "_type": "noun", "noun": "succubi", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN778", "_type": "noun", "noun": "El Chupacabras", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN779", "_type": "noun", "noun": "zombies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN780", "_type": "noun", "noun": "gray aliens", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN781", "_type": "noun", "noun": "gremlins", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN782", "_type": "noun", "noun": "mermaids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN783", "_type": "noun", "noun": "mermen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN784", "_type": "noun", "noun": "mothmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN785", "_type": "noun", "noun": "owlmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN786", "_type": "noun", "noun": "panthers", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN787", "_type": "noun", "noun": "werewolves", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN788", "_type": "noun", "noun": "vampires", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN789", "_type": "noun", "noun": "trolls", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN790", "_type": "noun", "noun": "batmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN791", "_type": "noun", "noun": "manbats", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN792", "_type": "noun", "noun": "balrogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN793", "_type": "noun", "noun": "morlocks", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN794", "_type": "noun", "noun": "orcs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN795", "_type": "noun", "noun": "spacegodzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN796", "_type": "noun", "noun": "King Kongs", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN797", "_type": "noun", "noun": "anti-fairies", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN798", "_type": "noun", "noun": "yawns", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN799", "_type": "noun", "noun": "avians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN800", "_type": "noun", "noun": "stardust", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN801", "_type": "noun", "noun": "reptiloids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN802", "_type": "noun", "noun": "egotists", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN803", "_type": "noun", "noun": "autodidacts", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN804", "_type": "noun", "noun": "alcoholics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN805", "_type": "noun", "noun": "workaholics", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN806", "_type": "noun", "noun": "vegans", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN807", "_type": "noun", "noun": "vegetarians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN808", "_type": "noun", "noun": "pescetarians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN809", "_type": "noun", "noun": "arachnoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN810", "_type": "noun", "noun": "reptilians", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN811", "_type": "noun", "noun": "pseudo-humanoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN812", "_type": "noun", "noun": "semi-humanoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN813", "_type": "noun", "noun": "bipeds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN814", "_type": "noun", "noun": "quadrapeds", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN815", "_type": "noun", "noun": "neoliberals", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN816", "_type": "noun", "noun": "postmodernists", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN817", "_type": "noun", "noun": "zebroids", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN818", "_type": "noun", "noun": "the sound of its own breathing", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN819", "_type": "noun", "noun": "gravity waves", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN820", "_type": "noun", "noun": "self-awareness", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN821", "_type": "noun", "noun": "hubris", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN822", "_type": "noun", "noun": "radiation", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN823", "_type": "noun", "noun": "exotic particles", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN824", "_type": "noun", "noun": "the lifespan of different species", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN825", "_type": "noun", "noun": "the strength of its sworn rival", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN826", "_type": "noun", "noun": "great insterstellar migrations", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN827", "_type": "noun", "noun": "the passage of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN828", "_type": "noun", "noun": "the breadth and depth of its feelings", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN829", "_type": "noun", "noun": "the breadth and depth of the universe", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN830", "_type": "noun", "noun": "the spaces between the multiverse", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN831", "_type": "noun", "noun": "abstract reasoning in neural networks", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN832", "_type": "noun", "noun": "the way things used to be", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN833", "_type": "noun", "noun": "time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN834", "_type": "noun", "noun": "the concept of time", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN835", "_type": "noun", "noun": "lifetimes", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN836", "_type": "noun", "noun": "ambient energy theory", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN837", "_type": "noun", "noun": "atmospheric gases", "nounType": {"_type": "reference", "_ref": "msr1"}}
-{"_id": "NOUN838", "_type": "noun", "noun": "possible biospheres", "nounType": {"_type": "reference", "_ref": "msr1"}}
+{"_id": "NOUN50", "_type": "noun", "noun": "mom", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN51", "_type": "noun", "noun": "dad", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN52", "_type": "noun", "noun": "admiral", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN53", "_type": "noun", "noun": "viscount", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN54", "_type": "noun", "noun": "terrorist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN55", "_type": "noun", "noun": "devotee", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN56", "_type": "noun", "noun": "priest", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN57", "_type": "noun", "noun": "president", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN58", "_type": "noun", "noun": "prime minister", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN59", "_type": "noun", "noun": "senator", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN60", "_type": "noun", "noun": "mayor", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN61", "_type": "noun", "noun": "martial artist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN62", "_type": "noun", "noun": "linguist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN63", "_type": "noun", "noun": "lecturer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN64", "_type": "noun", "noun": "teacher", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN65", "_type": "noun", "noun": "professor", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN66", "_type": "noun", "noun": "actuary", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN67", "_type": "noun", "noun": "eunuch", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN68", "_type": "noun", "noun": "usurper", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN69", "_type": "noun", "noun": "accountant", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN70", "_type": "noun", "noun": "mathematician", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN71", "_type": "noun", "noun": "geologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN72", "_type": "noun", "noun": "sultan", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN73", "_type": "noun", "noun": "volcanologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN74", "_type": "noun", "noun": "seismologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN75", "_type": "noun", "noun": "sniper", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN76", "_type": "noun", "noun": "grunt", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN77", "_type": "noun", "noun": "journalist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN78", "_type": "noun", "noun": "composer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN79", "_type": "noun", "noun": "bureaucrat", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN80", "_type": "noun", "noun": "astronomer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN81", "_type": "noun", "noun": "cosmologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN82", "_type": "noun", "noun": "anthrozoologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN83", "_type": "noun", "noun": "meteorologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN84", "_type": "noun", "noun": "software developer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN85", "_type": "noun", "noun": "web designer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN86", "_type": "noun", "noun": "risk manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN87", "_type": "noun", "noun": "manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN88", "_type": "noun", "noun": "physician", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN89", "_type": "noun", "noun": "physicist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN90", "_type": "noun", "noun": "dinosaur supervisor", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN91", "_type": "noun", "noun": "project manager", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN92", "_type": "noun", "noun": "electrician", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN93", "_type": "noun", "noun": "plumber", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN94", "_type": "noun", "noun": "architect", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN95", "_type": "noun", "noun": "hairdresser", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN96", "_type": "noun", "noun": "consultant", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN97", "_type": "noun", "noun": "midwife", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN98", "_type": "noun", "noun": "surveyor", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN99", "_type": "noun", "noun": "geisha", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN100", "_type": "noun", "noun": "pharmacist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN101", "_type": "noun", "noun": "veterinarian", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN102", "_type": "noun", "noun": "lawyer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN103", "_type": "noun", "noun": "physiotherapist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN104", "_type": "noun", "noun": "aviator", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN105", "_type": "noun", "noun": "waiter", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN106", "_type": "noun", "noun": "surgeon", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN107", "_type": "noun", "noun": "broker", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN108", "_type": "noun", "noun": "eugenist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN109", "_type": "noun", "noun": "psychic", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN110", "_type": "noun", "noun": "gambler", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN111", "_type": "noun", "noun": "judge", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN112", "_type": "noun", "noun": "radiographer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN113", "_type": "noun", "noun": "videographer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN114", "_type": "noun", "noun": "drag queen", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN115", "_type": "noun", "noun": "dental hygienist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN116", "_type": "noun", "noun": "orthodontist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN117", "_type": "noun", "noun": "nun", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN118", "_type": "noun", "noun": "dentist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN119", "_type": "noun", "noun": "farmer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN120", "_type": "noun", "noun": "psychologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN121", "_type": "noun", "noun": "firefighter", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN122", "_type": "noun", "noun": "police officer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN123", "_type": "noun", "noun": "estate agent", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN124", "_type": "noun", "noun": "cleaner", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN125", "_type": "noun", "noun": "athlete", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN126", "_type": "noun", "noun": "author", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN127", "_type": "noun", "noun": "Rancour keeper", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN128", "_type": "noun", "noun": "Truman Show extra", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN129", "_type": "noun", "noun": "avatar operator", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN130", "_type": "noun", "noun": "Jaeger pilot", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN131", "_type": "noun", "noun": "replicant hunter", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN132", "_type": "noun", "noun": "ghostbuster", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN133", "_type": "noun", "noun": "helmsman", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN134", "_type": "noun", "noun": "xenologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN135", "_type": "noun", "noun": "avionics engineer", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN136", "_type": "noun", "noun": "xenolinguist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN137", "_type": "noun", "noun": "xenobotanist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN138", "_type": "noun", "noun": "xenopathologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN139", "_type": "noun", "noun": "paleopathologist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN140", "_type": "noun", "noun": "psychohistorian", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN141", "_type": "noun", "noun": "stowaway", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN142", "_type": "noun", "noun": "alchemist", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN143", "_type": "noun", "noun": "librarian", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN144", "_type": "noun", "noun": "technomage", "nounType": {"_type": "reference", "_ref": "pa1"}}
+{"_id": "NOUN145", "_type": "noun", "noun": "android", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN146", "_type": "noun", "noun": "robot", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN147", "_type": "noun", "noun": "beast", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN148", "_type": "noun", "noun": "cyborg", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN149", "_type": "noun", "noun": "cylon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN150", "_type": "noun", "noun": "clone", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN151", "_type": "noun", "noun": "whisper", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN152", "_type": "noun", "noun": "insect", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN153", "_type": "noun", "noun": "worm", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN154", "_type": "noun", "noun": "animal", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN155", "_type": "noun", "noun": "sparrow", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN156", "_type": "noun", "noun": "hawk", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN157", "_type": "noun", "noun": "cat", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN158", "_type": "noun", "noun": "wolf", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN159", "_type": "noun", "noun": "tardigrade", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN160", "_type": "noun", "noun": "organism", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN161", "_type": "noun", "noun": "microbe", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN162", "_type": "noun", "noun": "monster", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN163", "_type": "noun", "noun": "god", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN164", "_type": "noun", "noun": "dinosaur", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN165", "_type": "noun", "noun": "velociprator", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN166", "_type": "noun", "noun": "xenomorph", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN167", "_type": "noun", "noun": "fungi", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN168", "_type": "noun", "noun": "memory", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN169", "_type": "noun", "noun": "database", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN170", "_type": "noun", "noun": "microchip", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN171", "_type": "noun", "noun": "cephalopoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN172", "_type": "noun", "noun": "algae", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN173", "_type": "noun", "noun": "bat", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN174", "_type": "noun", "noun": "atom", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN175", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN176", "_type": "noun", "noun": "comet", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN177", "_type": "noun", "noun": "neuron", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN178", "_type": "noun", "noun": "nanite", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN179", "_type": "noun", "noun": "neural net", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN180", "_type": "noun", "noun": "blockchain", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN181", "_type": "noun", "noun": "megaladon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN182", "_type": "noun", "noun": "eulogy", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN183", "_type": "noun", "noun": "cryptocurrency", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN184", "_type": "noun", "noun": "neutrino", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN185", "_type": "noun", "noun": "proton", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN186", "_type": "noun", "noun": "electron", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN187", "_type": "noun", "noun": "God particle", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN188", "_type": "noun", "noun": "muon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN189", "_type": "noun", "noun": "cloud of nitrogen", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN190", "_type": "noun", "noun": "cloud of hydrogen", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN191", "_type": "noun", "noun": "cloud of oxygen", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN192", "_type": "noun", "noun": "quark", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN193", "_type": "noun", "noun": "sheep", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN194", "_type": "noun", "noun": "spider", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN195", "_type": "noun", "noun": "cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN196", "_type": "noun", "noun": "mutant", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN197", "_type": "noun", "noun": "squid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN198", "_type": "noun", "noun": "mulefa", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN199", "_type": "noun", "noun": "Kraken", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN200", "_type": "noun", "noun": "Dalek", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN201", "_type": "noun", "noun": "lobster", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN202", "_type": "noun", "noun": "conspiracy", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN203", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN204", "_type": "noun", "noun": "heuristic", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN205", "_type": "noun", "noun": "algorithm", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN206", "_type": "noun", "noun": "hydra", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN207", "_type": "noun", "noun": "spore", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN208", "_type": "noun", "noun": "plant", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN209", "_type": "noun", "noun": "gastropod", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN210", "_type": "noun", "noun": "heptapod", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN211", "_type": "noun", "noun": "slug", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN212", "_type": "noun", "noun": "symbiot", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN213", "_type": "noun", "noun": "parasite", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN214", "_type": "noun", "noun": "amoeba", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN215", "_type": "noun", "noun": "dragon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN216", "_type": "noun", "noun": "scorpion", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN217", "_type": "noun", "noun": "bovine", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN218", "_type": "noun", "noun": "energy being", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN219", "_type": "noun", "noun": "pillbug", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN220", "_type": "noun", "noun": "Babel fish", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN221", "_type": "noun", "noun": "Grammaton Cleric", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN222", "_type": "noun", "noun": "Brontosaurus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN223", "_type": "noun", "noun": "Betazoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN224", "_type": "noun", "noun": "Bantha", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN225", "_type": "noun", "noun": "Besalisk", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN226", "_type": "noun", "noun": "dust cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN227", "_type": "noun", "noun": "crustacean", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN228", "_type": "noun", "noun": "Borg", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN229", "_type": "noun", "noun": "star mind", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN230", "_type": "noun", "noun": "fox", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN231", "_type": "noun", "noun": "Catbug", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN232", "_type": "noun", "noun": "Cheela", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN233", "_type": "noun", "noun": "chimera", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN234", "_type": "noun", "noun": "hairball", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN235", "_type": "noun", "noun": "Cthulhu", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN236", "_type": "noun", "noun": "lifeform", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN237", "_type": "noun", "noun": "Kaiju", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN238", "_type": "noun", "noun": "Jaeger", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN239", "_type": "noun", "noun": "drone", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN240", "_type": "noun", "noun": "frog", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN241", "_type": "noun", "noun": "ekoplektoid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN242", "_type": "noun", "noun": "elf", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN243", "_type": "noun", "noun": "Elda", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN244", "_type": "noun", "noun": "Ewok", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN245", "_type": "noun", "noun": "Ferengi", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN246", "_type": "noun", "noun": "shape-shifter", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN247", "_type": "noun", "noun": "Formic", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN248", "_type": "noun", "noun": "squidling", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN249", "_type": "noun", "noun": "corpse", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN250", "_type": "noun", "noun": "Godzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN251", "_type": "noun", "noun": "Mechagodzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN252", "_type": "noun", "noun": "Gorn", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN253", "_type": "noun", "noun": "chromosome", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN254", "_type": "noun", "noun": "hallucinogenic", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN255", "_type": "noun", "noun": "mushroom", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN256", "_type": "noun", "noun": "flatworm", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN257", "_type": "noun", "noun": "octopus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN258", "_type": "noun", "noun": "marsupial", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN259", "_type": "noun", "noun": "Jawa", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN260", "_type": "noun", "noun": "rhino", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN261", "_type": "noun", "noun": "Klingon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN262", "_type": "noun", "noun": "trilobite", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN263", "_type": "noun", "noun": "hybrid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN264", "_type": "noun", "noun": "Thermian", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN265", "_type": "noun", "noun": "locust", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN266", "_type": "noun", "noun": "plague", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN267", "_type": "noun", "noun": "Vogon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN268", "_type": "noun", "noun": "Betelgeusian", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN269", "_type": "noun", "noun": "dolphin", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN270", "_type": "noun", "noun": "Ameglian Major Cow", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN271", "_type": "noun", "noun": "leech", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN272", "_type": "noun", "noun": "changeling", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN273", "_type": "noun", "noun": "Romulan", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN274", "_type": "noun", "noun": "gryphon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN275", "_type": "noun", "noun": "Vulcan", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN276", "_type": "noun", "noun": "Gungan", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN277", "_type": "noun", "noun": "Yoda", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN278", "_type": "noun", "noun": "Wookiee", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN279", "_type": "noun", "noun": "millipede", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN280", "_type": "noun", "noun": "bacteria", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN281", "_type": "noun", "noun": "mollusc", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN282", "_type": "noun", "noun": "saurian", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN283", "_type": "noun", "noun": "entity", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN284", "_type": "noun", "noun": "breeder", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN285", "_type": "noun", "noun": "predator", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN286", "_type": "noun", "noun": "lizard", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN287", "_type": "noun", "noun": "super-Saiyan", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN288", "_type": "noun", "noun": "sandworm", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN289", "_type": "noun", "noun": "shadow", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN290", "_type": "noun", "noun": "sunbeam", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN291", "_type": "noun", "noun": "ray of light", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN292", "_type": "noun", "noun": "spacechicken", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN293", "_type": "noun", "noun": "Gyarados", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN294", "_type": "noun", "noun": "species", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN295", "_type": "noun", "noun": "Sun-Dog", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN296", "_type": "noun", "noun": "Titan", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN297", "_type": "noun", "noun": "Trill", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN298", "_type": "noun", "noun": "Tusken Raider", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN299", "_type": "noun", "noun": "Ringwraith", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN300", "_type": "noun", "noun": "hornet", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN301", "_type": "noun", "noun": "upsilon meson", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN302", "_type": "noun", "noun": "euphemism", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN303", "_type": "noun", "noun": "Who", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN304", "_type": "noun", "noun": "will-o'-the-wisp", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN305", "_type": "noun", "noun": "quarkonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN306", "_type": "noun", "noun": "bottomonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN307", "_type": "noun", "noun": "Nazg\u00c3\u00bbl", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN308", "_type": "noun", "noun": "prayer", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN309", "_type": "noun", "noun": "curse", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN310", "_type": "noun", "noun": "language", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN311", "_type": "noun", "noun": "stock market", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN312", "_type": "noun", "noun": "lake", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN313", "_type": "noun", "noun": "river", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN314", "_type": "noun", "noun": "hoglet", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN315", "_type": "noun", "noun": "feral hog", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN316", "_type": "noun", "noun": "waterfall", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN317", "_type": "noun", "noun": "panda", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN318", "_type": "noun", "noun": "cumulonimbus cloud", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN319", "_type": "noun", "noun": "mountain", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN320", "_type": "noun", "noun": "soul", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN321", "_type": "noun", "noun": "Gundam", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN322", "_type": "noun", "noun": "icicle", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN323", "_type": "noun", "noun": "egg", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN324", "_type": "noun", "noun": "crystal", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN325", "_type": "noun", "noun": "cloud of metallic plasma", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN326", "_type": "noun", "noun": "space shark", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN327", "_type": "noun", "noun": "space whale", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN328", "_type": "noun", "noun": "cloud of organic molecules", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN329", "_type": "noun", "noun": "stardust", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN330", "_type": "noun", "noun": "spacecrab", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN331", "_type": "noun", "noun": "monstrosity", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN332", "_type": "noun", "noun": "minotaur", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN333", "_type": "noun", "noun": "sphinx", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN334", "_type": "noun", "noun": "siren", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN335", "_type": "noun", "noun": "harpy", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN336", "_type": "noun", "noun": "goblin", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN337", "_type": "noun", "noun": "seraph", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN338", "_type": "noun", "noun": "osprey", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN339", "_type": "noun", "noun": "ogre", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN340", "_type": "noun", "noun": "sea serpent", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN341", "_type": "noun", "noun": "drop bear", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN342", "_type": "noun", "noun": "equation", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN343", "_type": "noun", "noun": "wyvern", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN344", "_type": "noun", "noun": "basalisk", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN345", "_type": "noun", "noun": "griffin", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN346", "_type": "noun", "noun": "hippogriff", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN347", "_type": "noun", "noun": "questing beast", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN348", "_type": "noun", "noun": "phoenix", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN349", "_type": "noun", "noun": "salamandar", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN350", "_type": "noun", "noun": "axion", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN351", "_type": "noun", "noun": "mandrake", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN352", "_type": "noun", "noun": "manticore", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN353", "_type": "noun", "noun": "snow monkey", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN354", "_type": "noun", "noun": "banshee", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN355", "_type": "noun", "noun": "mummy", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN356", "_type": "noun", "noun": "Krampus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN357", "_type": "noun", "noun": "Mephistopheles", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN358", "_type": "noun", "noun": "Cerberus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN359", "_type": "noun", "noun": "gorgon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN360", "_type": "noun", "noun": "Xenotherian", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN361", "_type": "noun", "noun": "Medusa", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN362", "_type": "noun", "noun": "Pegasus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN363", "_type": "noun", "noun": "Lovecraftian horror", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN364", "_type": "noun", "noun": "sandwalker", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN365", "_type": "noun", "noun": "behemoth", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN366", "_type": "noun", "noun": "incubus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN367", "_type": "noun", "noun": "leviathon", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN368", "_type": "noun", "noun": "succubus", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN369", "_type": "noun", "noun": "El Chupacabra", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN370", "_type": "noun", "noun": "zombie", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN371", "_type": "noun", "noun": "gray alien", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN372", "_type": "noun", "noun": "gremlin", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN373", "_type": "noun", "noun": "mermaid", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN374", "_type": "noun", "noun": "merman", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN375", "_type": "noun", "noun": "mothman", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN376", "_type": "noun", "noun": "apparition", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN377", "_type": "noun", "noun": "owlman", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN378", "_type": "noun", "noun": "panther", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN379", "_type": "noun", "noun": "werewolf", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN380", "_type": "noun", "noun": "vampire", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN381", "_type": "noun", "noun": "future", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN382", "_type": "noun", "noun": "troll", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN383", "_type": "noun", "noun": "batman", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN384", "_type": "noun", "noun": "manbat", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN385", "_type": "noun", "noun": "balrog", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN386", "_type": "noun", "noun": "sandwich", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN387", "_type": "noun", "noun": "morlock", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN388", "_type": "noun", "noun": "orc", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN389", "_type": "noun", "noun": "spacegodzilla", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN390", "_type": "noun", "noun": "King Kong", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN391", "_type": "noun", "noun": "anti-fairy", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN392", "_type": "noun", "noun": "yawn", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN393", "_type": "noun", "noun": "civilisation", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN394", "_type": "noun", "noun": "solar system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN395", "_type": "noun", "noun": "star system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN396", "_type": "noun", "noun": "galaxy", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN397", "_type": "noun", "noun": "fortification", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN398", "_type": "noun", "noun": "ocean", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN399", "_type": "noun", "noun": "settlement", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN400", "_type": "noun", "noun": "nebula", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN401", "_type": "noun", "noun": "supernova", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN402", "_type": "noun", "noun": "star cluster", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN403", "_type": "noun", "noun": "gas giant", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN404", "_type": "noun", "noun": "black hole", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN405", "_type": "noun", "noun": "singularity", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN406", "_type": "noun", "noun": "wormhole", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN407", "_type": "noun", "noun": "space colony", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN408", "_type": "noun", "noun": "society", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN409", "_type": "noun", "noun": "empire", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN410", "_type": "noun", "noun": "dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN411", "_type": "noun", "noun": "pocket dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN412", "_type": "noun", "noun": "shadow", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN413", "_type": "noun", "noun": "culture", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN414", "_type": "noun", "noun": "commonwealth", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN415", "_type": "noun", "noun": "imperium", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN416", "_type": "noun", "noun": "mirror dimension", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN417", "_type": "noun", "noun": "universe", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN418", "_type": "noun", "noun": "wasteland", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN419", "_type": "noun", "noun": "city", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN420", "_type": "noun", "noun": "citadel", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN421", "_type": "noun", "noun": "palace", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN422", "_type": "noun", "noun": "construct", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN423", "_type": "noun", "noun": "nexus", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN424", "_type": "noun", "noun": "variable", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN425", "_type": "noun", "noun": "remnant", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN426", "_type": "noun", "noun": "globular cluster", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN427", "_type": "noun", "noun": "void", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN428", "_type": "noun", "noun": "constellation", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN429", "_type": "noun", "noun": "stellar stream", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN430", "_type": "noun", "noun": "system", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN431", "_type": "noun", "noun": "hypernova", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN432", "_type": "noun", "noun": "delta", "nounType": {"_type": "reference", "_ref": "inplc1"}}
+{"_id": "NOUN433", "_type": "noun", "noun": "atoll", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN434", "_type": "noun", "noun": "planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN435", "_type": "noun", "noun": "asteroid", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN436", "_type": "noun", "noun": "moon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN437", "_type": "noun", "noun": "rock", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN438", "_type": "noun", "noun": "island", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN439", "_type": "noun", "noun": "world", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN440", "_type": "noun", "noun": "battlefield", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN441", "_type": "noun", "noun": "star", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN442", "_type": "noun", "noun": "blue giant", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN443", "_type": "noun", "noun": "red hypergiant", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN444", "_type": "noun", "noun": "neutron star", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN445", "_type": "noun", "noun": "exoplanet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN446", "_type": "noun", "noun": "red dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN447", "_type": "noun", "noun": "ringed planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN448", "_type": "noun", "noun": "dyson sphere", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN449", "_type": "noun", "noun": "hyperspace bypass", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN450", "_type": "noun", "noun": "background", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN451", "_type": "noun", "noun": "pulsar", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN452", "_type": "noun", "noun": "white dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN453", "_type": "noun", "noun": "filament", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN454", "_type": "noun", "noun": "brown dwarf", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN455", "_type": "noun", "noun": "quasar", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN456", "_type": "noun", "noun": "exomoon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN457", "_type": "noun", "noun": "tesseract", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN458", "_type": "noun", "noun": "ocean planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN459", "_type": "noun", "noun": "desert planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN460", "_type": "noun", "noun": "forest planet", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN461", "_type": "noun", "noun": "asteroid base", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN462", "_type": "noun", "noun": "horizon", "nounType": {"_type": "reference", "_ref": "onplc1"}}
+{"_id": "NOUN463", "_type": "noun", "noun": "the Planetary Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN464", "_type": "noun", "noun": "the Interstellar Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN465", "_type": "noun", "noun": "the Galactic Union", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN466", "_type": "noun", "noun": "the United Federation of Planets", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN467", "_type": "noun", "noun": "the Trade Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN468", "_type": "noun", "noun": "the Galactic Empire", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN469", "_type": "noun", "noun": "the Planetary Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN470", "_type": "noun", "noun": "the Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN471", "_type": "noun", "noun": "the Galactic Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN472", "_type": "noun", "noun": "the Union of Allied Planets", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN473", "_type": "noun", "noun": "the System Lords", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN474", "_type": "noun", "noun": "the United Earth Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN475", "_type": "noun", "noun": "the Global Defense Initiative", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN476", "_type": "noun", "noun": "the Unified Earth Government", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN477", "_type": "noun", "noun": "the Confederation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN478", "_type": "noun", "noun": "the Earth Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN479", "_type": "noun", "noun": "the Terran Confederation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN480", "_type": "noun", "noun": "the World Air Force", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN481", "_type": "noun", "noun": "the Hegemon", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN482", "_type": "noun", "noun": "the Central Management Bureau", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN483", "_type": "noun", "noun": "the United Forces of Earth", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN484", "_type": "noun", "noun": "the Earth Government Colonial Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN485", "_type": "noun", "noun": "the New Solar System", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN486", "_type": "noun", "noun": "the Earth Federation", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN487", "_type": "noun", "noun": "the United Nations Space Alliance", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN488", "_type": "noun", "noun": "the United Nations Interstellar Protectorate", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN489", "_type": "noun", "noun": "the Imperium", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN490", "_type": "noun", "noun": "the United Earth Directorate", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN491", "_type": "noun", "noun": "the Galactic Commons", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN492", "_type": "noun", "noun": "Starfleet", "nounType": {"_type": "reference", "_ref": "pol1"}}
+{"_id": "NOUN493", "_type": "noun", "noun": "mass of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN494", "_type": "noun", "noun": "crowd of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN495", "_type": "noun", "noun": "colony of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN496", "_type": "noun", "noun": "band of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN497", "_type": "noun", "noun": "crew of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN498", "_type": "noun", "noun": "pack of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN499", "_type": "noun", "noun": "hive of", "nounType": {"_type": "reference", "_ref": "grp1"}}
+{"_id": "NOUN500", "_type": "noun", "noun": "a meteroid collision", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN501", "_type": "noun", "noun": "an explosion", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN502", "_type": "noun", "noun": "gunfire", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN503", "_type": "noun", "noun": "an interstellar battle", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN504", "_type": "noun", "noun": "a space dogfight", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN505", "_type": "noun", "noun": "radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN506", "_type": "noun", "noun": "a rogue AI", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN507", "_type": "noun", "noun": "increased stellar activity", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN508", "_type": "noun", "noun": "a storm of metallic asteroids", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN509", "_type": "noun", "noun": "exotic particles", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN510", "_type": "noun", "noun": "a mutiny", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN511", "_type": "noun", "noun": "an alien device", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN512", "_type": "noun", "noun": "laser fire", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN513", "_type": "noun", "noun": "cryopod failure", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN514", "_type": "noun", "noun": "a swarm of nanobots", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN515", "_type": "noun", "noun": "illegal salvage", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN516", "_type": "noun", "noun": "medical robots", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN517", "_type": "noun", "noun": "solar radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN518", "_type": "noun", "noun": "overconfidence", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN519", "_type": "noun", "noun": "hubris", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN520", "_type": "noun", "noun": "a hypernova", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN521", "_type": "noun", "noun": "a supernova", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN522", "_type": "noun", "noun": "a religious cult", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN523", "_type": "noun", "noun": "social breakdown", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN524", "_type": "noun", "noun": "a hyperspatial disaster", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN525", "_type": "noun", "noun": "resource depletion", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN526", "_type": "noun", "noun": "a nearby civilisation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN527", "_type": "noun", "noun": "an enemy alliance", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN528", "_type": "noun", "noun": "a bizarre experiment", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN529", "_type": "noun", "noun": "a micro-wormhole", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN530", "_type": "noun", "noun": "a fast-moving black hole", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN531", "_type": "noun", "noun": "its own self-destruct sequence", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN532", "_type": "noun", "noun": "orbital space debris", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN533", "_type": "noun", "noun": "a clawed monstrosity", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN534", "_type": "noun", "noun": "hostile aliens", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN535", "_type": "noun", "noun": "alien slime mold", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN536", "_type": "noun", "noun": "a pulsar", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN537", "_type": "noun", "noun": "gamma radiation", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN538", "_type": "noun", "noun": "a magnetar starquake", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN539", "_type": "noun", "noun": "a Class A stellar engine", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN540", "_type": "noun", "noun": "malfunctioning tech", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN541", "_type": "noun", "noun": "gravitational waves", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN542", "_type": "noun", "noun": "a temporal pocket", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN543", "_type": "noun", "noun": "an unreliable first officer", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN544", "_type": "noun", "noun": "miscalculations", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN545", "_type": "noun", "noun": "thousands of miniature singularities", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN546", "_type": "noun", "noun": "a time loop", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN547", "_type": "noun", "noun": "accidentally folding space-time on itself", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN548", "_type": "noun", "noun": "a malfunctioning navigational system", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN549", "_type": "noun", "noun": "time slippage", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN550", "_type": "noun", "noun": "an AI attempting to grappel with G\u00c3\u00b6del's incompleteness theorem", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN551", "_type": "noun", "noun": "androids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN552", "_type": "noun", "noun": "robots", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN553", "_type": "noun", "noun": "beasts", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN554", "_type": "noun", "noun": "snow monkeys", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN555", "_type": "noun", "noun": "cyborgs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN556", "_type": "noun", "noun": "cylons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN557", "_type": "noun", "noun": "clones", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN558", "_type": "noun", "noun": "gryphons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN559", "_type": "noun", "noun": "insects", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN560", "_type": "noun", "noun": "worms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN561", "_type": "noun", "noun": "animals", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN562", "_type": "noun", "noun": "sparrows", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN563", "_type": "noun", "noun": "foxes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN564", "_type": "noun", "noun": "bovines", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN565", "_type": "noun", "noun": "hawks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN566", "_type": "noun", "noun": "cats", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN567", "_type": "noun", "noun": "wolves", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN568", "_type": "noun", "noun": "axions", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN569", "_type": "noun", "noun": "tardigrades", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN570", "_type": "noun", "noun": "organisms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN571", "_type": "noun", "noun": "futures", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN572", "_type": "noun", "noun": "mulefa", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN573", "_type": "noun", "noun": "microbes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN574", "_type": "noun", "noun": "monsters", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN575", "_type": "noun", "noun": "gods", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN576", "_type": "noun", "noun": "dinosaurs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN577", "_type": "noun", "noun": "velociraptors", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN578", "_type": "noun", "noun": "xenomorphs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN579", "_type": "noun", "noun": "fungi", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN580", "_type": "noun", "noun": "memories", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN581", "_type": "noun", "noun": "databases", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN582", "_type": "noun", "noun": "microchips", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN583", "_type": "noun", "noun": "cephalopoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN584", "_type": "noun", "noun": "algae", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN585", "_type": "noun", "noun": "bats", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN586", "_type": "noun", "noun": "atoms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN587", "_type": "noun", "noun": "asteroids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN588", "_type": "noun", "noun": "comets", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN589", "_type": "noun", "noun": "neurons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN590", "_type": "noun", "noun": "hoglets", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN591", "_type": "noun", "noun": "feral hogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN592", "_type": "noun", "noun": "equations", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN593", "_type": "noun", "noun": "neural nets", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN594", "_type": "noun", "noun": "blockchains", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN595", "_type": "noun", "noun": "cryptocurrencies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN596", "_type": "noun", "noun": "neutrinos", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN597", "_type": "noun", "noun": "nanites", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN598", "_type": "noun", "noun": "eulogies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN599", "_type": "noun", "noun": "protons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN600", "_type": "noun", "noun": "electrons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN601", "_type": "noun", "noun": "ospreys", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN602", "_type": "noun", "noun": "seraphim", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN603", "_type": "noun", "noun": "God particles", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN604", "_type": "noun", "noun": "muons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN605", "_type": "noun", "noun": "clouds of nitrogen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN606", "_type": "noun", "noun": "quarkonia", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN607", "_type": "noun", "noun": "bottomoniums", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN608", "_type": "noun", "noun": "megaladon", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN609", "_type": "noun", "noun": "whispers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN610", "_type": "noun", "noun": "upsilon meson", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN611", "_type": "noun", "noun": "clouds of hydrogen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN612", "_type": "noun", "noun": "clouds of oxygen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN613", "_type": "noun", "noun": "quarks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN614", "_type": "noun", "noun": "hornets", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN615", "_type": "noun", "noun": "sheep", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN616", "_type": "noun", "noun": "spiders", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN617", "_type": "noun", "noun": "Xenotherians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN618", "_type": "noun", "noun": "clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN619", "_type": "noun", "noun": "mutants", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN620", "_type": "noun", "noun": "squid", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN621", "_type": "noun", "noun": "Kraken", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN622", "_type": "noun", "noun": "Daleks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN623", "_type": "noun", "noun": "lobsters", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN624", "_type": "noun", "noun": "fish", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN625", "_type": "noun", "noun": "hydras", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN626", "_type": "noun", "noun": "spores", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN627", "_type": "noun", "noun": "plants", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN628", "_type": "noun", "noun": "gastropods", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN629", "_type": "noun", "noun": "heptapods", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN630", "_type": "noun", "noun": "slugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN631", "_type": "noun", "noun": "symbiots", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN632", "_type": "noun", "noun": "parasites", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN633", "_type": "noun", "noun": "amoeba", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN634", "_type": "noun", "noun": "dragons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN635", "_type": "noun", "noun": "scorpions", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN636", "_type": "noun", "noun": "energy beings", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN637", "_type": "noun", "noun": "apparitions", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN638", "_type": "noun", "noun": "pillbugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN639", "_type": "noun", "noun": "Babel fish", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN640", "_type": "noun", "noun": "Brontosauruses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN641", "_type": "noun", "noun": "Betazoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN642", "_type": "noun", "noun": "Whos", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN643", "_type": "noun", "noun": "Banthas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN644", "_type": "noun", "noun": "conspiracies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN645", "_type": "noun", "noun": "Grammaton Clerics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN646", "_type": "noun", "noun": "Besalisks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN647", "_type": "noun", "noun": "dust clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN648", "_type": "noun", "noun": "heuristics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN649", "_type": "noun", "noun": "algorithms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN650", "_type": "noun", "noun": "crustaceans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN651", "_type": "noun", "noun": "Borg", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN652", "_type": "noun", "noun": "star minds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN653", "_type": "noun", "noun": "Catbugs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN654", "_type": "noun", "noun": "Cheela", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN655", "_type": "noun", "noun": "chimeras", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN656", "_type": "noun", "noun": "hairballs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN657", "_type": "noun", "noun": "Cthulhus", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN658", "_type": "noun", "noun": "lifeforms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN659", "_type": "noun", "noun": "sandwiches", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN660", "_type": "noun", "noun": "Kaiju", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN661", "_type": "noun", "noun": "Jaegers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN662", "_type": "noun", "noun": "drones", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN663", "_type": "noun", "noun": "frogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN664", "_type": "noun", "noun": "ekoplektoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN665", "_type": "noun", "noun": "elves", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN666", "_type": "noun", "noun": "Eldar", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN667", "_type": "noun", "noun": "Ewoks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN668", "_type": "noun", "noun": "Ferengi", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN669", "_type": "noun", "noun": "shape-shifters", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN670", "_type": "noun", "noun": "moms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN671", "_type": "noun", "noun": "dads", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN672", "_type": "noun", "noun": "Formics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN673", "_type": "noun", "noun": "squidlings", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN674", "_type": "noun", "noun": "corpses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN675", "_type": "noun", "noun": "Godzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN676", "_type": "noun", "noun": "Mechagodzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN677", "_type": "noun", "noun": "Gorn", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN678", "_type": "noun", "noun": "chromosomes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN679", "_type": "noun", "noun": "hallucinogenics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN680", "_type": "noun", "noun": "mushrooms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN681", "_type": "noun", "noun": "flatworms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN682", "_type": "noun", "noun": "octopia", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN683", "_type": "noun", "noun": "marsupials", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN684", "_type": "noun", "noun": "Jawa", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN685", "_type": "noun", "noun": "rhinos", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN686", "_type": "noun", "noun": "Klingons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN687", "_type": "noun", "noun": "trilobites", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN688", "_type": "noun", "noun": "hybrids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN689", "_type": "noun", "noun": "Thermians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN690", "_type": "noun", "noun": "locusts", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN691", "_type": "noun", "noun": "plagues", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN692", "_type": "noun", "noun": "Vogons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN693", "_type": "noun", "noun": "Betelgeusians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN694", "_type": "noun", "noun": "dolphins", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN695", "_type": "noun", "noun": "Ameglian Major Cows", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN696", "_type": "noun", "noun": "leeches", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN697", "_type": "noun", "noun": "changelings", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN698", "_type": "noun", "noun": "Romulans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN699", "_type": "noun", "noun": "Vulcans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN700", "_type": "noun", "noun": "Gungans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN701", "_type": "noun", "noun": "Yodas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN702", "_type": "noun", "noun": "Wookiees", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN703", "_type": "noun", "noun": "millipedes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN704", "_type": "noun", "noun": "bacteria", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN705", "_type": "noun", "noun": "molluscs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN706", "_type": "noun", "noun": "saurians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN707", "_type": "noun", "noun": "entities", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN708", "_type": "noun", "noun": "protectors", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN709", "_type": "noun", "noun": "breeders", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN710", "_type": "noun", "noun": "predators", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN711", "_type": "noun", "noun": "lizards", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN712", "_type": "noun", "noun": "super-Saiyans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN713", "_type": "noun", "noun": "sandworms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN714", "_type": "noun", "noun": "shadows", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN715", "_type": "noun", "noun": "sunbeams", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN716", "_type": "noun", "noun": "rays of light", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN717", "_type": "noun", "noun": "Lovecraftian horrors", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN718", "_type": "noun", "noun": "space chickens", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN719", "_type": "noun", "noun": "Gyarados", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN720", "_type": "noun", "noun": "species", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN721", "_type": "noun", "noun": "Sun-Dogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN722", "_type": "noun", "noun": "Titans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN723", "_type": "noun", "noun": "Trills", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN724", "_type": "noun", "noun": "Tusken Raiders", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN725", "_type": "noun", "noun": "Ringwraiths", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN726", "_type": "noun", "noun": "will-o'-the-wisps", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN727", "_type": "noun", "noun": "Nazgul", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN728", "_type": "noun", "noun": "prayers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN729", "_type": "noun", "noun": "curses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN730", "_type": "noun", "noun": "languages", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN731", "_type": "noun", "noun": "stock markets", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN732", "_type": "noun", "noun": "lakes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN733", "_type": "noun", "noun": "euphemisms", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN734", "_type": "noun", "noun": "rivers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN735", "_type": "noun", "noun": "waterfalls", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN736", "_type": "noun", "noun": "mountains", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN737", "_type": "noun", "noun": "souls", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN738", "_type": "noun", "noun": "Gundam", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN739", "_type": "noun", "noun": "icicles", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN740", "_type": "noun", "noun": "eggs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN741", "_type": "noun", "noun": "crystals", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN742", "_type": "noun", "noun": "clouds of metallic plasma", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN743", "_type": "noun", "noun": "space sharks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN744", "_type": "noun", "noun": "space whales", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN745", "_type": "noun", "noun": "clouds or oganic molecules", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN746", "_type": "noun", "noun": "space crabs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN747", "_type": "noun", "noun": "monstrosities", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN748", "_type": "noun", "noun": "felinoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN749", "_type": "noun", "noun": "sphinxes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN750", "_type": "noun", "noun": "sirens", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN751", "_type": "noun", "noun": "harpies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN752", "_type": "noun", "noun": "goblins", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN753", "_type": "noun", "noun": "ogres", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN754", "_type": "noun", "noun": "cumulonimbus clouds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN755", "_type": "noun", "noun": "sea serpents", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN756", "_type": "noun", "noun": "drop bears", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN757", "_type": "noun", "noun": "wyverns", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN758", "_type": "noun", "noun": "basalisks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN759", "_type": "noun", "noun": "griffins", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN760", "_type": "noun", "noun": "hippogriffs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN761", "_type": "noun", "noun": "questing beasts", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN762", "_type": "noun", "noun": "phoenixes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN763", "_type": "noun", "noun": "salamandars", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN764", "_type": "noun", "noun": "mandrakes", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN765", "_type": "noun", "noun": "manticores", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN766", "_type": "noun", "noun": "banshees", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN767", "_type": "noun", "noun": "mummies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN768", "_type": "noun", "noun": "Krampuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN769", "_type": "noun", "noun": "Mephistopheles", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN770", "_type": "noun", "noun": "Cerberuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN771", "_type": "noun", "noun": "gorgons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN772", "_type": "noun", "noun": "Medusas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN773", "_type": "noun", "noun": "Pegasuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN774", "_type": "noun", "noun": "sandwalkers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN775", "_type": "noun", "noun": "behemoths", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN776", "_type": "noun", "noun": "incubuses", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN777", "_type": "noun", "noun": "leviathons", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN778", "_type": "noun", "noun": "pandas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN779", "_type": "noun", "noun": "succubi", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN780", "_type": "noun", "noun": "El Chupacabras", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN781", "_type": "noun", "noun": "zombies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN782", "_type": "noun", "noun": "gray aliens", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN783", "_type": "noun", "noun": "gremlins", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN784", "_type": "noun", "noun": "mermaids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN785", "_type": "noun", "noun": "mermen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN786", "_type": "noun", "noun": "mothmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN787", "_type": "noun", "noun": "owlmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN788", "_type": "noun", "noun": "panthers", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN789", "_type": "noun", "noun": "werewolves", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN790", "_type": "noun", "noun": "vampires", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN791", "_type": "noun", "noun": "trolls", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN792", "_type": "noun", "noun": "batmen", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN793", "_type": "noun", "noun": "manbats", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN794", "_type": "noun", "noun": "balrogs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN795", "_type": "noun", "noun": "morlocks", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN796", "_type": "noun", "noun": "orcs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN797", "_type": "noun", "noun": "spacegodzillas", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN798", "_type": "noun", "noun": "King Kongs", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN799", "_type": "noun", "noun": "anti-fairies", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN800", "_type": "noun", "noun": "yawns", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN801", "_type": "noun", "noun": "avians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN802", "_type": "noun", "noun": "stardust", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN803", "_type": "noun", "noun": "reptiloids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN804", "_type": "noun", "noun": "egotists", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN805", "_type": "noun", "noun": "autodidacts", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN806", "_type": "noun", "noun": "alcoholics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN807", "_type": "noun", "noun": "workaholics", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN808", "_type": "noun", "noun": "vegans", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN809", "_type": "noun", "noun": "vegetarians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN810", "_type": "noun", "noun": "pescetarians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN811", "_type": "noun", "noun": "arachnoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN812", "_type": "noun", "noun": "reptilians", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN813", "_type": "noun", "noun": "pseudo-humanoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN814", "_type": "noun", "noun": "semi-humanoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN815", "_type": "noun", "noun": "bipeds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN816", "_type": "noun", "noun": "quadrapeds", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN817", "_type": "noun", "noun": "neoliberals", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN818", "_type": "noun", "noun": "postmodernists", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN819", "_type": "noun", "noun": "zebroids", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN820", "_type": "noun", "noun": "the sound of its own breathing", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN821", "_type": "noun", "noun": "gravity waves", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN822", "_type": "noun", "noun": "self-awareness", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN823", "_type": "noun", "noun": "hubris", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN824", "_type": "noun", "noun": "interstellar radiation", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN825", "_type": "noun", "noun": "exotic particles", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN826", "_type": "noun", "noun": "the lifespan of different species", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN827", "_type": "noun", "noun": "the strength of its sworn rival", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN828", "_type": "noun", "noun": "great interstellar migrations", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN829", "_type": "noun", "noun": "the passage of time", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN830", "_type": "noun", "noun": "the breadth and depth of its feelings", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN831", "_type": "noun", "noun": "the breadth and depth of the universe", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN832", "_type": "noun", "noun": "the spaces between the multiverse", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN833", "_type": "noun", "noun": "abstract reasoning in neural networks", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN834", "_type": "noun", "noun": "time", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN835", "_type": "noun", "noun": "lifetimes", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN836", "_type": "noun", "noun": "ambient energy theory", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN837", "_type": "noun", "noun": "atmospheric gases", "nounType": {"_type": "reference", "_ref": "orbits"}}
+{"_id": "NOUN838", "_type": "noun", "noun": "possible biospheres", "nounType": {"_type": "reference", "_ref": "orbits"}}
 {"_id": "NOUN839", "_type": "noun", "noun": "water", "nounType": {"_type": "reference", "_ref": "lqd1"}}
 {"_id": "NOUN840", "_type": "noun", "noun": "Earthshine", "nounType": {"_type": "reference", "_ref": "lqd1"}}
 {"_id": "NOUN841", "_type": "noun", "noun": "moonllight", "nounType": {"_type": "reference", "_ref": "lqd1"}}
@@ -1839,7 +1849,7 @@
 {"_id": "tsp1", "_type": "nounType", "nounType": "transport"}
 {"_id": "wpn1", "_type": "nounType", "nounType": "weapon"}
 {"_id": "lqd1", "_type": "nounType", "nounType": "liquid"}
-{"_id": "msr1", "_type": "nounType", "nounType": "measuring"}
+{"_id": "orbits", "_type": "nounType", "nounType": "orbits"}
 {"_id": "sap1", "_type": "nounType", "nounType": "secondary actors plural"}
 {"_id": "tspequip1", "_type": "nounType", "nounType": "transport equipped"}
 {"_id": "tspdmg1", "_type": "nounType", "nounType": "transport damage"}

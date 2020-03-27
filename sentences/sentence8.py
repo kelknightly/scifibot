@@ -10,6 +10,6 @@ class sentence8(base_sentence):
         sentence += ' ' + components['place_article_on_desc'] 
         sentence += ' ' + components['place_desc'] 
         sentence += ' ' + components['place'] 
-        sentence += '. History will remark on this for generations.'
+        sentence += '. ' + components['history']
 
         return sentence
