@@ -31,9 +31,6 @@ from sentences.sentence15 import sentence15
 from sentences.sentence16 import sentence16
 from sentences.sentence17 import sentence17
 from sentences.sentence18 import sentence18
-from sentences.sentence19 import sentence19
-from sentences.sentence20 import sentence20
-from sentences.sentence21 import sentence21
 from sentences.sentence22 import sentence22
 from sentences.sentence23 import sentence23
 from sentences.sentence24 import sentence24
@@ -51,7 +48,6 @@ from sentences.sentence35 import sentence35
 from sentences.sentence36 import sentence36
 from sentences.sentence37 import sentence37
 from sentences.sentence38 import sentence38
-from sentences.sentence39 import sentence39
 from sentences.sentence40 import sentence40
 from sentences.sentence41 import sentence41
 from sentences.sentence42 import sentence42
@@ -72,6 +68,7 @@ from sentences.sentence56 import sentence56
 from sentences.sentence57 import sentence57
 from sentences.sentence58 import sentence58
 from sentences.sentence59 import sentence59
+#from sentences.sentence60 import sentence60
 
 class scifisanity(object):
     generator = None
@@ -98,9 +95,6 @@ class scifisanity(object):
         self.generator.add_sentence(sentence16('Sentence 16'))
         self.generator.add_sentence(sentence17('Sentence 17'))
         self.generator.add_sentence(sentence18('Sentence 18'))
-        self.generator.add_sentence(sentence19('Sentence 19'))
-        self.generator.add_sentence(sentence20('Sentence 20'))
-        self.generator.add_sentence(sentence21('Sentence 21'))
         self.generator.add_sentence(sentence22('Sentence 22'))
         self.generator.add_sentence(sentence23('Sentence 23'))
         self.generator.add_sentence(sentence24('Sentence 24'))
@@ -118,7 +112,6 @@ class scifisanity(object):
         self.generator.add_sentence(sentence36('Sentence 36'))
         self.generator.add_sentence(sentence37('Sentence 37'))
         self.generator.add_sentence(sentence38('Sentence 38'))
-        self.generator.add_sentence(sentence39('Sentence 39'))
         self.generator.add_sentence(sentence40('Sentence 40'))
         self.generator.add_sentence(sentence41('Sentence 41'))
         self.generator.add_sentence(sentence42('Sentence 42'))
@@ -139,6 +132,7 @@ class scifisanity(object):
         self.generator.add_sentence(sentence57('Sentence 57'))
         self.generator.add_sentence(sentence58('Sentence 58'))
         self.generator.add_sentence(sentence59('Sentence 59'))
+        #self.generator.add_sentence(sentence60('Sentence 60'))
         
 
     def print_sentence_by_name(self, name):

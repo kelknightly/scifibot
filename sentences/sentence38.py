@@ -4,7 +4,7 @@ import random
 class sentence38(base_sentence):
     
     def get_sentence(self, components):
-        sentence = 'NASA has discovered an inhabited exoplanet. The society appears to be '
+        sentence = components['planet_discovery'] + 'The society appears to be '
         sentence += components['society_is_a__article'] 
         sentence += ' ' + components['society_is_a__']
         sentence += ', and early scans reveal advanced ' + components['tech']

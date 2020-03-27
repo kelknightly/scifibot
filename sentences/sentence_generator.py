@@ -262,12 +262,20 @@ class sentence_generator:
 
         self.components['breaking_through'] = random.choice(['the planet\'s crust', 'the ship\'s hull', 'the force field', 'the cargo bay doors'])
 
+        self.components['random_year'] = str(random.randint(2050, 5000))
+
+        self.components['body_part'] = random.choice(['ear', 'eye', 'nose', 'lips', 'tongue', 'skin', 'arm', 'leg', 'foot', 'hand', 'brain'])
+
         self.components['stardate'] = str(random.randint(1000, 56947)) + '.' + str(random.randint(1,9))
         self.components['system_name'] = self.get_random_word('noun', 5) + ' ' + self.get_random_word('noun', 5)
 
         self.components['roman_numeral'] = random.choice(['I','II','III','IV','V','VI','VII','VIII','X'])
 
         self.components['physical_space'] = random.choice(['valley', 'cavern', 'cave', 'crevasse'])
+
+        self.components['drifting_consequence'] = random.choice(['. They made a bad miscalculation.', '. They screwed the pooch on this one.', '. They fucked up.', ', much too far to be rescued. They are alone.'])
+
+        self.components['planet_discovery'] = random.choice(['NASA has discovered an inhabited exoplanet. ', 'Your mission is to document a strange planet\'s surface. '])
 
         self.components['person_title'] = random.choice(['Ms', 'Mr', 'Dr'])
 
@@ -287,7 +295,7 @@ class sentence_generator:
             self.components['rhyme_word1'] = 'AG'
             self.components['rhyme_word2'] = 'Bagg'
 
-        self.components['planet_name'] = random.choice(self.components['list_alpha']).title() + random.choice(self.components['list_alpha']).title() + ' ' + str(random.randint(100000, 999999)) + ' ' + random.choice(self.components['list_alpha'])
+        self.components['planet_name'] = random.choice(self.components['list_alpha']).title() + random.choice(self.components['list_alpha']).title() + ' ' + str(random.randint(100000, 999999)) + random.choice(self.components['list_alpha'])
 
     # Function to place 'a' or 'an' before a word
     def article(self, i):

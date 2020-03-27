@@ -1,7 +1,6 @@
 from sentences.base_sentence import base_sentence
 import silly
 
-
 class sentence59(base_sentence):
     
     def get_sentence(self, components):
@@ -10,6 +9,5 @@ class sentence59(base_sentence):
         sentence += ' screamed. \"They\'re nearly through ' 
         sentence += components['breaking_through'] + '! They\'re using '
         sentence += silly.a_thing() + ' to get in!\"'
-        #sentence +=  
 
         return sentence
