@@ -6,6 +6,7 @@ import string
 import names
 import silly
 import pronouncing
+from num2words import num2words
 
 # sentence generator class has a list of sentences (sentence objects)
 # and list of sentence components
@@ -66,6 +67,11 @@ class sentence_generator:
         self.components['list_transport_name'] = self.get_noun_list_for_type(nouns, 'transport name')
         self.components['list_transports'] = self.get_noun_list_for_type(nouns, 'transport plural')
         self.components['list_engine'] = self.get_noun_list_for_type(nouns, 'engine')
+        self.components['list_basic_noun'] = self.get_noun_list_for_type(nouns, 'basic noun')
+        self.components['list_basic_nouns'] = self.get_noun_list_for_type(nouns, 'basic nouns')
+        self.components['list_collection'] = self.get_noun_list_for_type(nouns, 'collection')
+        self.components['list_sense_nouns'] = self.get_noun_list_for_type(nouns, 'sense nouns')
+
 
         # Getting lists of Descriptions
         self.components['list_in_place_description'] = self.get_description_list_for_type(descriptions, 'in-place')
@@ -85,6 +91,7 @@ class sentence_generator:
         self.components['list_transport_name_desc'] = self.get_description_list_for_type(descriptions, 'transport name')
         self.components['list_planet_with'] = self.get_description_list_for_type(descriptions, 'planet with')
         self.components['list_a__planet'] = self.get_description_list_for_type(descriptions, 'a__planet')
+        self.components['list_basic_noun_desc'] = self.get_description_list_for_type(descriptions, 'basic noun')
 
         # Getting lists of Actions
         self.components['list_place_action'] = self.get_action_list_for_type(actions, 'place')
@@ -150,6 +157,12 @@ class sentence_generator:
         self.components['looking_for'] = random.choice(self.components['list_looking_for'])
         self.components['planet_with'] = random.choice(self.components['list_planet_with'])
         self.components['a__planet'] = random.choice(self.components['list_a__planet'])
+        self.components['basic_noun'] = random.choice(self.components['list_basic_noun'])
+        self.components['basic_nouns'] = random.choice(self.components['list_basic_nouns'])
+        self.components['collection'] = random.choice(self.components['list_collection'])
+        self.components['basic_noun_desc'] = random.choice(self.components['list_basic_noun_desc'])
+        self.components['sense_noun'] = random.choice(self.components['list_sense_nouns'])
+        
 
         # Randomising a second time for variables that are used twice in a sentence
         self.components['place2'] = random.choice(self.components['list_place'])
@@ -160,6 +173,7 @@ class sentence_generator:
         self.components['secondary_actor_desc2'] = random.choice(self.components['list_secondary_actor_description'])
         self.components['primary_actor2'] = random.choice(self.components['list_primary_actor'])
         self.components['planet_with2'] = random.choice(self.components['list_planet_with'])
+        self.components['sense_noun2'] = random.choice(self.components['list_sense_nouns'])
 
         self.components['place2'] = self.randomiser_duplicator(self.components['place'], self.components['place2'], self.components['list_place'])
         self.components['place2_desc'] = self.randomiser_duplicator(self.components['place_desc'], self.components['place2_desc'], self.components['list_place_description'])
@@ -168,6 +182,7 @@ class sentence_generator:
         self.components['secondary_actor_desc2'] = self.randomiser_duplicator(self.components['secondary_actor_desc'], self.components['secondary_actor_desc2'], self.components['list_secondary_actor_description'])
         self.components['primary_actor2'] = self.randomiser_duplicator(self.components['primary_actor'], self.components['primary_actor2'], self.components['list_primary_actor'])
         self.components['planet_with2'] = self.randomiser_duplicator(self.components['planet_with'], self.components['planet_with2'], self.components['list_planet_with'])
+        self.components['sense_noun2'] = self.randomiser_duplicator(self.components['sense_noun'], self.components['sense_noun2'], self.components['list_sense_nouns'])
 
         self.components['primary_actor_article_on_desc'] = self.article(self.components['primary_actor_desc'])
         self.components['secondary_actor_article_on_desc'] = self.article(self.components['secondary_actor_desc'])
@@ -240,6 +255,8 @@ class sentence_generator:
 
         self.components['planet_end'] = random.choice(['There is something eery about this system.', 'You can see it too, right?', 'Let\'s get in and get out.', 'I have a bad feeling about this.', 'The metal spaceship creaks and groans - an ignored voice of resistance.', 'I\'ve heard some messed-up stories about this place.', 'We can hide out there until this all blows over.', 'We can make this work.'])
 
+        self.components['sense'] = random.choice(['sense','feel','smell','hear','taste'])
+
         self.components['list_consonants'] = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z']
         self.components['list_vowels'] = ['a','e','i','o','u']
 
@@ -262,6 +279,11 @@ class sentence_generator:
 
         self.components['breaking_through'] = random.choice(['the planet\'s crust', 'the ship\'s hull', 'the force field', 'the cargo bay doors'])
 
+        self.components['silly_thing_group'] = self.components['collection'] + ' ' + self.components['basic_nouns']
+        self.components['silly_thing_single'] = self.components['basic_noun_desc'] + ' ' + self.components['basic_noun']
+        self.components['silly_thing_number'] = num2words(random.randint(2, 200)) + ' ' + self.components['basic_nouns']
+        self.components['silly_thing'] = random.choice([self.components['silly_thing_group'], self.components['silly_thing_single'], self.components['silly_thing_number']])
+ 
         self.components['random_year'] = str(random.randint(2050, 5000))
 
         self.components['body_part'] = random.choice(['ear', 'eye', 'nose', 'lips', 'tongue', 'skin', 'arm', 'leg', 'foot', 'hand', 'brain'])
