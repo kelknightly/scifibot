@@ -281,7 +281,9 @@ class sentence_generator:
         self.components['L11'] = random.choice(self.components['list_consonants'])
 
         self.components['planetname'] = self.components['L1'].title() + self.components['L2'] + self.components['L3'] + self.components['L4'] + self.components['L5'] + self.components['L6'] + self.components['L7'] + self.components['L8'] + ' ' + self.components['L9'].title() + self.components['L10'] + self.components['L11']
-               
+        
+        self.components['hired_to'] = random.choice(['complete the job.','create a distraction.'])
+
         self.components['stranded'] = random.choice(['Sons of bitches. It was only a little mutiny.', 'Some people are so easily offended.', 'Talk about an overreaction to a minor mishap. No one even died.', 'Jeez, there\'s just no pleasing some people.', 'Some people are so sensitive. The explosion wasn\'t even intentional.', 'When you told them to \"just let it go already\" this is not what you meant.', 'Some people just can\'t take a joke.', 'You\'re gonna get back at them by not dying. Somehow.'])
 
         self.components['breaking_through'] = random.choice(['the planet\'s crust', 'the ship\'s hull', 'the force field', 'the cargo bay doors'])

@@ -14,6 +14,6 @@ class sentence22(base_sentence):
         sentence += ', but needs ' + components['weapon_article_on_desc']
         sentence += ' ' + components['weapon_desc']
         sentence += ' ' + components['weapon']
-        sentence += ' to complete the job.'
+        sentence += ' to ' + components['hired_to']
 
         return sentence
