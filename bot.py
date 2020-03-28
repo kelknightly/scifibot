@@ -12,7 +12,6 @@ from scifisanity import scifisanity
 
 bot = scifisanity()
 
-
 under280 = bot.get_all_sentences(280)
 
 tweet = random.choice(under280)

@@ -24,7 +24,12 @@ for result in DictA['result']:
     sentence = quote + ' ~ ' + author + ', ' + source
     sentences.append(sentence)
 
-tweet = random.choice(sentences)
+under280 =[]
+for i in sentences:
+    if len(i) <= 280:
+        under280.append(i)
+
+tweet = random.choice(under280)
 
 tweethash = hashlib.md5(tweet.encode('utf-8')).hexdigest()
 
