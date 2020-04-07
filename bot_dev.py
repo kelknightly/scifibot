@@ -11,10 +11,10 @@ from scifisanity import scifisanity
 bot = scifisanity()
 
 # Print all the sentences the generator in scifisanity knows about
-bot.print_all_sentences()
+#bot.print_all_sentences()
 
 # Print just one sentence from one of the sentences registered with the generator inside scifisanity
-#bot.print_sentence_by_name('Sentence 22')
+bot.print_sentence_by_name('Sentence 53')
 
 # Print all the elements in a component
 #bot.print_component_data('drifting_consequence')
