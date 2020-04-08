@@ -30,7 +30,7 @@ from sentences.sentence14 import sentence14
 from sentences.sentence15 import sentence15
 from sentences.sentence16 import sentence16
 from sentences.sentence17 import sentence17
-from sentences.sentence18 import sentence18
+#from sentences.sentence18 import sentence18
 from sentences.sentence19 import sentence19
 from sentences.sentence20 import sentence20
 from sentences.sentence21 import sentence21
@@ -91,7 +91,7 @@ class scifisanity(object):
         self.generator.add_sentence(sentence15('Sentence 15'))
         self.generator.add_sentence(sentence16('Sentence 16'))
         self.generator.add_sentence(sentence17('Sentence 17'))
-        self.generator.add_sentence(sentence18('Sentence 18'))
+        #self.generator.add_sentence(sentence18('Sentence 18'))
         self.generator.add_sentence(sentence19('Sentence 19'))
         self.generator.add_sentence(sentence20('Sentence 20'))
         self.generator.add_sentence(sentence21('Sentence 21'))
