@@ -6,7 +6,7 @@ class sentence48(base_sentence):
     
     def get_sentence(self, components):
         sentence = 'In ' + components['random_year']
-        sentence += ', a ' + components['group'] + ' of '
+        sentence += ', a ' + components['group'] + ' '
         sentence += components['secondary_actors']
         sentence += ' successfully injected ' + components['sense_noun2'] + ' into a captive '
         sentence += components['primary_actor'] + '\'s '
