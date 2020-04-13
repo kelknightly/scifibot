@@ -3394,6 +3394,7 @@
 {"_id": "ARTICLE13", "_type": "articleword", "articleword": "honest", "articleType": {"_type": "reference", "_ref": "aex1"}}
 {"_id": "ARTICLE14", "_type": "articleword", "articleword": "Uruguayan", "articleType": {"_type": "reference", "_ref": "anex1"}}
 {"_id": "ARTICLE15", "_type": "articleword", "articleword": "unitary state", "articleType": {"_type": "reference", "_ref": "anex1"}}
+{"_id": "ARTICLE16", "_type": "articleword", "articleword": "RF resonant cavity thruster", "articleType": {"_type": "reference", "_ref": "aex1"}}
 {"_id": "a1", "_type": "articleType", "articleType": "a"}
 {"_id": "an1", "_type": "articleType", "articleType": "an"}
 {"_id": "aex1", "_type": "articleType", "articleType": "a_exception"}
@@ -3737,6 +3738,17 @@
 {"_id": "QUOTE338", "_type": "quote", "quote": "\"If he had been a dog, the shape of his droopy blue eyes would have put him in the cocker spaniel breed. But he was not a dog; he was a newspaper reporter.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "QUOTE339", "_type": "quote", "quote": "\"They were light, riding a wave of simultaneity that would have sent them hurtling through the core of the sun unscathed.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
 {"_id": "QUOTE340", "_type": "quote", "quote": "\"at the present rate of scientific progress it would be another two thousand years before he could catch a starship off this cruddy planet.\"", "author": {"_type": "reference", "_ref": "johnboyd2"}, "source": {"_type": "reference", "_ref": "laststarshipboyd2"}}
+{"_id": "QUOTE341", "_type": "quote", "quote": "\"It began in a moment of unimaginable violence, five billion years before humans walked the Earth.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE342", "_type": "quote", "quote": "\"Thus, young Earth: a chaotic mixture of silicates, metals and trapped gases, cruising like a hungry shark in a thinning ring of worldlets.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE343", "_type": "quote", "quote": "\"Earth's evolution continued, busily, logically. But something massive was approaching.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE344", "_type": "quote", "quote": "\"A black hole rocket engine, firing wildly in the ruins of Venus.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE345", "_type": "quote", "quote": "\"Alien nano robots manipulating history, eh? Is that what you're going to tell the President?\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE346", "_type": "quote", "quote": "\"It wouldn't take another lava bomb to kill him, now he was out of the airplane. Just a fragment, an ember of red-hot rock, might be enough to torch his canopy.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE347", "_type": "quote", "quote": "\"we will leave less behind us than the citizens of Pompeii. So much of what humans had created in the last few decades had been... just electronic patterns, stored on some tape or chip or disc\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE348", "_type": "quote", "quote": "\"Sex in space, they had found, was a matter of engineering ingenuity, of anchoring and leverage points, and of some athletic ability.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE349", "_type": "quote", "quote": "\"Henry, sailing through black and white celestial geometry, felt like a detatched god, unable to imagine the human suffering, souls as transient as sparks in a fire.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE350", "_type": "quote", "quote": "\"The giant Martian shield volcano, so huge its caldera poked out of the thin atmosphere. Mars, come to Earth.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE351", "_type": "quote", "quote": "\"Earth, from space, looked like a jigsaw puzzle, or maybe like a pan coming to the boil, black continent pieces outlined by blood red.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
@@ -3771,6 +3783,7 @@
 {"_id": "exhaltedchi12", "_type": "source", "source": "Exhalation", "author": {"_type": "reference", "_ref": "tedchi12"}}
 {"_id": "electricant23", "_type": "source", "source": "The Electric Ant", "author": {"_type": "reference", "_ref": "philip23"}}
 {"_id": "laststarshipboyd2", "_type": "source", "source": "The Last Starship from Earth", "author": {"_type": "reference", "_ref": "johnboyd2"}}
+{"_id": "moonseedbax", "_type": "source", "source": "Moonseed", "author": {"_type": "reference", "_ref": "stephenbax1"}}
 {"_id": "Conn13", "_type": "author", "author": "Connie Willis"}
 {"_id": "Beck14", "_type": "author", "author": "Becky Chambers"}
 {"_id": "Lind12", "_type": "author", "author": "Linda Nagata"}
@@ -3798,3 +3811,4 @@
 {"_id": "tedchi12", "_type": "author", "author": "Ted Chiang"}
 {"_id": "philip23", "_type": "author", "author": "Philip K. Dick"}
 {"_id": "johnboyd2", "_type": "author", "author": "John Boyd"}
+{"_id": "stephenbax1", "_type": "author", "author": "Stephen Baxter"}
