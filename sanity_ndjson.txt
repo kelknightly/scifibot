@@ -623,7 +623,7 @@
 {"_id": "NOUN304", "_type": "noun", "noun": "will-o'-the-wisp", "nounType": {"_type": "reference", "_ref": "sa1"}}
 {"_id": "NOUN305", "_type": "noun", "noun": "quarkonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
 {"_id": "NOUN306", "_type": "noun", "noun": "bottomonium", "nounType": {"_type": "reference", "_ref": "sa1"}}
-{"_id": "NOUN307", "_type": "noun", "noun": "Nazg\u00c3\u00bbl", "nounType": {"_type": "reference", "_ref": "sa1"}}
+{"_id": "NOUN307", "_type": "noun", "noun": "Nazgul", "nounType": {"_type": "reference", "_ref": "sa1"}}
 {"_id": "NOUN308", "_type": "noun", "noun": "prayer", "nounType": {"_type": "reference", "_ref": "sa1"}}
 {"_id": "NOUN309", "_type": "noun", "noun": "curse", "nounType": {"_type": "reference", "_ref": "sa1"}}
 {"_id": "NOUN310", "_type": "noun", "noun": "language", "nounType": {"_type": "reference", "_ref": "sa1"}}
@@ -3749,6 +3749,8 @@
 {"_id": "QUOTE349", "_type": "quote", "quote": "\"Henry, sailing through black and white celestial geometry, felt like a detatched god, unable to imagine the human suffering, souls as transient as sparks in a fire.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
 {"_id": "QUOTE350", "_type": "quote", "quote": "\"The giant Martian shield volcano, so huge its caldera poked out of the thin atmosphere. Mars, come to Earth.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
 {"_id": "QUOTE351", "_type": "quote", "quote": "\"Earth, from space, looked like a jigsaw puzzle, or maybe like a pan coming to the boil, black continent pieces outlined by blood red.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
+{"_id": "QUOTE352", "_type": "quote", "quote": "\"Self-replicating, relf-repairing, self-upgrading, fully-automated combat drones? Who thought that was a good idea?\"", "author": {"_type": "reference", "_ref": "curiousmat1"}, "source": {"_type": "reference", "_ref": "secondvar1curiousmat1"}}
+{"_id": "QUOTE353", "_type": "quote", "quote": "\"I'm a diamond-sharp, titanium-tough, laser-eyed reaper of mother-fucking death.\"", "author": {"_type": "reference", "_ref": "curiousmat1"}, "source": {"_type": "reference", "_ref": "secondvar1curiousmat1"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
@@ -3784,6 +3786,7 @@
 {"_id": "electricant23", "_type": "source", "source": "The Electric Ant", "author": {"_type": "reference", "_ref": "philip23"}}
 {"_id": "laststarshipboyd2", "_type": "source", "source": "The Last Starship from Earth", "author": {"_type": "reference", "_ref": "johnboyd2"}}
 {"_id": "moonseedbax", "_type": "source", "source": "Moonseed", "author": {"_type": "reference", "_ref": "stephenbax1"}}
+{"_id": "secondvar1curiousmat1", "_type": "source", "source": "based on Philip K. Dick's Second Variety", "author": {"_type": "reference", "_ref": "curiousmat1"}}
 {"_id": "Conn13", "_type": "author", "author": "Connie Willis"}
 {"_id": "Beck14", "_type": "author", "author": "Becky Chambers"}
 {"_id": "Lind12", "_type": "author", "author": "Linda Nagata"}
@@ -3812,3 +3815,4 @@
 {"_id": "philip23", "_type": "author", "author": "Philip K. Dick"}
 {"_id": "johnboyd2", "_type": "author", "author": "John Boyd"}
 {"_id": "stephenbax1", "_type": "author", "author": "Stephen Baxter"}
+{"_id": "curiousmat1", "_type": "author", "author": "Curious Matter Podcast"}
