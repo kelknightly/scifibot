@@ -45,34 +45,34 @@
 {"_id": "deg50sud1", "_type": "action", "action": "degrades its core functions for no apparent reason", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "swi24sud1", "_type": "action", "action": "switches to stealth mode", "actionType": {"_type": "reference", "_ref": "sud1"}}
 {"_id": "tur21sud1", "_type": "action", "action": "turns off its shields", "actionType": {"_type": "reference", "_ref": "sud1"}}
-{"_id": "bei78tspdmga1", "_type": "action", "action": "being torn apart by the energy release from two neutron stars colliding nearby", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "ag22tspdmga1", "_type": "action", "action": "whirling towards a gravitational ripple", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "aw23tspdmga1", "_type": "action", "action": "plummeting towards a wrinkle in space-time", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "bei38tspdmga1", "_type": "action", "action": "being ripped apart by a micro-wormhole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "plu34tspdmga1", "_type": "action", "action": "plunging towards the galactic core", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "bei45tspdmga1", "_type": "action", "action": "being drained of power by an alien slime mold", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "fal24tspdmga1", "_type": "action", "action": "falling towards a pulsar", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "sp49tspdmga1", "_type": "action", "action": "has over-energised its power core, pushing it towards self-destruction", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "fly37tspdmga1", "_type": "action", "action": "flying straight towards a singularity", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri45tspdmga1", "_type": "action", "action": "drifting slowly towards a nearby neutron star", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "bei30tspdmga1", "_type": "action", "action": "being sucked into a black hole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "bei42tspdmga1", "_type": "action", "action": "being ripped apart by a clawed monstrosity", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri52tspdmga1", "_type": "action", "action": "drifting into the debris field of a shattered planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri52tspdmga18", "_type": "action", "action": "drifting into the territory of an enemy civilisation", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri31tspdmga1", "_type": "action", "action": "drifting into an asteroid field", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "ACTION64", "_type": "action", "action": "being boarded by space pirates", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri35tspdmga1", "_type": "action", "action": "drifting into the rings of a planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "lea14tspdmga1", "_type": "action", "action": "leaking oxygen", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "ven25tspdmga1", "_type": "action", "action": "venting oxygen into space", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "bei61tspdmga1", "_type": "action", "action": "being scorched by a gamma ray burst from a magnetar starquake", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dep14tspdmga1", "_type": "action", "action": "depressurising", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "abo16tspdmga1", "_type": "action", "action": "about to explode", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "has40tspdmga1", "_type": "action", "action": "has activated its self-destruct sequence", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri37tspdmga1", "_type": "action", "action": "drifting towards orbital space debris", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "sca25tspdmga1", "_type": "action", "action": "scanned by hostile aliens", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri32tspdmga1", "_type": "action", "action": "drifting towards a nearby quasar", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri38tspdmga1", "_type": "action", "action": "drifting towards a protoplanetary disk", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
-{"_id": "dri34tspdmga1", "_type": "action", "action": "drifting towards an accretion disk", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION49", "_type": "action", "action": "is being torn apart by the energy release from two neutron stars colliding nearby", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION50", "_type": "action", "action": "is whirling towards a gravitational ripple", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION51", "_type": "action", "action": "is plummeting towards a wrinkle in space-time", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION52", "_type": "action", "action": "is being ripped apart by a micro-wormhole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION53", "_type": "action", "action": "is plunging towards the galactic core", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION54", "_type": "action", "action": "is being drained of power by an alien slime mold", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION55", "_type": "action", "action": "is falling towards a pulsar", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION56", "_type": "action", "action": "has over-energised its power core, pushing it towards self-destruction", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION57", "_type": "action", "action": "is flying straight towards a singularity", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION58", "_type": "action", "action": "is drifting slowly towards a nearby neutron star", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION59", "_type": "action", "action": "is being sucked into a black hole", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION60", "_type": "action", "action": "is being ripped apart by a clawed monstrosity", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION61", "_type": "action", "action": "is drifting into the debris field of a shattered planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION62", "_type": "action", "action": "is drifting into the territory of an enemy civilisation", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION63", "_type": "action", "action": "is drifting into an asteroid field", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION64", "_type": "action", "action": "is being boarded by space pirates", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION65", "_type": "action", "action": "is drifting into the rings of a planet", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION66", "_type": "action", "action": "is leaking oxygen", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION67", "_type": "action", "action": "is venting oxygen into space", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION68", "_type": "action", "action": "is being scorched by a gamma ray burst from a magnetar starquake", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION69", "_type": "action", "action": "is depressurising", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION70", "_type": "action", "action": "is about to explode", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION71", "_type": "action", "action": "has activated its self-destruct sequence", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION72", "_type": "action", "action": "is drifting towards orbital space debris", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION73", "_type": "action", "action": "is being scanned by hostile aliens", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION74", "_type": "action", "action": "is drifting towards a nearby quasar", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION75", "_type": "action", "action": "is drifting towards a protoplanetary disk", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
+{"_id": "ACTION76", "_type": "action", "action": "is drifting towards an accretion disk", "actionType": {"_type": "reference", "_ref": "tspdmga1"}}
 {"_id": "kil23tspfun1", "_type": "action", "action": "killing enemy starships", "actionType": {"_type": "reference", "_ref": "tspfun1"}}
 {"_id": "des18tspfun1", "_type": "action", "action": "destroying planets", "actionType": {"_type": "reference", "_ref": "tspfun1"}}
 {"_id": "hit22tspfun1", "_type": "action", "action": "hitting ground targets", "actionType": {"_type": "reference", "_ref": "tspfun1"}}
@@ -280,7 +280,7 @@
 {"_id": "TSPABT281", "_type": "action", "action": "is in terrible condition", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT282", "_type": "action", "action": "has an AI that gets a tad homicidal at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT283", "_type": "action", "action": "has an over-protective AI", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
-{"_id": "TSPABT284", "_type": "action", "action": "has an aI that gets a tad controlling at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
+{"_id": "TSPABT284", "_type": "action", "action": "has an AI that gets a tad controlling at times", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT285", "_type": "action", "action": "has a passive-aggressive AI", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT286", "_type": "action", "action": "is fairly sturdy and fuel-efficient", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
 {"_id": "TSPABT287", "_type": "action", "action": "was sold in a hurry by its last owners", "actionType": {"_type": "reference", "_ref": "tspabt1"}}
@@ -3751,6 +3751,8 @@
 {"_id": "QUOTE351", "_type": "quote", "quote": "\"Earth, from space, looked like a jigsaw puzzle, or maybe like a pan coming to the boil, black continent pieces outlined by blood red.\"", "author": {"_type": "reference", "_ref": "stephenbax1"}, "source": {"_type": "reference", "_ref": "moonseedbax"}}
 {"_id": "QUOTE352", "_type": "quote", "quote": "\"Self-replicating, relf-repairing, self-upgrading, fully-automated combat drones? Who thought that was a good idea?\"", "author": {"_type": "reference", "_ref": "curiousmat1"}, "source": {"_type": "reference", "_ref": "secondvar1curiousmat1"}}
 {"_id": "QUOTE353", "_type": "quote", "quote": "\"I'm a diamond-sharp, titanium-tough, laser-eyed reaper of mother-fucking death.\"", "author": {"_type": "reference", "_ref": "curiousmat1"}, "source": {"_type": "reference", "_ref": "secondvar1curiousmat1"}}
+{"_id": "QUOTE354", "_type": "quote", "quote": "\"I hope it snows so much that the skylight breaks in a shower of glass shards and the snow heaves in and obliterates everything.\"", "author": {"_type": "reference", "_ref": "lingma"}, "source": {"_type": "reference", "_ref": "severancelingma"}}
+{"_id": "QUOTE355", "_type": "quote", "quote": "\"I must have been deep in his reminiscing, his intricate, lacelike memories inlaid in me. I have been here in another lifetime.\"", "author": {"_type": "reference", "_ref": "lingma"}, "source": {"_type": "reference", "_ref": "severancelingma"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
@@ -3787,6 +3789,7 @@
 {"_id": "laststarshipboyd2", "_type": "source", "source": "The Last Starship from Earth", "author": {"_type": "reference", "_ref": "johnboyd2"}}
 {"_id": "moonseedbax", "_type": "source", "source": "Moonseed", "author": {"_type": "reference", "_ref": "stephenbax1"}}
 {"_id": "secondvar1curiousmat1", "_type": "source", "source": "based on Philip K. Dick's Second Variety", "author": {"_type": "reference", "_ref": "curiousmat1"}}
+{"_id": "severancelingma", "_type": "source", "source": "Severance", "author": {"_type": "reference", "_ref": "lingma"}}
 {"_id": "Conn13", "_type": "author", "author": "Connie Willis"}
 {"_id": "Beck14", "_type": "author", "author": "Becky Chambers"}
 {"_id": "Lind12", "_type": "author", "author": "Linda Nagata"}
@@ -3816,3 +3819,4 @@
 {"_id": "johnboyd2", "_type": "author", "author": "John Boyd"}
 {"_id": "stephenbax1", "_type": "author", "author": "Stephen Baxter"}
 {"_id": "curiousmat1", "_type": "author", "author": "Curious Matter Podcast"}
+{"_id": "lingma", "_type": "author", "author": "Ling Ma"}
