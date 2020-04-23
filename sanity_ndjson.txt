@@ -3753,6 +3753,16 @@
 {"_id": "QUOTE353", "_type": "quote", "quote": "\"I'm a diamond-sharp, titanium-tough, laser-eyed reaper of mother-fucking death.\"", "author": {"_type": "reference", "_ref": "curiousmat1"}, "source": {"_type": "reference", "_ref": "secondvar1curiousmat1"}}
 {"_id": "QUOTE354", "_type": "quote", "quote": "\"I hope it snows so much that the skylight breaks in a shower of glass shards and the snow heaves in and obliterates everything.\"", "author": {"_type": "reference", "_ref": "lingma"}, "source": {"_type": "reference", "_ref": "severancelingma"}}
 {"_id": "QUOTE355", "_type": "quote", "quote": "\"I must have been deep in his reminiscing, his intricate, lacelike memories inlaid in me. I have been here in another lifetime.\"", "author": {"_type": "reference", "_ref": "lingma"}, "source": {"_type": "reference", "_ref": "severancelingma"}}
+{"_id": "QUOTE356", "_type": "quote", "quote": "\"Low on the southern horizon, the night's second moon peered through a thin dust haze - an unbelieving moon that looked at him with a cynical light.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE357", "_type": "quote", "quote": "\"There is no escape - we pay for the violence of our ancestors.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE358", "_type": "quote", "quote": "\"Do you wrestle with dreams?\nDo you contend with shadows?\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE359", "_type": "quote", "quote": "\"no experience of his life had quite prepared him for the totality with which the veil had been ripped away to reveal naked time\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE360", "_type": "quote", "quote": "\"Fear is the mind-killer. Fear is the little death that brings total obliteration. I will face my fear.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE361", "_type": "quote", "quote": "\"What senses do we lack that we cannot see or hear another world all around us?\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE362", "_type": "quote", "quote": "\"The Fremen were supreme in that quality the ancients called \"span-nungsbogen\" - which is the self imposed delay between desire for a thing and the act of reaching out to grasp that thing.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE363", "_type": "quote", "quote": "\"He felt anew the hyperillumination with its high-relief imagery of time, sensed his future becoming memories - the tender indignities of physical love, the sharing and communion of selves, the softness and the violence.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE364", "_type": "quote", "quote": "\"Deep in the human unconsious is a pervasive need for a logical universe that makes sense. But the real universe is always one step beyond logic.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
+{"_id": "QUOTE365", "_type": "quote", "quote": "\"How often it is that the angry man rages denial of what his inner self is telling him.\"", "author": {"_type": "reference", "_ref": "frankherbert"}, "source": {"_type": "reference", "_ref": "dunefrankher"}}
 {"_id": "And26Conn13", "_type": "source", "source": "And Come From Miles Around", "author": {"_type": "reference", "_ref": "Conn13"}}
 {"_id": "The37Beck14", "_type": "source", "source": "The Long way to a Small, Angry Planet", "author": {"_type": "reference", "_ref": "Beck14"}}
 {"_id": "Edge32Lind12", "_type": "source", "source": "Edges (Inverted Frontier Book 1)", "author": {"_type": "reference", "_ref": "Lind12"}}
@@ -3790,6 +3800,7 @@
 {"_id": "moonseedbax", "_type": "source", "source": "Moonseed", "author": {"_type": "reference", "_ref": "stephenbax1"}}
 {"_id": "secondvar1curiousmat1", "_type": "source", "source": "based on Philip K. Dick's Second Variety", "author": {"_type": "reference", "_ref": "curiousmat1"}}
 {"_id": "severancelingma", "_type": "source", "source": "Severance", "author": {"_type": "reference", "_ref": "lingma"}}
+{"_id": "dunefrankher", "_type": "source", "source": "Dune", "author": {"_type": "reference", "_ref": "frankherbert"}}
 {"_id": "Conn13", "_type": "author", "author": "Connie Willis"}
 {"_id": "Beck14", "_type": "author", "author": "Becky Chambers"}
 {"_id": "Lind12", "_type": "author", "author": "Linda Nagata"}
@@ -3820,3 +3831,4 @@
 {"_id": "stephenbax1", "_type": "author", "author": "Stephen Baxter"}
 {"_id": "curiousmat1", "_type": "author", "author": "Curious Matter Podcast"}
 {"_id": "lingma", "_type": "author", "author": "Ling Ma"}
+{"_id": "frankherbert", "_type": "author", "author": "Frank Herbert"}
