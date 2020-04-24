@@ -866,7 +866,7 @@
 {"_id": "NOUN547", "_type": "noun", "noun": "accidentally folding space-time on itself", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
 {"_id": "NOUN548", "_type": "noun", "noun": "a malfunctioning navigational system", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
 {"_id": "NOUN549", "_type": "noun", "noun": "time slippage", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
-{"_id": "NOUN550", "_type": "noun", "noun": "an AI attempting to grappel with G\u00c3\u00b6del's incompleteness theorem", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
+{"_id": "NOUN550", "_type": "noun", "noun": "an AI attempting to grapple with Godel's incompleteness theorem", "nounType": {"_type": "reference", "_ref": "tspdmg1"}}
 {"_id": "NOUN551", "_type": "noun", "noun": "androids", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN552", "_type": "noun", "noun": "robots", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN553", "_type": "noun", "noun": "beasts", "nounType": {"_type": "reference", "_ref": "sap1"}}
