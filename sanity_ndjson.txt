@@ -1355,7 +1355,7 @@
 {"_id": "NOUN1036", "_type": "noun", "noun": "killzone", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1037", "_type": "noun", "noun": "killstrike", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1038", "_type": "noun", "noun": "maelstrom", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1039", "_type": "noun", "noun": "hacov", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1039", "_type": "noun", "noun": "havoc", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1040", "_type": "noun", "noun": "cataclysm", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1041", "_type": "noun", "noun": "calamity", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1042", "_type": "noun", "noun": "judgement", "nounType": {"_type": "reference", "_ref": "tspname"}}
