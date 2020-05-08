@@ -222,7 +222,7 @@ class sentence_generator:
         # dealing with pronouns
         self.components['list_pronoun'] = ['she', 'he']
         
-        if self.components['primary_actor'] in ['king','prince','dad']:
+        if self.components['primary_actor'] in ['king','prince','dad','eunuch']:
             self.components['pronoun'] = 'he'
         elif self.components['primary_actor'] in ['queen','princess','mom']:
             self.components['pronoun'] = 'she'
