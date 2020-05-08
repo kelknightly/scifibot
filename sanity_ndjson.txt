@@ -1061,7 +1061,7 @@
 {"_id": "NOUN742", "_type": "noun", "noun": "clouds of metallic plasma", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN743", "_type": "noun", "noun": "space sharks", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN744", "_type": "noun", "noun": "space whales", "nounType": {"_type": "reference", "_ref": "sap1"}}
-{"_id": "NOUN745", "_type": "noun", "noun": "clouds or oganic molecules", "nounType": {"_type": "reference", "_ref": "sap1"}}
+{"_id": "NOUN745", "_type": "noun", "noun": "clouds of oganic molecules", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN746", "_type": "noun", "noun": "space crabs", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN747", "_type": "noun", "noun": "monstrosities", "nounType": {"_type": "reference", "_ref": "sap1"}}
 {"_id": "NOUN748", "_type": "noun", "noun": "felinoids", "nounType": {"_type": "reference", "_ref": "sap1"}}
