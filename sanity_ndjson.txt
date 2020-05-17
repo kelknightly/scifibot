@@ -1451,7 +1451,7 @@
 {"_id": "NOUN1132", "_type": "noun", "noun": "woo", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1133", "_type": "noun", "noun": "vortex", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1134", "_type": "noun", "noun": "bounty", "nounType": {"_type": "reference", "_ref": "tspname"}}
-{"_id": "NOUN1135", "_type": "noun", "noun": "aggresion", "nounType": {"_type": "reference", "_ref": "tspname"}}
+{"_id": "NOUN1135", "_type": "noun", "noun": "aggression", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1136", "_type": "noun", "noun": "evil", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1137", "_type": "noun", "noun": "life", "nounType": {"_type": "reference", "_ref": "tspname"}}
 {"_id": "NOUN1138", "_type": "noun", "noun": "panic", "nounType": {"_type": "reference", "_ref": "tspname"}}

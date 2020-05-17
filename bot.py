@@ -12,7 +12,7 @@ from scifisanity import scifisanity
 
 bot = scifisanity()
 
-under280 = bot.get_all_sentences(280)
+under280 = bot.get_all_sentences(5, 280)
 
 tweet = random.choice(under280)
 tweethash = hashlib.md5(tweet.encode('utf-8')).hexdigest()

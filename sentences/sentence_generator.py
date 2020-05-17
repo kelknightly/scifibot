@@ -32,11 +32,11 @@ class sentence_generator:
                 sentence_string = sentence.get_sentence(self.components)
                 print(sentence.get_name() + ': ' + sentence_string)
 
-    def get_all_sentences(self, max_length):
+    def get_all_sentences(self, min_length, max_length):
         eligible_sentences = []
         for sentence in self.sentences:
             sentence_string = sentence.get_sentence(self.components)
-            if len(sentence_string) <= max_length:
+            if len(sentence_string) <= max_length and len(sentence_string) >= min_length:
                 eligible_sentences.append(sentence_string)
         random.shuffle(eligible_sentences)
 
