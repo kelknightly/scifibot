@@ -24,9 +24,9 @@ for result in DictA['result']:
     sentence = quote + ' ~ ' + author + ', ' + source
     sentences.append(sentence)
 
-under280 =[]
+under280 = []
 for i in sentences:
-    if len(i) <= 280:
+    if len(i) <= 280 and len(i) >= 5:
         under280.append(i)
 
 tweet = random.choice(under280)
